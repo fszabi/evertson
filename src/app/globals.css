@@ -1,33 +1,55 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  *::-webkit-scrollbar {
+    @apply bg-zinc-200 dark:bg-zinc-800 w-2 h-2;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply my-2;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-[100vw] bg-red-700;
+  }
+
+  h1 {
+    @apply font-bold text-5xl min-[2000px]:text-6xl;
+  }
+
+  h2 {
+    @apply font-semibold text-3xl min-[2000px]:text-4xl;
+  }
+
+  picture {
+    @apply block align-middle;
+  }
+
+  picture,
+  svg {
+    @apply max-w-full h-auto;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@tailwind components;
+@tailwind utilities;
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .bg-hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("/assets/images/banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
