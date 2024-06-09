@@ -32,7 +32,7 @@ const ContactForm = () => {
               name="first-name"
               id="first-name"
               autoComplete="given-name"
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-700 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -50,7 +50,7 @@ const ContactForm = () => {
               id="email"
               autoComplete="email"
               required
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-700 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -67,7 +67,7 @@ const ContactForm = () => {
               name="profile"
               id="profile"
               required
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-700 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -84,7 +84,7 @@ const ContactForm = () => {
               name="profile"
               id="profile"
               required
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-700 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -100,7 +100,7 @@ const ContactForm = () => {
               name="message"
               id="message"
               rows={4}
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-700 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
               defaultValue={""}
             />
           </div>
@@ -114,7 +114,7 @@ const ContactForm = () => {
                 name={service}
                 value={service}
                 type="checkbox"
-                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:theme(colors.red.500)] [--chkfg:white] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 hover:border-zinc-700"
+                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:theme(colors.red.500)] [--chkfg:white] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 hover:border-zinc-700"
               />
               <label htmlFor={service} className="font-medium">
                 {service}
@@ -131,7 +131,7 @@ const ContactForm = () => {
                 name={paymentMethod}
                 value={paymentMethod}
                 type="checkbox"
-                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:theme(colors.red.500)] [--chkfg:white] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 hover:border-zinc-700"
+                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:theme(colors.red.500)] [--chkfg:white] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 hover:border-zinc-700"
               />
               <label htmlFor={paymentMethod} className="font-medium">
                 {paymentMethod}
@@ -171,7 +171,7 @@ const ContactForm = () => {
       <div className="mt-10">
         <button
           type="submit"
-          className="block w-full rounded-md bg-red-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-50"
+          className="block w-full rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-500 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-50"
         >
           Küldés
         </button>

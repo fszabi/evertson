@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <Link
             href="#kapcsolat"
-            className="block w-fit bg-red-700 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
+            className="block w-fit bg-red-600 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
           >
             Kapcsolatfelvétel
           </Link>
@@ -42,7 +42,7 @@ const Hero = () => {
           </p>
           <Link
             href="#kapcsolat"
-            className="block w-fit mx-auto bg-red-700 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
+            className="block w-fit mx-auto bg-red-600 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
           >
             Kapcsolatfelvétel
           </Link>

@@ -8,6 +8,8 @@ import tradeitgg from "/public/assets/logo/tradeitgg.svg";
 import cs_float from "/public/assets/logo/cs_float.webp";
 import buff_market from "/public/assets/logo/buff_market.webp";
 import casino_500 from "/public/assets/logo/casino_500.webp";
+import ggbet from "/public/assets/logo/ggbet.webp";
+import pricempire from "/public/assets/logo/pricempire.png";
 import Link from "next/link";
 
 const tradeSites = [
@@ -56,6 +58,16 @@ const tradeSites = [
     name: "Waxpeer",
     image: waxpeer,
     url: "https://waxpeer.com/r/evertson",
+  },
+  {
+    name: "GGBET",
+    image: ggbet,
+    url: "https://ggbetpro.com/l/66601f6f577465cd7f0db2c8",
+  },
+  {
+    name: "Priceempire",
+    image: pricempire,
+    url: "https://pricempire.com/?r=76561199021366803",
   },
 ];
 
