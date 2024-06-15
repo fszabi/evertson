@@ -1,7 +1,45 @@
 "use client";
 
-import { notFound, useParams } from "next/navigation";
 import { getPostBySlug } from "@/app/utils/posts";
+import { useParams } from "next/navigation";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import remarkBreaks from "remark-breaks";
+import Image from "next/image";
+import { FC } from "react";
+
+const CustomLink: FC<React.AnchorHTMLAttributes<HTMLAnchorElement>> = ({
+  href,
+  children,
+  ...props
+}) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+    {children}
+  </a>
+);
+
+const CustomImage: FC<{ src: string; alt: string }> = ({
+  src,
+  alt,
+  ...props
+}) => {
+  if (!src) {
+    console.error("Image source is required.");
+    return null;
+  }
+
+  return (
+    <Image
+      className="rounded-lg"
+      src={src}
+      alt={alt || "Image"}
+      width={800} // specify the width of the image
+      height={600} // specify the height of the image
+      layout="responsive"
+      {...props}
+    />
+  );
+};
 
 const PostContent = () => {
   const { slug } = useParams();
@@ -26,9 +64,24 @@ const PostContent = () => {
           <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
         </header>
         <section className="space-y-10">
-          {post.content.split("\n").map((line, index) => (
-            <p key={index}>{line}</p>
-          ))}
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm, remarkBreaks]}
+            components={{
+              a: ({ node, ...props }) => <CustomLink {...props} />,
+              img: ({ node, ...props }) => {
+                const { src, alt } = props;
+                return (
+                  <CustomImage
+                    src={src || ""}
+                    alt={alt || "Image"}
+                    {...props}
+                  />
+                );
+              },
+            }}
+          >
+            {post.content}
+          </ReactMarkdown>
         </section>
       </article>
     </div>
