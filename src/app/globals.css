@@ -31,18 +31,6 @@
     @apply font-semibold text-2xl min-[2000px]:text-3xl;
   }
 
-  ul {
-    @apply list-disc list-inside space-y-5;
-
-    ::marker {
-      @apply text-red-600;
-    }
-  }
-
-  a {
-    @apply text-red-600;
-  }
-
   picture {
     @apply block align-middle;
   }

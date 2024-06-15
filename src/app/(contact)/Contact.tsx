@@ -18,11 +18,11 @@ const Contact = () => {
           </header>
           <Link
             className="flex gap-3 hover:opacity-60 transition-opacity"
-            href="mailto:kocsiszoltan7@gmail.com"
+            href="mailto:evertson139@gmail.com"
             target="_blank"
           >
             <EnvelopeIcon className="h-6 w-6" />
-            kocsiszoltan7@gmail.com
+            evertson139@gmail.com
           </Link>
         </div>
         <ContactForm />

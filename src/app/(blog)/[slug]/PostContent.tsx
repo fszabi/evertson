@@ -13,7 +13,13 @@ const CustomLink: FC<React.AnchorHTMLAttributes<HTMLAnchorElement>> = ({
   children,
   ...props
 }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+  <a
+    className="text-red-600"
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    {...props}
+  >
     {children}
   </a>
 );
@@ -38,6 +44,15 @@ const CustomImage: FC<{ src: string; alt: string }> = ({
       layout="responsive"
       {...props}
     />
+  );
+};
+
+const CustomListItem = ({ ...props }) => {
+  return (
+    <li className="relative pl-5" {...props}>
+      <span className="absolute left-0">•</span>
+      {props.children}
+    </li>
   );
 };
 
@@ -78,6 +93,10 @@ const PostContent = () => {
                   />
                 );
               },
+              ul: ({ node, ...props }) => (
+                <ul className="space-y-5" {...props} />
+              ),
+              li: ({ node, ...props }) => <CustomListItem {...props} />,
             }}
           >
             {post.content}
