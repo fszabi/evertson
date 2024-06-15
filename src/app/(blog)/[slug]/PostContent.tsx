@@ -9,27 +9,21 @@ import Image from "next/image";
 import { FC } from "react";
 
 const CustomLink: FC<React.AnchorHTMLAttributes<HTMLAnchorElement>> = ({
-  href,
-  children,
   ...props
 }) => (
   <a
     className="text-red-600"
-    href={href}
+    href={props.href}
     target="_blank"
     rel="noopener noreferrer"
     {...props}
   >
-    {children}
+    {props.children}
   </a>
 );
 
-const CustomImage: FC<{ src: string; alt: string }> = ({
-  src,
-  alt,
-  ...props
-}) => {
-  if (!src) {
+const CustomImage = ({ ...props }) => {
+  if (!props.src) {
     console.error("Image source is required.");
     return null;
   }
@@ -37,8 +31,8 @@ const CustomImage: FC<{ src: string; alt: string }> = ({
   return (
     <Image
       className="rounded-lg"
-      src={src}
-      alt={alt || "Image"}
+      src={props.src}
+      alt={props.alt || "Image"}
       width={800} // specify the width of the image
       height={600} // specify the height of the image
       layout="responsive"
@@ -50,7 +44,7 @@ const CustomImage: FC<{ src: string; alt: string }> = ({
 const CustomListItem = ({ ...props }) => {
   return (
     <li className="relative pl-5" {...props}>
-      <span className="absolute left-0">•</span>
+      <span className="absolute left-0 text-red-600">•</span>
       {props.children}
     </li>
   );
@@ -83,16 +77,7 @@ const PostContent = () => {
             remarkPlugins={[remarkGfm, remarkBreaks]}
             components={{
               a: ({ node, ...props }) => <CustomLink {...props} />,
-              img: ({ node, ...props }) => {
-                const { src, alt } = props;
-                return (
-                  <CustomImage
-                    src={src || ""}
-                    alt={alt || "Image"}
-                    {...props}
-                  />
-                );
-              },
+              img: ({ node, ...props }) => <CustomImage {...props} />,
               ul: ({ node, ...props }) => (
                 <ul className="space-y-5" {...props} />
               ),
