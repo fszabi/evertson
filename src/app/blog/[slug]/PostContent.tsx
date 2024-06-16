@@ -1,5 +1,3 @@
-"use client";
-
 import Header2 from "@/app/(header)/Header2";
 import { getPostBySlug } from "@/app/utils/posts";
 import { useParams } from "next/navigation";
@@ -11,10 +9,12 @@ import CustomImage from "./CustomImage";
 import CustomLink from "./CustomLink";
 import CustomListItem from "./CustomListItem";
 
-const PostContent = () => {
-  const { slug } = useParams();
+interface Props {
+  slug: string;
+}
 
-  const post = getPostBySlug(slug as string);
+const PostContent = ({ slug }: Props) => {
+  const post = getPostBySlug(slug);
 
   if (!post) {
     return (
@@ -30,9 +30,6 @@ const PostContent = () => {
       <div className="max-w-3xl mx-auto px-6 lg:px-8 py-28 rounded-lg min-h-screen">
         <article className="prose lg:prose-xl space-y-10">
           <header className="space-y-6">
-            <p className="bg-red-600 rounded-md px-3 py-[6px] text-sm w-fit block">
-              {post.date}
-            </p>
             <h1>{post.title}</h1>
           </header>
           <section className="space-y-10">
