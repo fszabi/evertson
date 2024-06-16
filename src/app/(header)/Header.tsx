@@ -69,13 +69,13 @@ const Header = () => {
   return (
     <header className="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between py-4 px-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex">
           <span className="sr-only">Evertson Logo</span>
           <Image
-            className="h-16 w-16 rounded-lg"
+            className="h-12 w-12 rounded-lg"
             src={logo}
             alt="evertson logo"
           />
@@ -95,7 +95,7 @@ const Header = () => {
             <Link
               key={link.name}
               href={link.href}
-              className="font-semibold hover:opacity-80 transition-opacity"
+              className="font-semibold hover:opacity-80 transition-opacity text-sm"
             >
               {link.name}
             </Link>
@@ -103,7 +103,7 @@ const Header = () => {
           <Popover className="relative">
             {({ open }) => (
               <>
-                <PopoverButton className="flex hover:opacity-80 transition-opacity items-center gap-x-1 font-semibold leading-6 focus:outline-none">
+                <PopoverButton className="flex hover:opacity-80 transition-opacity items-center gap-x-1 font-semibold focus:outline-none text-sm">
                   Awp
                   <ChevronDownIcon
                     className={classNames({

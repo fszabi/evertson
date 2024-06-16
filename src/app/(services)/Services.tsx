@@ -31,7 +31,7 @@ const Services = () => {
                   {service}
                 </Link>
               </h3>
-              <p className="text-base font-semibold">
+              <p className="font-semibold">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
             </div>

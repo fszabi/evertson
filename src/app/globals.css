@@ -20,15 +20,19 @@
   }
 
   h1 {
-    @apply font-bold text-5xl min-[2000px]:text-6xl;
+    @apply font-bold text-3xl min-[2000px]:text-4xl;
   }
 
   h2 {
-    @apply font-semibold text-3xl min-[2000px]:text-4xl;
+    @apply font-semibold text-2xl min-[2000px]:text-3xl;
   }
 
   h3 {
-    @apply font-semibold text-2xl min-[2000px]:text-3xl;
+    @apply font-semibold text-xl min-[2000px]:text-2xl;
+  }
+
+  h4 {
+    @apply font-semibold text-lg min-[2000px]:text-xl;
   }
 
   picture {
