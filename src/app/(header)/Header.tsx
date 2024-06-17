@@ -69,10 +69,10 @@ const Header = () => {
   return (
     <header className="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between py-4 px-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between py-5 px-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex">
+        <div>
           <span className="sr-only">Evertson Logo</span>
           <Image
             className="h-12 w-12 rounded-lg"
@@ -80,22 +80,20 @@ const Header = () => {
             alt="evertson logo"
           />
         </div>
-        <div className="flex lg:hidden">
-          <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
-            onClick={() => setMobileMenuOpen(true)}
-          >
-            <span className="sr-only">Navigáció megnyitása</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-          </button>
-        </div>
+        <button
+          type="button"
+          className="lg:hidden"
+          onClick={() => setMobileMenuOpen(true)}
+        >
+          <span className="sr-only">Navigációs menü megnyitása</span>
+          <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+        </button>
         <div className="hidden lg:flex lg:gap-x-12 justify-center flex-1">
           {links.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className="font-semibold hover:opacity-80 transition-opacity text-sm"
+              className="font-semibold hover:opacity-80 transition-opacity"
             >
               {link.name}
             </Link>
@@ -103,7 +101,7 @@ const Header = () => {
           <Popover className="relative">
             {({ open }) => (
               <>
-                <PopoverButton className="flex hover:opacity-80 transition-opacity items-center gap-x-1 font-semibold focus:outline-none text-sm">
+                <PopoverButton className="flex hover:opacity-80 transition-opacity items-center gap-x-1 font-semibold focus:outline-none">
                   Awp
                   <ChevronDownIcon
                     className={classNames({
@@ -181,47 +179,34 @@ const Header = () => {
             leaveFrom="opacity-100 translate-x-0"
             leaveTo="opacity-0 translate-x-full"
           >
-            <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-zinc-900 px-6 py-9 sm:max-w-sm sm:border-l sm:border-l-zinc-800">
+            <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-zinc-900 py-5 px-8 sm:max-w-sm sm:border-l sm:border-l-zinc-800">
               <div className="flex items-center justify-between">
-                <Link href="#hero">
+                <div>
                   <span className="sr-only">Evertson Logo</span>
                   <Image
                     className="h-10 w-10 rounded-lg"
                     src={logo}
                     alt="evertson logo"
                   />
-                </Link>
-
-                <button
-                  type="button"
-                  className="-m-2.5 rounded-md p-2.5"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <span className="sr-only">Close menu</span>
+                </div>
+                <button type="button" onClick={() => setMobileMenuOpen(false)}>
+                  <span className="sr-only">Navigációs menü bezárása</span>
                   <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
               </div>
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-zinc-800">
                   <div className="space-y-2 py-6">
-                    <Link
-                      href="#"
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-zinc-800 transition-colors"
-                    >
-                      Kereskedők
-                    </Link>
-                    <Link
-                      href="#"
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-zinc-800 transition-colors"
-                    >
-                      Szolgáltatások
-                    </Link>
-                    <Link
-                      href="#"
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-zinc-800 transition-colors"
-                    >
-                      Blog
-                    </Link>
+                    {links.map((link) => (
+                      <Link
+                        key={link.name}
+                        href={link.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-zinc-800 transition-colors"
+                      >
+                        {link.name}
+                      </Link>
+                    ))}
                   </div>
                   <div className="py-6">
                     <Disclosure as="div" className="-mx-3">

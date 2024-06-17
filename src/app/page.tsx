@@ -1,10 +1,11 @@
-import Hero from "./(hero)/Hero";
-import Header from "./(header)/Header";
-import Sites from "./(sites)/Sites";
 import Contact from "./(contact)/Contact";
-import Services from "./Services";
+import Header from "./(header)/Header";
+import Hero from "./(hero)/Hero";
+import Sites from "./(sites)/Sites";
+import Stats from "./(stats)/Stats";
 import Blog from "./Blog";
 import ScrollArrow from "./ScrollArrow";
+import Services from "./Services";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Blog />
       <Sites />
+      <Stats />
       <Contact />
       <ScrollArrow />
     </>

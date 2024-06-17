@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import hero from "/public/assets/images/hero.webp";
+import discord from "/public/assets/images/discord.webp";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
           <h1>Evertson Trade</h1>
           <p className="max-w-xl text-lg font-medium text-zinc-300">
             Fedezd fel a legnagyobb magyar Counter Strike 2 trading platformot.
-            Akár vásárolni, eladni vagy cserélni szeretnél, szolgáltatásaink
+            Akár vásárolni, eladni vagy cserélni szeretnél, szolgáltatásaim
             zökkenőmentesek és biztonságosak.
           </p>
           <Link
@@ -18,6 +19,18 @@ const Hero = () => {
             className="block w-fit bg-red-600 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
           >
             Kapcsolatfelvétel
+          </Link>
+          <Link
+            href="https://discord.com/invite/2Yf3zP7CMQ"
+            target="_blank"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <Image
+              className="w-10 h-10 object-cover"
+              src={discord}
+              alt="discord logo"
+            />
+            Csatlakozz a Discord szerverre
           </Link>
         </div>
 

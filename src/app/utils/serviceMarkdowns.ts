@@ -21,7 +21,7 @@ const serviceMarkdowns = [
 
 ### Mutatok pár példát hogyan lehet ezekből a skinekből profitálni
 
-<div className="space-y-14">
+<div className="max-md:space-y-32 space-y-14">
   <div className="flex max-md:flex-col items-center gap-14">
     <img width="100" height="100" className="size-[100px] rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/ak47.webp" alt="ak47">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="max-md:hidden size-20">
@@ -91,6 +91,8 @@ const serviceMarkdowns = [
   <img src="/assets/images/services/trade_up/investor_4.webp" alt="investor 4">
   <img src="/assets/images/services/trade_up/investor_5.webp" alt="investor 5">
   <img src="/assets/images/services/trade_up/investor_6.webp" alt="investor 6">
+  <img src="/assets/images/services/trade_up/investor_7.webp" alt="investor 7">
+  <img src="/assets/images/services/trade_up/investor_8.webp" alt="investor 8">
 </div>
 `,
   },

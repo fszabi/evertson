@@ -1,7 +1,31 @@
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import ContactForm from "./ContactForm";
+import discord_2 from "/public/assets/images/svgs/discord_2.svg";
+import facebook from "/public/assets/images/svgs/facebook.svg";
+import twitch from "/public/assets/images/svgs/twitch.svg";
+
+const contacts = [
+  {
+    name: "Discord",
+    alt: "discord logo 2",
+    href: "https://discord.com/invite/2Yf3zP7CMQ",
+    icon: discord_2,
+  },
+  {
+    name: "Twitch",
+    alt: "twitch logo",
+    href: "https://www.twitch.tv/evertson01",
+    icon: twitch,
+  },
+  {
+    name: "Facebook",
+    alt: "facebook logo",
+    href: "https://www.facebook.com/groups/csgohungary",
+    icon: facebook,
+  },
+];
 
 const Contact = () => {
   return (
@@ -16,14 +40,31 @@ const Contact = () => {
               űrlapot.
             </p>
           </header>
-          <Link
-            className="flex gap-3 hover:opacity-60 transition-opacity"
-            href="mailto:evertson139@gmail.com"
-            target="_blank"
-          >
-            <EnvelopeIcon className="h-6 w-6" />
-            evertson139@gmail.com
-          </Link>
+          <div className="space-y-7">
+            <Link
+              className="flex gap-3 hover:opacity-60 transition-opacity"
+              href="mailto:evertson139@gmail.com"
+              target="_blank"
+            >
+              <EnvelopeIcon className="h-6 w-6" />
+              evertson139@gmail.com
+            </Link>
+            {contacts.map((contact) => (
+              <Link
+                key={contact.name}
+                href={contact.href}
+                target="_blank"
+                className="flex gap-3 hover:opacity-60 transition-opacity"
+              >
+                <Image
+                  src={contact.icon}
+                  alt={contact.alt}
+                  className="h-6 w-6"
+                />
+                {contact.name}
+              </Link>
+            ))}
+          </div>
         </div>
         <ContactForm />
       </div>
