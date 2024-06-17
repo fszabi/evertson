@@ -38,10 +38,10 @@ const links = [
     name: "Oldalak",
     href: "#oldalak",
   },
-  {
-    name: "Statisztika",
-    href: "#statisztika",
-  },
+  // {
+  //   name: "Statisztika",
+  //   href: "#statisztika",
+  // },
   {
     name: "Kapcsolat",
     href: "#kapcsolat",
