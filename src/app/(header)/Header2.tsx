@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowLeftIcon } from "@heroicons/react/16/solid";
+import { ArrowLeftIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 
 const Header2 = () => {

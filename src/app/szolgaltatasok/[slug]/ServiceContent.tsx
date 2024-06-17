@@ -1,4 +1,7 @@
 import Header2 from "@/app/(header)/Header2";
+import CustomImage from "@/app/components/CustomImage";
+import CustomLink from "@/app/components/CustomLink";
+import CustomListItem from "@/app/components/CustomListItem";
 import { getServiceBySlug } from "@/app/utils/services";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -32,6 +35,17 @@ const ServiceContent = ({ slug }: Props) => {
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
               remarkPlugins={[remarkGfm, remarkBreaks]}
+              components={{
+                a: ({ node, ...props }) => <CustomLink {...props} />,
+                img: ({ node, ...props }) => <CustomImage {...props} />,
+                span: ({ node, ...props }) => (
+                  <span className="text-red-600" {...props} />
+                ),
+                ul: ({ node, ...props }) => (
+                  <ul className="space-y-10" {...props} />
+                ),
+                li: ({ node, ...props }) => <CustomListItem {...props} />,
+              }}
             >
               {service.content}
             </ReactMarkdown>

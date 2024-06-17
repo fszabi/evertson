@@ -1,10 +1,6 @@
 import Image from "next/image";
-import awp_lightning from "/public/assets/images/awp_lightning.png";
-import ak47_nightwish from "/public/assets/images/ak47_nightwish.png";
-import m9_marble from "/public/assets/images/m9_marble.png";
 import Link from "next/link";
 import hero from "/public/assets/images/hero.webp";
-import hero2 from "/public/assets/images/hero2.webp";
 
 const Hero = () => {
   return (
@@ -27,7 +23,7 @@ const Hero = () => {
 
         <Image
           className="object-cover object-left rounded-lg w-full lg:h-[65vh] min-[2000px]:h-[40vh]"
-          src={hero2}
+          src={hero}
           alt="hero kép"
         />
       </div>

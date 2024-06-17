@@ -1,13 +1,12 @@
 import Header2 from "@/app/(header)/Header2";
+import CustomImage from "@/app/components/CustomImage";
+import CustomLink from "@/app/components/CustomLink";
+import CustomListItem from "@/app/components/CustomListItem";
 import { getPostBySlug } from "@/app/utils/posts";
-import { useParams } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
-import CustomImage from "./CustomImage";
-import CustomLink from "./CustomLink";
-import CustomListItem from "./CustomListItem";
 
 interface Props {
   slug: string;
@@ -43,7 +42,7 @@ const PostContent = ({ slug }: Props) => {
                   <span className="text-red-600" {...props} />
                 ),
                 ul: ({ node, ...props }) => (
-                  <ul className="space-y-5" {...props} />
+                  <ul className="space-y-10" {...props} />
                 ),
                 li: ({ node, ...props }) => <CustomListItem {...props} />,
               }}

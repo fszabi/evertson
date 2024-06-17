@@ -4,6 +4,7 @@ import Sites from "./(sites)/Sites";
 import Contact from "./(contact)/Contact";
 import Services from "./Services";
 import Blog from "./Blog";
+import ScrollArrow from "./ScrollArrow";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Blog />
       <Sites />
       <Contact />
+      <ScrollArrow />
     </>
   );
 }

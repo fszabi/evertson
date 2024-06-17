@@ -1,3 +1,4 @@
+import ScrollArrow from "@/app/ScrollArrow";
 import PostContent from "./PostContent";
 
 interface Props {
@@ -5,7 +6,12 @@ interface Props {
 }
 
 const BlogPost = ({ params }: Props) => {
-  return <PostContent slug={params.slug} />;
+  return (
+    <>
+      <PostContent slug={params.slug} />
+      <ScrollArrow />
+    </>
+  );
 };
 
 export default BlogPost;

@@ -13,33 +13,41 @@ export const getAllServices = (): Service[] => {
       slug: "skin-eladas",
       title: "Skin Eladás",
       content:
-        serviceMarkdowns.find((service) => service.title === "Trade Alapok")
+        serviceMarkdowns.find((service) => service.title === "Skin Eladás")
           ?.content || "",
       summary: "Hogyan adj el skineket nekem?",
     },
     {
       slug: "skin-berles",
       title: "Skin Bérlés",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
+      content:
+        serviceMarkdowns.find((service) => service.title === "Skin Bérlés")
+          ?.content || "",
+      summary: "Bérelj skineket tőlem",
     },
     {
       slug: "trade-up",
       title: "Trade-Up",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
+      content:
+        serviceMarkdowns.find((service) => service.title === "Trade-Up")
+          ?.content || "",
+      summary: "Realizálj jelentős profitokat",
     },
     {
       slug: "cs2-fogadas",
       title: "CS2 Fogadás",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
+      content:
+        serviceMarkdowns.find((service) => service.title === "CS2 Fogadás")
+          ?.content || "",
+      summary: "Fogadj meccsekre és nyerj",
     },
     {
       slug: "cs2-tanfolyam",
       title: "CS2 Tanfolyam",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
+      content:
+        serviceMarkdowns.find((service) => service.title === "CS2 Tanfolyam")
+          ?.content || "",
+      summary: "Tanulj meg mindent a tradelésről",
     },
   ];
 };

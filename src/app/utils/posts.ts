@@ -15,31 +15,15 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "Trade Alapok")?.content ||
         "",
-      summary: "Összetett útmutató a tradeléshez",
+      summary: "Tanuldd meg a tradelés alapjait",
     },
     {
       slug: "scam-leiras",
       title: "Scam Leírás",
-      content: ``,
+      content:
+        postMarkdowns.find((post) => post.title === "Scam Leírás")?.content ||
+        "",
       summary: "Kerüldd el a csalókat a tradelés során",
-    },
-    {
-      slug: "third",
-      title: "My Third Post",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
-    },
-    {
-      slug: "fourth-post",
-      title: "My Fourth Post",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
-    },
-    {
-      slug: "fifth-post",
-      title: "My Fifth Post",
-      content: ``,
-      summary: "Donec auctor ultricies nulla, nec rutrum quam pharetra",
     },
   ];
 };

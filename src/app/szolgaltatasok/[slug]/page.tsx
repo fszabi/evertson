@@ -1,3 +1,4 @@
+import ScrollArrow from "@/app/ScrollArrow";
 import ServiceContent from "./ServiceContent";
 
 interface Props {
@@ -5,7 +6,12 @@ interface Props {
 }
 
 const ServicePage = ({ params }: Props) => {
-  return <ServiceContent slug={params.slug} />;
+  return (
+    <>
+      <ServiceContent slug={params.slug} />
+      <ScrollArrow />
+    </>
+  );
 };
 
 export default ServicePage;
