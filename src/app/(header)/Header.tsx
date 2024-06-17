@@ -27,20 +27,20 @@ import logo from "/public/assets/logo/logo.webp";
 
 const links = [
   {
-    name: "Kereskedők",
-    href: "#kereskedok",
-  },
-  {
     name: "Szolgáltatások",
     href: "#szolgaltatasok",
+  },
+  {
+    name: "Blog",
+    href: "#blog",
   },
   {
     name: "Oldalak",
     href: "#oldalak",
   },
   {
-    name: "Blog",
-    href: "#blog",
+    name: "Statisztika",
+    href: "#statisztika",
   },
   {
     name: "Kapcsolat",
@@ -120,7 +120,7 @@ const Header = () => {
                   leaveFrom="opacity-100 translate-y-0"
                   leaveTo="opacity-0 translate-y-1"
                 >
-                  <PopoverPanel className="absolute -left-8 top-full z-10 mt-3 w-72 xl:w-screen max-w-md overflow-hidden rounded-3xl bg-zinc-800 shadow-lg">
+                  <PopoverPanel className="absolute right-0 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-zinc-800 shadow-lg">
                     <div className="p-4">
                       {awpLinks.map((awpLink) => (
                         <PopoverButton
@@ -237,6 +237,7 @@ const Header = () => {
                                   as={Link}
                                   target="_blank"
                                   href={awpLink.href}
+                                  onClick={() => setMobileMenuOpen(false)}
                                   className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 hover:bg-zinc-800 transition-colors"
                                 >
                                   {awpLink.name}
