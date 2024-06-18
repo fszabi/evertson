@@ -10,8 +10,8 @@ const CustomImage = ({ ...props }) => {
       className="rounded-lg border border-zinc-800 shadow"
       src={props.src}
       alt={props.alt || "Image"}
-      width={1000}
-      height={1000}
+      width={800}
+      height={500}
       {...props}
     />
   );
