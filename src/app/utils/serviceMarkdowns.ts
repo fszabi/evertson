@@ -1,5 +1,3 @@
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
-
 const serviceMarkdowns = [
   {
     title: "Skin Eladás",
@@ -13,6 +11,14 @@ const serviceMarkdowns = [
 ![trade up](/assets/images/services/trade_up/evertson_trade.webp)
 
 ### A Trade-Up lényege
+
+<iframe
+  className="mx-auto rounded-lg w-full h-[50vh]"
+  src="https://www.youtube.com/embed/5Fpeh82Bfv0?si=bkRg4jYh9-jX0cik"
+  title="Mervin Trading"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 
 ![pricempire](/assets/images/services/trade_up/pricempire.webp)
 
@@ -101,12 +107,30 @@ const serviceMarkdowns = [
     content: `
 ### Megéri fogadni?
 
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+  <img src="/assets/images/services/cs2_fogadas/fogadas1.webp" alt="fogadás 1">
+  <img src="/assets/images/services/cs2_fogadas/fogadas2.webp" alt="fogadás 2">
+  <img src="/assets/images/services/cs2_fogadas/fogadas3.webp" alt="fogadás 3">
+  <img src="/assets/images/services/cs2_fogadas/fogadas4.webp" alt="fogadás 4">
+  <img src="/assets/images/services/cs2_fogadas/fogadas5.webp" alt="fogadás 5">
+</div>
+
 - Nagyon sokakat érdekel a fogadás, viszont amint kicsit jobban utána néz az ember, akkor szembesülnie kell a szomorú igazsággal, hogy ha ebből szeretne huzamosabb ideig pénzt csinálni, ahhoz folyamatosan figyelnie kell a játékokat, hogy jó helyre tegye a pénzt.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - A mi feladatunk az, hogy ezt a nyomást levegyük az emberek válláról a tippjeink segítségével.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 ### Jó, betelek, de hol tegyem?
+
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+  <img src="/assets/images/services/cs2_fogadas/fogadas6.webp" alt="fogadás 6">
+  <img src="/assets/images/services/cs2_fogadas/fogadas7.webp" alt="fogadás 7">
+  <img src="/assets/images/services/cs2_fogadas/fogadas8.webp" alt="fogadás 8">
+  <img src="/assets/images/services/cs2_fogadas/fogadas9.webp" alt="fogadás 9">
+  <img src="/assets/images/services/cs2_fogadas/fogadas10.webp" alt="fogadás 10">
+  <img src="/assets/images/services/cs2_fogadas/fogadas11.webp" alt="fogadás 11">
+  <img src="/assets/images/services/cs2_fogadas/fogadas12.webp" alt="fogadás 12">
+</div>
 
 - Az online szerencsejáték mostanra olyan szinten kinőte magát, hogy majdnem minden sarkon oldalakat találunk, ahol lehet fogadni illetve kaszinózni, nehéz jó oldalt találni, ezért ebben is szeretnénk segíteni:
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
@@ -128,6 +152,8 @@ const serviceMarkdowns = [
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
+
+![cs2 tanfolyam velemeny 1](/assets/images/services/cs2_tanfolyam/tanfolyam_velemeny1.webp)
 
 - Teljesen mindegy hogy mivel foglalkoztál eddig, ez a terület biztosan tetszeni fog neked. 
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">

@@ -10,9 +10,9 @@ const Hero = () => {
         <div className="space-y-8">
           <h1>Evertson Trade</h1>
           <p className="max-w-xl text-lg font-medium text-zinc-300">
-            Fedezd fel a legnagyobb magyar Counter Strike 2 trading platformot.
-            Akár vásárolni, eladni vagy cserélni szeretnél, szolgáltatásaim
-            zökkenőmentesek és biztonságosak.
+            Fedezd fel Magyarország legnagyobb Counter Strike 2 trading
+            platformját. Akár vásárolni, eladni vagy cserélni szeretnél,
+            szolgáltatásaim zökkenőmentesek és biztonságosak.
           </p>
           <Link
             href="#kapcsolat"
@@ -23,7 +23,7 @@ const Hero = () => {
           <Link
             href="https://discord.com/invite/2Yf3zP7CMQ"
             target="_blank"
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            className="flex items-center gap-3 hover:opacity-60 transition-opacity"
           >
             <Image
               className="w-10 h-10 object-cover"

@@ -1,8 +1,14 @@
+import { StaticImageData } from "next/image";
 import serviceMarkdowns from "./serviceMarkdowns";
+import banner from "/public/assets/images/banner.webp";
+import skin_renting from "/public/assets/images/services/skin_renting/skin_renting.webp";
+import skin_selling from "/public/assets/images/services/skin_selling/skin_selling.webp";
+import trade_up from "/public/assets/images/services/trade_up/trade_up.webp";
 
 interface Service {
   slug: string;
   title: string;
+  src: StaticImageData;
   content: string;
   summary: string;
 }
@@ -12,6 +18,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "skin-eladas",
       title: "Skin Eladás",
+      src: skin_selling,
       content:
         serviceMarkdowns.find((service) => service.title === "Skin Eladás")
           ?.content || "",
@@ -20,6 +27,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "skin-berles",
       title: "Skin Bérlés",
+      src: skin_renting,
       content:
         serviceMarkdowns.find((service) => service.title === "Skin Bérlés")
           ?.content || "",
@@ -28,6 +36,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "trade-up",
       title: "Trade-Up",
+      src: trade_up,
       content:
         serviceMarkdowns.find((service) => service.title === "Trade-Up")
           ?.content || "",
@@ -36,6 +45,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "cs2-fogadas",
       title: "CS2 Fogadás",
+      src: banner,
       content:
         serviceMarkdowns.find((service) => service.title === "CS2 Fogadás")
           ?.content || "",
@@ -44,6 +54,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "cs2-tanfolyam",
       title: "CS2 Tanfolyam",
+      src: banner,
       content:
         serviceMarkdowns.find((service) => service.title === "CS2 Tanfolyam")
           ?.content || "",

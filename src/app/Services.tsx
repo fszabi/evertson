@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAllServices } from "./utils/services";
-import banner from "/public/assets/images/banner.webp";
 
 const Services = () => {
   const services = getAllServices();
@@ -15,8 +14,8 @@ const Services = () => {
             <div key={service.slug} className="group relative">
               <div className="relative h-80 w-full overflow-hidden rounded-xl sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-60 transition-opacity sm:h-64">
                 <Image
-                  src={banner}
-                  alt="banner"
+                  src={service.src}
+                  alt={service.title}
                   className="h-full w-full object-cover object-center"
                 />
               </div>

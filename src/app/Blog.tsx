@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "./utils/posts";
-import banner from "/public/assets/images/banner.webp";
 
 const Blog = () => {
   const posts = getAllPosts();
@@ -15,8 +14,8 @@ const Blog = () => {
             <div key={post.slug} className="group relative">
               <div className="relative h-80 w-full overflow-hidden rounded-xl sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-60 transition-opacity sm:h-64">
                 <Image
-                  src={banner}
-                  alt="banner"
+                  src={post.src}
+                  alt={post.title}
                   className="h-full w-full object-cover object-center"
                 />
               </div>
