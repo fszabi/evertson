@@ -2,13 +2,64 @@ const serviceMarkdowns = [
   {
     title: "Skin Eladás",
     content: `
-    
+![skin eladás](/assets/images/services/skin_selling/skin_selling.webp)
 `,
+  },
+  {
+    title: "Skin Bérlés",
+    content: `
+![skin bérlés](/assets/images/services/skin_renting/skin_renting.webp)
+
+### A skin bérlés lényege
+
+- A skin bérlés röviden az, hogy egy adott skint ki tudsz tőlem bérelni x hétre pár ezer FT-ért.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- 20.000-100.000 FT között értékű skin 2 hétre 1.000 FT 4 hétre 2000 FT.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- 100.000 FT fölött pedig 2 hétre 2000 FT 4 hétre 4000 FT.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### A skin bérlés menete
+
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+  <img src="/assets/images/services/skin_renting/storage_1.webp" alt="storage 1">
+  <img src="/assets/images/services/skin_renting/storage_2.webp" alt="storage 2">
+  <img src="/assets/images/services/skin_renting/storage_3.webp" alt="storage 3">
+  <img src="/assets/images/services/skin_renting/storage_4.webp" alt="storage 4">
+</div>
+
+- Nagyon fontos hogy a skinnek a teljes árát letétbe kell helyezni nálam mivel ez a biztositék arra, hogy nem fogsz lelépni az adott skinnel.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ezt az összeget minden esetben vissza fogod kapni amint a skint vissza adtad nekem. Az árazás az aktuális piaci ár szerint történik mindig.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### Kinek éri ez meg?
+
+- Leginkább azoknak ajánlom ezt akik folyamatosan cserélgetik a skinjeiket vagy tudják előre, hogy x idő múlva szükségük lesz az adott összegre.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Tulajdonképpen olyan mintha megvennéd de biztositékot kapsz arra, hogy visszaveszem tőled azon az áron amit te kifizettél nekem.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ha a skin értéke 105.000 FTot ér de időközben le esik az ára 95.000 FT-ra te ugyanúgy 105.000 FT-ot fogsz visszakapni viszont ha a skin értéke felmegy 120.000 FT-ra és te úgy döntesz, hogy nem adod vissza az is teljesen rendben van.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### Miért éri ez meg?
+
+- Tegyük fel nem örökre vásárolsz skineket, hanem folyamatosan cserélgetsz ezáltal minden cserénél buksz 5-10%ot, az 3-4 csere után jelentős kiesés lehet.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Példa: Egy kés jelenlegi Buff ára 100.000 FT amit egy kereskedőtől megvásárolsz 105.000 FT-ba, időközben be esik az értéke 95.000 FT-ra viszont teljes árban nem vásárolják vissza az adott kést.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ezt a kést 80-90%os áron tudod eladni ami 76.000-85.500 FT között lehet. Röviden 20-25%ot buktál azon, hogy megvásároltál egy szinte bármilyen értékű skint és azt x ideig használhattad.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ugyanúgy ezt a %ot egy 3000 FT-os tárgyon vagy akár egy 300.000 FT-os tárgyon is elveszitheted. Ezek a skinek luxus cikkek és nincs különösebben szükséged rájuk, nem szükségesek az alap játékhoz mint pl a prime.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Viszont ha már skineket vásárolsz azt megteheted okosabban és olcsóbban is ez a lehetőség által.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  `,
   },
   {
     title: "Trade-Up",
     content: `
-![trade up](/assets/images/services/trade_up/evertson_trade.webp)
+![trade up](/assets/images/services/trade_up/trade_up.webp)
 
 ### A Trade-Up lényege
 
@@ -77,7 +128,7 @@ const serviceMarkdowns = [
 
 - Folyamatos kereskedéssel egyre több és több profitot lehet realizálni ami exponenciálisan nővekszik. Egy év alatt 10.000+ sikeres kereskedést hajtottam végre és ez a jövőben csak növekedni fog.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Jelenleg 20+ személy 4.000.000 FT + értékű skinnel szállt be ebbe a lehetőségbe ami szintén tovább fog növekedni. Nem tervezem sokáig mások skinjeit forgatni mivel rendelkezem én is egy magasabb inventoryval. A legrosszabb piaci körülmények között is profitábilisan tudok kereskedni és ha az árfolyam be esik 20-25%ot akkoris profitálok.
+- Jelenleg 10+ személy 4.000.000 FT + értékű skinnel szállt be ebbe a lehetőségbe ami szintén tovább fog növekedni. Nem tervezem sokáig mások skinjeit forgatni mivel rendelkezem én is egy magasabb inventoryval. A legrosszabb piaci körülmények között is profitábilisan tudok kereskedni és ha az árfolyam be esik 20-25%ot akkoris profitálok.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Az nagyon fontos, hogy rendelkezned kell egy alap pénzügyi intelligenciával mivel a befektetés nem való mindenkinek. A minimum beszálló 300 euró értékű skin és amikor kiszállsz a profitnak a felét leveszem. Amennyiben érdekel ez a lehetőség irj a kapcsolatfelvételnél vagy keress meg steamen esetleg discordon.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
@@ -99,6 +150,12 @@ const serviceMarkdowns = [
   <img src="/assets/images/services/trade_up/investor_6.webp" alt="investor 6">
   <img src="/assets/images/services/trade_up/investor_7.webp" alt="investor 7">
   <img src="/assets/images/services/trade_up/investor_8.webp" alt="investor 8">
+  <img src="/assets/images/services/trade_up/investor_9.webp" alt="investor 9">
+  <img src="/assets/images/services/trade_up/investor_10.webp" alt="investor 10">
+  <img src="/assets/images/services/trade_up/investor_11.webp" alt="investor 11">
+  <img src="/assets/images/services/trade_up/investor_12.webp" alt="investor 12">
+  <img src="/assets/images/services/trade_up/investor_13.webp" alt="investor 13">
+  <img src="/assets/images/services/trade_up/investor_14.webp" alt="investor 14">
 </div>
 `,
   },
@@ -118,6 +175,9 @@ const serviceMarkdowns = [
 - Nagyon sokakat érdekel a fogadás, viszont amint kicsit jobban utána néz az ember, akkor szembesülnie kell a szomorú igazsággal, hogy ha ebből szeretne huzamosabb ideig pénzt csinálni, ahhoz folyamatosan figyelnie kell a játékokat, hogy jó helyre tegye a pénzt.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - A mi feladatunk az, hogy ezt a nyomást levegyük az emberek válláról a tippjeink segítségével.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Itt éred el a tippeket: 
+  https://www.patreon.com/eVERTSONBETS
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 ### Jó, betelek, de hol tegyem?
@@ -154,6 +214,8 @@ const serviceMarkdowns = [
 ></iframe>
 
 ![cs2 tanfolyam velemeny 1](/assets/images/services/cs2_tanfolyam/tanfolyam_velemeny1.webp)
+![cs2 tanfolyam velemeny 2](/assets/images/services/cs2_tanfolyam/tanfolyam_velemeny2.webp)
+![cs2 tanfolyam velemeny 3](/assets/images/services/cs2_tanfolyam/tanfolyam_velemeny3.webp)
 
 - Teljesen mindegy hogy mivel foglalkoztál eddig, ez a terület biztosan tetszeni fog neked. 
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
@@ -165,57 +227,6 @@ const serviceMarkdowns = [
   https://whop.com/checkout/d00QLTqFUrW7xpGsF-v2wR-TSy7-GYCN-EJZrfsBnual6
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
-  },
-  {
-    title: "Skin Bérlés",
-    content: `
-![skin bérlés](/assets/images/services/skin_renting/skin_renting.webp)
-
-### A skin bérlés lényege
-
-- A skin bérlés röviden az, hogy egy adott skint ki tudsz tőlem bérelni x hétre pár ezer FT-ért.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- 20.000-100.000 FT között értékű skin 2 hétre 1.000 FT 4 hétre 2000 FT.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- 100.000 FT fölött pedig 2 hétre 2000 FT 4 hétre 4000 FT.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-
-### A skin bérlés menete
-
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-  <img src="/assets/images/services/skin_renting/storage_1.webp" alt="storage 1">
-  <img src="/assets/images/services/skin_renting/storage_2.webp" alt="storage 2">
-  <img src="/assets/images/services/skin_renting/storage_3.webp" alt="storage 3">
-  <img src="/assets/images/services/skin_renting/storage_4.webp" alt="storage 4">
-</div>
-
-- Nagyon fontos hogy a skinnek a teljes árát letétbe kell helyezni nálam mivel ez a biztositék arra, hogy nem fogsz lelépni az adott skinnel.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Ezt az összeget minden esetben vissza fogod kapni amint a skint vissza adtad nekem. Az árazás az aktuális piaci ár szerint történik mindig.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-
-### Kinek éri ez meg?
-
-- Leginkább azoknak ajánlom ezt akik folyamatosan cserélgetik a skinjeiket vagy tudják előre, hogy x idő múlva szükségük lesz az adott összegre.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Tulajdonképpen olyan mintha megvennéd de biztositékot kapsz arra, hogy visszaveszem tőled azon az áron amit te kifizettél nekem.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Ha a skin értéke 105.000 FTot ér de időközben le esik az ára 95.000 FT-ra te ugyanúgy 105.000 FT-ot fogsz visszakapni viszont ha a skin értéke felmegy 120.000 FT-ra és te úgy döntesz, hogy nem adod vissza az is teljesen rendben van.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-
-### Miért éri ez meg?
-
-- Tegyük fel nem örökre vásárolsz skineket, hanem folyamatosan cserélgetsz ezáltal minden cserénél buksz 5-10%ot, az 3-4 csere után jelentős kiesés lehet.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Példa: Egy kés jelenlegi Buff ára 100.000 FT amit egy kereskedőtől megvásárolsz 105.000 FT-ba, időközben be esik az értéke 95.000 FT-ra viszont teljes árban nem vásárolják vissza az adott kést.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Ezt a kést 80-90%os áron tudod eladni ami 76.000-85.500 FT között lehet. Röviden 20-25%ot buktál azon, hogy megvásároltál egy szinte bármilyen értékű skint és azt x ideig használhattad.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Ugyanúgy ezt a %ot egy 3000 FT-os tárgyon vagy akár egy 300.000 FT-os tárgyon is elveszitheted. Ezek a skinek luxus cikkek és nincs különösebben szükséged rájuk, nem szükségesek az alap játékhoz mint pl a prime.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Viszont ha már skineket vásárolsz azt megteheted okosabban és olcsóbban is ez a lehetőség által.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-  `,
   },
 ];
 

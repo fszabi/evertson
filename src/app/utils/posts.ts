@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 import postMarkdowns from "./postMarkdowns";
-import banner from "/public/assets/images/banner.webp";
+import scam from "/public/assets/images/blog/scam/scam.webp";
 import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
 
 interface Post {
@@ -25,7 +25,7 @@ export const getAllPosts = (): Post[] => {
     {
       slug: "scam-leiras",
       title: "Scam Leírás",
-      src: banner,
+      src: scam,
       content:
         postMarkdowns.find((post) => post.title === "Scam Leírás")?.content ||
         "",

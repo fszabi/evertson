@@ -2,7 +2,7 @@ const postMarkdowns = [
   {
     title: "Trade Alapok",
     content: `
-![trading](/assets/images/blog/tradeguide/trading.webp)
+![trading](/assets/images/blog/tradeguide/tradeguide.webp)
 
 ### Mivel sokan nincsennek képben a <span>skinek áraival</span> ezért összeállitottam egy rövid útmutatót.
 
