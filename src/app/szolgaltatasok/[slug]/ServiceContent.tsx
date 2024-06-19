@@ -3,6 +3,7 @@ import CustomImage from "@/app/components/CustomImage";
 import CustomLink from "@/app/components/CustomLink";
 import CustomListItem from "@/app/components/CustomListItem";
 import { getServiceBySlug } from "@/app/utils/services";
+import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkBreaks from "remark-breaks";
@@ -16,17 +17,13 @@ const ServiceContent = ({ slug }: Props) => {
   const service = getServiceBySlug(slug);
 
   if (!service) {
-    return (
-      <div className="text-center text-2xl text-gray-500 mt-12">
-        Nem található a szolgáltatás.
-      </div>
-    );
+    notFound();
   }
 
   return (
-    <>
+    <div className="min-h-screen">
       <Header2 />
-      <div className="max-w-3xl mx-auto px-6 lg:px-8 py-28 rounded-lg min-h-screen">
+      <div className="max-w-3xl mx-auto px-6 lg:px-8 py-28 rounded-lg">
         <article className="prose lg:prose-xl space-y-10">
           <header className="space-y-6">
             <h1>{service.title}</h1>
@@ -52,7 +49,7 @@ const ServiceContent = ({ slug }: Props) => {
           </section>
         </article>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 import serviceMarkdowns from "./serviceMarkdowns";
-import banner from "/public/assets/images/banner.webp";
+import cs2_fogadas from "/public/assets/images/services/cs2_fogadas/cs2_fogadas.png";
+import cs2_tanfolyam from "/public/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.webp";
 import skin_renting from "/public/assets/images/services/skin_renting/skin_renting.webp";
 import skin_selling from "/public/assets/images/services/skin_selling/skin_selling.webp";
 import trade_up from "/public/assets/images/services/trade_up/trade_up.webp";
@@ -45,7 +46,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "cs2-fogadas",
       title: "CS2 Fogadás",
-      src: banner,
+      src: cs2_fogadas,
       content:
         serviceMarkdowns.find((service) => service.title === "CS2 Fogadás")
           ?.content || "",
@@ -54,7 +55,7 @@ export const getAllServices = (): Service[] => {
     {
       slug: "cs2-tanfolyam",
       title: "CS2 Tanfolyam",
-      src: banner,
+      src: cs2_tanfolyam,
       content:
         serviceMarkdowns.find((service) => service.title === "CS2 Tanfolyam")
           ?.content || "",

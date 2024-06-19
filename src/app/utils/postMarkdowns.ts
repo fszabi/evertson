@@ -118,30 +118,30 @@ const postMarkdowns = [
 ></iframe>
 
 - Az összes késből található case hardened változat illetve Hydra kesztyű, AK-47, Five-Seven és Mac-10-ből.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/karambit.webp" alt="karambit icon">
 - Röviden annyit érdemes tudni ezekről a skinekről, hogy több mint ezer változatban dobhat egy adott case hardened skint. Ritka esetben szinte teljesen kékből vagy sárgából kerül kinyitásra az adott skin aminek az értéke több 1000 dollártól egészen 1.400.000 dollárig is terjedhet.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/karambit.webp" alt="karambit icon">
 
 ![blue gem](/assets/images/blog/tradeguide/blue_gem.webp)
 - A Blue gemeket ezen az oldalon tudod megnézni:
   https://csgobluegem.com/
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/karambit.webp" alt="karambit icon">
 
 ![gold gem](/assets/images/blog/tradeguide/gold_gem.webp)
 - A Gold gemeket ezen az oldalon tudod megnézni:
   https://broskins.com/index.php?threads/case-hardened-gold-gem-guide-patterns.276/
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+ <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/karambit.webp" alt="karambit icon">
 
 ### Marble fade, fade és dopplerek
 
 ![marble](/assets/images/blog/tradeguide/marble.webp)
 
 - Egyes Marble Fade késekből található Fire and Ice változat ami egészen 1-10 ig lehetséges. Ezek természetesen drágábbak mint a sima Marbe Fade kések.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/marble2.webp" alt="marble icon">
 - Viszont nem minden Marble Fadeből található Fire and Ice változat. Talon, Karambit, Gut és Flip-ből lehetséges csak.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/marble2.webp" alt="marble icon">
 - A Minimal Wear és a StatTrak™-os verziókat semmiféleképpen nem ajánlom megvásárlásra. Nagyon nehéz eladni mivel ezekből a késekből csak Factory New és Minimal Wear-t dobhat a láda. A StatTrak™-os kések a pengén eléggé csúnyán néznek ki, Minimal Weart pedig kevesebb esély nyitni ezért drágább mint a Factory New.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/marble2.webp" alt="marble icon">
 
 ![fade](/assets/images/blog/tradeguide/fade.webp)
 ![fade 2](/assets/images/blog/tradeguide/fade2.webp)
@@ -154,13 +154,13 @@ const postMarkdowns = [
 ![doppler](/assets/images/blog/tradeguide/doppler.webp)
 
 - A Dopplerekből négy változat lehetséges Phase1-4-ig. Szintén Minimal Wear és StatTrak™-os Dopplereket nem érdemes vásárolni mivel ugyan az a helyzet mint a Marble Fadeknél.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/doppler2.webp" alt="doppler icon">
 - Két nagy csoportra lehet osztani: Gamma Dopplerre és sima Dopplerre. A Gamma Doppleren belül lehetséges az Emerald ami körülbelül 10x annyit ér mint egy sima Gamma Doppler Phase1-4. Különböző Phasek között is más más árral kell számolni, a legértékesebb a Phase2 majd 4,3,1.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/doppler2.webp" alt="doppler icon">
 - Dopplerből lehetséges Ruby,Shapphire és Black Pearl. A legritkább a Black Pearl viszont kb felét éri a Ruby és Shapphirenak. Csak és kizárólag késekből illetve Glock-18 ból léteznek Dopplerek, abbol is Gamma Doppler Phase1-4 illetve Emerald.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/doppler2.webp" alt="doppler icon">
 - Jelenleg a Dopplerek kinézete a CS2 miatt folyamatosan változik ami miatt az árak is erősen ingadoznak, jelenleg leginkább lefelé.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/doppler2.webp" alt="doppler icon">
 
 ### Float
 
@@ -260,6 +260,12 @@ const postMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Ha minden stimmel akkor elfogadható a trade.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+`,
+  },
+  {
+    title: "Nyereményjátékok",
+    content: `
+![giveaway](/assets/images/blog/giveaway/giveaway.webp)
 `,
   },
 ];

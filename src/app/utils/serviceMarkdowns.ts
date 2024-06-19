@@ -162,6 +162,8 @@ const serviceMarkdowns = [
   {
     title: "CS2 Fogadás",
     content: `
+![cs2 fogadas](/assets/images/services/cs2_fogadas/cs2_fogadas.png)  
+
 ### Megéri fogadni?
 
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
@@ -203,6 +205,8 @@ const serviceMarkdowns = [
   {
     title: "CS2 Tanfolyam",
     content: `
+![cs2 tanfolyam](/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.webp)  
+
 ### Miről szól a tanfolyam?
 
 <iframe

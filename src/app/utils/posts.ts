@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 import postMarkdowns from "./postMarkdowns";
 import scam from "/public/assets/images/blog/scam/scam.webp";
 import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
+import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
 
 interface Post {
   slug: string;
@@ -30,6 +31,15 @@ export const getAllPosts = (): Post[] => {
         postMarkdowns.find((post) => post.title === "Scam Leírás")?.content ||
         "",
       summary: "Kerüldd el a csalókat a tradelés során",
+    },
+    {
+      slug: "nyeremenyjatekok",
+      title: "Nyereményjátékok",
+      src: giveaway,
+      content:
+        postMarkdowns.find((post) => post.title === "Nyereményjátékok")
+          ?.content || "",
+      summary: "Vegyél részt a nyereményjátékokon",
     },
   ];
 };
