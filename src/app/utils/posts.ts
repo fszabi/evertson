@@ -21,7 +21,7 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "Trade Alapok")?.content ||
         "",
-      summary: "Tanuldd meg a tradelés alapjait",
+      summary: "Tanuldd meg a tradelés alapjait!",
     },
     {
       slug: "scam-leiras",
@@ -30,7 +30,7 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "Scam Leírás")?.content ||
         "",
-      summary: "Kerüldd el a csalókat a tradelés során",
+      summary: "Kerüldd el a csalókat a tradelés során!",
     },
     {
       slug: "nyeremenyjatekok",
@@ -39,7 +39,7 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "Nyereményjátékok")
           ?.content || "",
-      summary: "Vegyél részt a nyereményjátékokon",
+      summary: "Vegyél részt a nyereményjátékokon!",
     },
   ];
 };
