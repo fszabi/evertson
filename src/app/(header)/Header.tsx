@@ -38,10 +38,10 @@ const links = [
     name: "Oldalak",
     href: "#oldalak",
   },
-  {
-    name: "Shopok",
-    href: "#shopok",
-  },
+  // {
+  //   name: "Shopok",
+  //   href: "#shopok",
+  // },
   // {
   //   name: "Statisztika",
   //   href: "#statisztika",

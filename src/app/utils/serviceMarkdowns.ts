@@ -34,6 +34,16 @@ const serviceMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Kérlek ne keress fölösleges dolgokkal (pl. melyik a jobb a viseltes, vagy a háború tépázta, mi a kedvenc késed, stb.), mert nem fogok válaszolni. Ami számomra nem termel profitot az őszintén nem érdekel.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### Oldalak
+
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+  <a href="https://buff.market/share/shop/U1093218891"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/buff_market.webp" alt="BUFF Market"></a>
+  <a href="https://cs.money/market/buy/?steamId=76561199021366803"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/cs_money.svg" alt="CS Money"></a>
+  <a href="https://gamerpay.gg/shop/evertson01"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/gamerpay.png" alt="GamerPay"></a>
+  <a href="https://skinbid.com/shop/8c0fcb09485fc1ed"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/skinbid.png" alt="SkinBid"></a>
+  <a href="https://csfloat.com/stall/76561199021366803"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/cs_float.webp" alt="CS Float"></a>
+</div>
 `,
   },
   {

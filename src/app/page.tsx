@@ -16,7 +16,7 @@ export default function Home() {
       <Services />
       <Blog />
       <Sites />
-      <Shops />
+      {/* <Shops /> */}
       {/* <Stats /> */}
       <Contact />
       <ScrollArrow />
