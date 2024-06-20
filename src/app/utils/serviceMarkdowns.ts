@@ -35,7 +35,7 @@ const serviceMarkdowns = [
 - Kérlek ne keress fölösleges dolgokkal (pl. melyik a jobb a viseltes, vagy a háború tépázta, mi a kedvenc késed, stb.), mert nem fogok válaszolni. Ami számomra nem termel profitot az őszintén nem érdekel.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
-### Oldalak
+### Shopok
 
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
   <a href="https://buff.market/share/shop/U1093218891"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/buff_market.webp" alt="BUFF Market"></a>
