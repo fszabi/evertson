@@ -4,7 +4,7 @@ const postMarkdowns = [
     content: `
 ![trading](/assets/images/blog/tradeguide/tradeguide.webp)
 
-### Mivel sokan nincsennek képben a <span>skinek áraival</span> ezért összeállitottam egy rövid útmutatót.
+### Mivel sokan nincsenek képben a <span>skinek áraival</span> ezért összeállitottam egy rövid útmutatót.
 
 - Elsősorban szükséged lesz a csgotrader.app-ra amit hozzá kell adnod a böngészőhöz: 
   https://chrome.google.com/webstore/detail/csgo-trader-steam-trading/kaibcgikagnkfgjnibflebpldakfhfih

@@ -21,7 +21,7 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "Trade Alapok")?.content ||
         "",
-      summary: "Tanuldd meg a tradelés alapjait!",
+      summary: "Tanuld meg a tradelés alapjait!",
     },
     {
       slug: "scam-leiras",
@@ -30,7 +30,7 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "Scam Leírás")?.content ||
         "",
-      summary: "Kerüldd el a csalókat a tradelés során!",
+      summary: "Kerüld el a csalókat a tradelés során!",
     },
     {
       slug: "nyeremenyjatekok",

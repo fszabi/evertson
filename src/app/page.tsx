@@ -1,6 +1,7 @@
 import Contact from "./(contact)/Contact";
 import Header from "./(header)/Header";
 import Hero from "./(hero)/Hero";
+import Shops from "./(shops)/Shops";
 import Sites from "./(sites)/Sites";
 import Stats from "./(stats)/Stats";
 import Blog from "./Blog";
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Blog />
       <Sites />
+      <Shops />
       {/* <Stats /> */}
       <Contact />
       <ScrollArrow />

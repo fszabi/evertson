@@ -45,11 +45,6 @@ const tradeSites = [
     url: "https://tradeit.gg/?aff=evertson01",
   },
   {
-    name: "BUFF Market",
-    image: buff_market,
-    url: "https://buff.market/share/shop/U1093218891",
-  },
-  {
     name: "500 Casino",
     image: casino_500,
     url: "https://500.casino/r/REF8983OEYBG08SZ",

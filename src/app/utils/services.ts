@@ -3,7 +3,7 @@ import serviceMarkdowns from "./serviceMarkdowns";
 import cs2_fogadas from "/public/assets/images/services/cs2_fogadas/cs2_fogadas.png";
 import cs2_tanfolyam from "/public/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.webp";
 import skin_renting from "/public/assets/images/services/skin_renting/skin_renting.webp";
-import skin_selling from "/public/assets/images/services/skin_selling/skin_selling.webp";
+import skin_trading from "/public/assets/images/services/skin_trading/skin_trading.webp";
 import trade_up from "/public/assets/images/services/trade_up/trade_up.webp";
 
 interface Service {
@@ -17,13 +17,13 @@ interface Service {
 export const getAllServices = (): Service[] => {
   return [
     {
-      slug: "skin-eladas",
-      title: "Skin Eladás",
-      src: skin_selling,
+      slug: "skin-kereskedes",
+      title: "Skin Kereskedés",
+      src: skin_trading,
       content:
-        serviceMarkdowns.find((service) => service.title === "Skin Eladás")
+        serviceMarkdowns.find((service) => service.title === "Skin Kereskedés")
           ?.content || "",
-      summary: "Adj el skineket nekem!",
+      summary: "Adj el, kereskedj, vagy vásárolj skineket!",
     },
     {
       slug: "skin-berles",

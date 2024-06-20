@@ -1,8 +1,39 @@
 const serviceMarkdowns = [
   {
-    title: "Skin Eladás",
+    title: "Skin Kereskedés",
     content: `
-![skin eladás](/assets/images/services/skin_selling/skin_selling.webp)
+![skin kereskedés](/assets/images/services/skin_trading/skin_trading.webp)
+
+- Folyamatosan vásárolok,eladok és tradelek skineket.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ha bármilyen playskined, késed, kesztyűd, craftod van eladó irj nyugodtan és megbeszéljük.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Kisebb és nagyobb skinek is érdekelnek, 50 euró alattiak (amennyiben több skined van eladó) és 500 euró fölöttiek is.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">  
+- Amennyiben tradebannosak a skinjeid sajnos előre nem tudok mit mondani, addig meggondolhatod magad vagy eladod másnak esetleg az ár változhat. Kérlek csak akkor keress ha nincs tradeban a skinjeiden.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Fizetés: Revolut, Wise, Banki utalás, Crypto (USDT)
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Kérlek próbáld meg minél rövidebben leirni, hogy mit szeretnél. Nekem az időm a legfontosabb. Ha többszörösen nem tudunk megegyezni figyelmen kivűl hagyom az üzeneteid.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ha nem válaszolok azonnal de elérhető vagyok az azért van mert akad más dolgom is. Átlagos válaszidő: 1 napon belül.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Nagy részben előre megirt sablon szövegekkel és szavakban fogok veled kommunikálni mivel törekszem a gyors üzlet lebonyolitására.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ha nem felel meg az ajánlatom minden esetben mondok alternativát ahol el tudod adni a skinjeid és felajánlom a segitségem is. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Csak 1.000 euró raktár érték fölött rendelkező játékosokat fogadok el, akik alacsony ajánlatot küldenek azokat törlöm.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Tradelésnél nem foglalkozom apróbb itemekkel, gondolok itt 1-15 euró közötti értékre, egyszerűen nincs rá kapacitásom.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Nem fogadok el privát, vac bannolt, trade bannolt, steamrep bannolt, privát raktárral rendelkező profilokat.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Kérlek ne kérj tőlem semmit ingyen, mivel nincs olyan tárgyam amire nincs szükségem.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Amennyiben mégis igy teszel tiltalak. Nem nézem jó szemmel az önsajnáltatást, kitalált történeteket és nem érdekel hogy minden álmod válna valóra egy késtől. A scammerek után a kéregetőket utálom a legjobban, az én szememben mindkettő egy szinten helyezkedik el. Nincs semmi sem ingyen az életben, mindenért neked kell megküzdened.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Kérlek ne keress fölösleges dolgokkal (pl. melyik a jobb a viseltes, vagy a háború tépázta, mi a kedvenc késed, stb.), mert nem fogok válaszolni. Ami számomra nem termel profitot az őszintén nem érdekel.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },
   {
