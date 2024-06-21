@@ -289,7 +289,7 @@ const postMarkdowns = [
 
 <img width="500" height="500" className="max-w-[25rem] rounded-lg border border-zinc-800 shadow" src="/assets/images/blog/giveaway/twitch_points.webp" alt="twitch points">
 
-- Illetve skineket olyan módon is  ki tudsz váltani, hogy ha már tagja vagy a szervernek akkor értesítést kapsz a twitch liveokról amelyeket ha nézel akkor cserébe pontokat kapsz.
+- Illetve skineket olyan módon is  ki tudsz váltani, hogy ha már tagja vagy a szervernek akkor értesítést kapsz a twitch liveokról amelyeket ha nézel cserébe pontokat kapsz.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Ezekből a pontokból tudsz különféle fegyver kinézeteket kiváltani.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
