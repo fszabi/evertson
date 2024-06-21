@@ -1,0 +1,65 @@
+{
+    "website_name": "eVERTSON AWP Szerver - WS",
+    "invert_direction": false,
+    "error": {
+        "code": "Error {{code}}!",
+        "message": "something happened.",
+        "unauthorized": "You don't have permission to be in here.",
+        "notfound": "The requested page have not found on this server.",
+        "serverinternal": "The server encountered an unexpected condition that prevented it from fulfilling the request.",
+        "button": "Return to Website"
+    },
+    "login": {
+        "header": "",
+        "titles": [
+            {"name": "eVERTSON AWP Server", "hover": "Connect to the server", "link": "steam://connect/213.181.206.27:28020?appid=730"}
+        ],
+        "footer": "Please login through Steam to continue.",
+        "button": "Login"
+    },
+    "skins": {
+        "choose_weapon": "",
+        "choose_weapon_default": "",
+        "categories": {
+            "knifes": "Knifes",
+            "pistols": "Pistols",
+            "rifles": "Rifles",
+            "smg": "SMG's",
+            "machine_guns": "Machine Guns",
+            "sniper_rifles": "Sniper Rifles",
+            "shotguns": "Shotguns",
+            "gloves": "Gloves",
+            "agents": {
+                "label": "Models",
+                "ct": "CT models",
+                "t": "T models"
+            },
+            "mvp": "Music Kits"
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Back to menu",
+            "wear": {
+                "label": "Wear",
+                "factory_new": "Factory New",
+                "minimal_wear": "Minimal Wear",
+                "field_tested": "Field Tested",
+                "well_worn": "Well Worn",
+                "battle_scarred": "Battle Scarred"
+            },
+            "seed": "Seed",
+            "select_skin_label": ""
+        },
+        "footer": {
+            "signedin": "Signed in as<br>{{name}}",
+            "sign_out": "Sign out",
+            "settings": {
+                "language": "Language",
+                "theme": {
+                    "label": "Theme",
+                    "custom": "Custom color",
+                    "choose": "Choose color"
+                }
+            }
+        }
+    }
+}

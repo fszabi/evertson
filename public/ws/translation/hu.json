@@ -1,0 +1,65 @@
+{
+    "website_name": "eVERTSON AWP Szerver - WS",
+    "invert_direction": false,
+    "error": {
+        "code": "Hiba {{code}}!",
+        "message": "valami történt.",
+        "unauthorized": "Nincs engedélyed, hogy itt legyél.",
+        "notfound": "Az kért oldal nem található.",
+        "serverinternal": "A szerver váratlan feltétellel találkozott, amely megakadályozta a kérés teljesítését.",
+        "button": "Vissza a Weboldalra"
+    },
+    "login": {
+		"header": "",
+        "titles": [
+            {"name": "eVERTSON AWP Szerver", "hover": "Csatlakozás a szerverre", "link": "steam://connect/213.181.206.27:28020?appid=730"}
+        ],
+        "footer": "Lépj be a steam fiókoddal a WS használatához.",
+        "button": "Belépés"
+    },
+    "skins": {
+        "choose_weapon": "",
+        "choose_weapon_default": "",
+        "categories": {
+            "knifes": "Kések",
+            "pistols": "Pisztolyok",
+            "rifles": "Puskák",
+            "smg": "Géppisztolyok",
+            "machine_guns": "Gépfegyverek",
+            "sniper_rifles": "Mesterlövész Puskák",
+            "shotguns": "Sörétes Puskák",
+            "gloves": "Kesztyűk",
+            "agents": {
+                "label": "Modellek",
+                "ct": "CT modellek",
+                "t": "T modellek"
+            },
+            "mvp": "Zenekészletek"
+        },
+        "selected_weapon": {
+            "choose_weapon_button": "Vissza a menübe",
+            "wear": {
+                "label": "Kopottság",
+                "factory_new": "Gyári új",
+                "minimal_wear": "Kevéssé használt",
+                "field_tested": "Harctéren tesztelt",
+                "well_worn": "Viseltes",
+                "battle_scarred": "Háború tépázta"
+            },
+            "seed": "Seed",
+            "select_skin_label": ""
+        },
+        "footer": {
+            "signedin": "Belépve, mint<br>{{name}}.",
+            "sign_out": "Kilépés",
+            "settings": {
+                "language": "Nyelv",
+                "theme": {
+                    "label": "Téma",
+                    "custom": "Egyedi szín",
+                    "choose": "Szín választása"
+                }
+            }
+        }
+    }
+}
