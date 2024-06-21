@@ -1,0 +1,32 @@
+# Disable directory browsing
+Options -Indexes
+
+# Follow symbolic links
+Options +FollowSymLinks
+
+# Enable the rewrite engine
+RewriteEngine On
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Set the default index file
+DirectoryIndex index.php index.html
+
+# Prevent hotlinking of images
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?flyboys.hu [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+ErrorDocument 403 /CS2SkinsSite/error/?msg=403
+ErrorDocument 404 /CS2SkinsSite/error/?msg=404
+ErrorDocument 500 /CS2SkinsSite/error/?msg=500
+
