@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description:
     "Fedezd fel Magyarország legnagyobb Counter Strike 2 trading platformját. Akár vásárolni, eladni vagy cserélni szeretnél, szolgáltatásaim zökkenőmentesek és biztonságosak.",
   openGraph: {
-    images: ["/assets/images/books.png"],
+    images: ["/assets/images/services/skin_trading/skin_trading.webp"],
     title:
       "Magyarország legnagyobb Counter Strike 2 trading platformja - evertsontrade.com",
     description:
