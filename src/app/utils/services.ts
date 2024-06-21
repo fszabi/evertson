@@ -1,10 +1,10 @@
 import { StaticImageData } from "next/image";
 import serviceMarkdowns from "./serviceMarkdowns";
 import cs2_fogadas from "/public/assets/images/services/cs2_fogadas/cs2_fogadas.png";
-import cs2_tanfolyam from "/public/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.webp";
-import skin_renting from "/public/assets/images/services/skin_renting/skin_renting.webp";
+import cs2_tanfolyam from "/public/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.png";
+import skin_renting from "/public/assets/images/services/skin_renting/skin_renting.png";
 import skin_trading from "/public/assets/images/services/skin_trading/skin_trading.webp";
-import trade_up from "/public/assets/images/services/trade_up/trade_up.webp";
+import trade_up from "/public/assets/images/services/trade_up/trade_up.png";
 
 interface Service {
   slug: string;

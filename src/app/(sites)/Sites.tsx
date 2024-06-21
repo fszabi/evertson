@@ -1,16 +1,17 @@
 import Image from "next/image";
+import Link from "next/link";
+import buff163 from "/public/assets/images/sites/buff163.png";
+import casino_500 from "/public/assets/images/sites/casino_500.webp";
+import cs_float from "/public/assets/images/sites/cs_float.webp";
 import cs_money from "/public/assets/images/sites/cs_money.svg";
 import gamerpay from "/public/assets/images/sites/gamerpay.png";
-import waxpeer from "/public/assets/images/sites/waxpeer.webp";
-import buff163 from "/public/assets/images/sites/buff163.png";
-import skinflow from "/public/assets/images/sites/skinflow.svg";
-import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
-import cs_float from "/public/assets/images/sites/cs_float.webp";
-import buff_market from "/public/assets/images/sites/buff_market.webp";
-import casino_500 from "/public/assets/images/sites/casino_500.webp";
 import ggbet from "/public/assets/images/sites/ggbet.webp";
 import pricempire from "/public/assets/images/sites/pricempire.png";
-import Link from "next/link";
+import skinflow from "/public/assets/images/sites/skinflow.svg";
+import skinrave from "/public/assets/images/sites/skinrave.png";
+import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
+import waxpeer from "/public/assets/images/sites/waxpeer.webp";
+import whitemarket from "/public/assets/images/sites/whitemarket.png";
 
 const tradeSites = [
   {
@@ -60,9 +61,19 @@ const tradeSites = [
     url: "https://ggbetpro.com/l/66601f6f577465cd7f0db2c8",
   },
   {
+    name: "Skinrave",
+    image: skinrave,
+    url: "https://skinrave.gg/r/evertson",
+  },
+  {
     name: "Priceempire",
     image: pricempire,
     url: "https://pricempire.com/?r=76561199021366803",
+  },
+  {
+    name: "Whitemarket",
+    image: whitemarket,
+    url: "https://white.market/invite/d811a7b4b3e50f37",
   },
 ];
 

@@ -38,18 +38,18 @@ const serviceMarkdowns = [
 ### Shopok
 
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-  <a href="https://buff.market/share/shop/U1093218891"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/buff_market.webp" alt="BUFF Market"></a>
-  <a href="https://cs.money/market/buy/?steamId=76561199021366803"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/cs_money.svg" alt="CS Money"></a>
-  <a href="https://gamerpay.gg/shop/evertson01"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/gamerpay.png" alt="GamerPay"></a>
-  <a href="https://skinbid.com/shop/8c0fcb09485fc1ed"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/skinbid.png" alt="SkinBid"></a>
-  <a href="https://csfloat.com/stall/76561199021366803"><img className="border-0 max-h-12 w-full object-contain" src="/assets/images/sites/cs_float.webp" alt="CS Float"></a>
+  <a className="block hover:opacity-60 transition-opacity" href="https://buff.market/share/shop/U1093218891"><img className="max-h-12 w-full object-contain" src="/assets/images/sites/buff_market.webp" alt="BUFF Market"></a>
+  <a className="block hover:opacity-60 transition-opacity" href="https://cs.money/market/buy/?steamId=76561199021366803"><img className="max-h-12 w-full object-contain" src="/assets/images/sites/cs_money.svg" alt="CS Money"></a>
+  <a className="block hover:opacity-60 transition-opacity" href="https://gamerpay.gg/shop/evertson01"><img className="max-h-12 w-full object-contain" src="/assets/images/sites/gamerpay.png" alt="GamerPay"></a>
+  <a className="block hover:opacity-60 transition-opacity" href="https://skinbid.com/shop/8c0fcb09485fc1ed"><img className="max-h-12 w-full object-contain" src="/assets/images/sites/skinbid.png" alt="SkinBid"></a>
+  <a className="block hover:opacity-60 transition-opacity" href="https://csfloat.com/stall/76561199021366803"><img className="max-h-12 w-full object-contain" src="/assets/images/sites/cs_float.webp" alt="CS Float"></a>
 </div>
 `,
   },
   {
     title: "Skin Bérlés",
     content: `
-![skin bérlés](/assets/images/services/skin_renting/skin_renting.webp)
+![skin bérlés](/assets/images/services/skin_renting/skin_renting.png)
 
 ### A skin bérlés lényege
 
@@ -102,7 +102,7 @@ const serviceMarkdowns = [
   {
     title: "Trade-Up",
     content: `
-![trade up](/assets/images/services/trade_up/trade_up.webp)
+![trade up](/assets/images/services/trade_up/trade_up.png)
 
 ### A Trade-Up lényege
 
@@ -248,7 +248,7 @@ const serviceMarkdowns = [
   {
     title: "CS2 Tanfolyam",
     content: `
-![cs2 tanfolyam](/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.webp)  
+![cs2 tanfolyam](/assets/images/services/cs2_tanfolyam/cs2_tanfolyam.png)  
 
 ### Miről szól a tanfolyam?
 
@@ -272,6 +272,16 @@ const serviceMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - A tanfolyam az alábbi linken érhető el:
   https://whop.com/checkout/d00QLTqFUrW7xpGsF-v2wR-TSy7-GYCN-EJZrfsBnual6
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### Mentoráció
+
+![mentoracio](/assets/images/services/cs2_tanfolyam/mentorship.webp)
+
+- A tanfolyamhoz tartozik egy privát csoport ahol folyamatosan kérdezhetsz tőlem bármennyit illetve én is folyamatosan számon kérlek.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- A mentoráció az alábbi linken érhető el:
+  https://whop.com/checkout/plan_Uxd1MFHUqL0J8?d2c=true
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },

@@ -266,6 +266,33 @@ const postMarkdowns = [
     title: "Nyereményjátékok",
     content: `
 ![giveaway](/assets/images/blog/giveaway/giveaway.webp)
+
+### A nyereményjátékok menete
+
+- A Discord szerveren van lehetőséged részt venni nyereményjátékokban. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon"> 
+- Ennek a menete igazán egyszerű, miután beléptél a szerverre keresd meg a
+  (📋) rang-igénylés szobát ahol a《Nyereményjáték》rangot tudod igényelni.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Miután van rangod láthatóvá válnak a nyereményjáték szobák, ezek után nincs más dolgod mint csatlakozni az aktuális nyereményjátékokba.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+<img width="500" height="500" className="max-w-[25rem] rounded-lg border border-zinc-800 shadow" src="/assets/images/blog/giveaway/discord_giveaway.webp" alt="discord giveaway">
+
+- Kattints a konfetti ikonra és automatikusan részt veszel a sorsolásban.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+<img width="500" height="500" className="max-w-[25rem] rounded-lg border border-zinc-800 shadow" src="/assets/images/blog/giveaway/website_promo.webp" alt="website promo">
+
+- Amennyiben értékesebb skineket szeretnél nyerni jelentkezni tudsz a Prémium nyereményjátékokra is. Csupán annyi a dolgod, hogy a steam vagy discord profildra belinkeled a weboldalt: https://evertsontrade.com/
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+<img width="500" height="500" className="max-w-[25rem] rounded-lg border border-zinc-800 shadow" src="/assets/images/blog/giveaway/twitch_points.webp" alt="twitch points">
+
+- Illetve skineket olyan módon is  ki tudsz váltani, hogy ha már tagja vagy a szervernek akkor értesítést kapsz a twitch liveokról amelyeket ha nézel akkor cserébe pontokat kapsz.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Ezekből a pontokból tudsz különféle fegyver kinézeteket kiváltani.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },
 ];
