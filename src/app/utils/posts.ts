@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
 import postMarkdowns from "./postMarkdowns";
+import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
 import scam from "/public/assets/images/blog/scam/scam.webp";
 import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
-import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
 
 interface Post {
   slug: string;
