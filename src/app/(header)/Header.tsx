@@ -56,13 +56,13 @@ const awpLinks = [
   {
     name: "Skinek",
     description: "Állíts be skineket a szerveren",
-    href: "https://evertsontrade.com/ws",
+    href: "https://evertsonservers.com/ws",
     icon: WrenchIcon,
   },
   {
     name: "Banok",
     description: "Tekintsd meg a szerveren kiosztott banokat",
-    href: "https://evertsontrade.com/bans",
+    href: "https://evertsonservers.com/bans",
     icon: UsersIcon,
   },
 ];
