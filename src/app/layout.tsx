@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,6 +42,11 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="hu">
+      <Script
+        defer
+        src="https://app.tinyanalytics.io/pixel/TvmNcuQ8pnw3GQE3"
+        strategy="afterInteractive"
+      />
       <body className={`${inter.className} bg-zinc-900 text-zinc-50`}>
         {children}
       </body>

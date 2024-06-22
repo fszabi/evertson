@@ -130,7 +130,7 @@ const serviceMarkdowns = [
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="md:hidden size-20">
       <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3" />
     </svg>
-    <img width="500" height="500" className="max-w-96 rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/ak47_2.webp" alt="ak47 2">
+    <img width="500" height="500" className="max-w-96 w-full rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/ak47_2.webp" alt="ak47 2">
   </div>
 
   <div className="flex max-md:flex-col items-center gap-14">
@@ -141,7 +141,7 @@ const serviceMarkdowns = [
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="md:hidden size-20">
       <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3" />
     </svg>
-    <img width="500" height="500" className="max-w-96 rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/butterfly_2.webp" alt="butterfly 2">
+    <img width="500" height="500" className="max-w-96 w-full rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/butterfly_2.webp" alt="butterfly 2">
   </div>
 
   <div className="flex max-md:flex-col items-center gap-14">
@@ -152,7 +152,7 @@ const serviceMarkdowns = [
      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="md:hidden size-20">
       <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3" />
     </svg>
-    <img width="500" height="500" className="max-w-96 rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/flip_2.webp" alt="flip 2">
+    <img width="500" height="500" className="max-w-96 w-full rounded-lg border border-zinc-800 shadow" src="/assets/images/services/trade_up/flip_2.webp" alt="flip 2">
   </div>
 </div>
 

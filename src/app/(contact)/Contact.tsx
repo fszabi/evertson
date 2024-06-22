@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="space-y-10">
           <header className="space-y-6">
             <h2>Lépjünk kapcsolatba</h2>
-            <p className="text-lg leading-loose text-zinc-300 max-w-lg">
+            <p className="sm:text-lg leading-loose text-zinc-300 max-w-lg">
               Ha szeretnéd igénybevenni bármely szolgáltatásomat, akkor keress
               fel az alábbi email címen, vagy töltsd ki a kapcsolatfelvételi
               űrlapot.

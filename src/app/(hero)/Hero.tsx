@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 items-center max-w-7xl px-6 lg:px-8 mx-auto max-lg:space-y-20">
         <div className="space-y-8">
           <h1>Evertson Trade</h1>
-          <p className="max-w-xl text-lg font-medium text-zinc-300">
+          <p className="max-w-xl sm:text-lg text-zinc-300">
             Fedezd fel Magyarország legnagyobb Counter Strike 2 trading
             platformját. Akár vásárolni, eladni vagy cserélni szeretnél,
             szolgáltatásaim zökkenőmentesek és biztonságosak.
