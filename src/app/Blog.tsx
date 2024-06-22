@@ -16,7 +16,7 @@ const Blog = () => {
                 <Image
                   src={post.src}
                   alt={post.title}
-                  className="h-full w-full"
+                  className="h-full w-full max-md:object-cover max-md:object-center"
                 />
               </div>
               <h3 className="mt-6 mb-1 text-sm text-zinc-300">
