@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import hero from "/public/assets/images/hero.webp";
+import hero2 from "/public/assets/images/hero2.webp";
 import discord from "/public/assets/images/discord.webp";
 
 const Hero = () => {
@@ -35,8 +35,8 @@ const Hero = () => {
         </div>
 
         <Image
-          className="object-cover object-left rounded-lg w-full lg:h-[65vh] min-[2000px]:h-[40vh]"
-          src={hero}
+          className="object-cover shadow rounded-lg w-full max-lg:max-h-[60vh] max-lg:w-auto"
+          src={hero2}
           alt="hero kép"
         />
       </div>
