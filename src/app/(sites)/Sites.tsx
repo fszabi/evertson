@@ -12,6 +12,7 @@ import skinrave from "/public/assets/images/sites/skinrave.png";
 import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
 import waxpeer from "/public/assets/images/sites/waxpeer.webp";
 import whitemarket from "/public/assets/images/sites/whitemarket.png";
+import haloskins from "/public/assets/images/sites/haloskins.png";
 
 const tradeSites = [
   {
@@ -64,6 +65,11 @@ const tradeSites = [
     name: "Skinrave",
     image: skinrave,
     url: "https://skinrave.gg/r/evertson",
+  },
+  {
+    name: "HaloSkins",
+    image: haloskins,
+    url: "https://www.haloskins.com/?channelCode=evertson",
   },
   {
     name: "Priceempire",
