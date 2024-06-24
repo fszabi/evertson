@@ -106,7 +106,7 @@ const Header = () => {
             {({ open }) => (
               <>
                 <PopoverButton className="flex hover:opacity-80 transition-opacity items-center gap-x-1 font-semibold focus:outline-none">
-                  Awp
+                  AWP
                   <ChevronDownIcon
                     className={classNames({
                       "h-5 w-5 flex-none transition-transform": true,
