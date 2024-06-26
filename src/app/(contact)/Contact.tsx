@@ -2,12 +2,19 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "./ContactForm";
+import steam from "/public/assets/images/steam.png";
 import discord_2 from "/public/assets/images/svgs/discord_2.svg";
 import facebook from "/public/assets/images/svgs/facebook.svg";
 import twitch from "/public/assets/images/svgs/twitch.svg";
 import webrebirth_logo from "/public/assets/logo/webrebirth_logo.png";
 
 const contacts = [
+  {
+    name: "Steam",
+    alt: "steam logo",
+    href: "https://steamcommunity.com/id/evertson01",
+    icon: steam,
+  },
   {
     name: "Discord",
     alt: "discord logo 2",
