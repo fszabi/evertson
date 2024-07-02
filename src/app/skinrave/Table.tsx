@@ -62,8 +62,8 @@ const Table = async () => {
                 />
               </td>
 
-              <td className="py-3 px-6">
-                <p className="bg-zinc-700 text-green-500 w-fit p-2 rounded-lg">
+              <td className="py-3 px-6 w-32">
+                <p className="bg-zinc-700 text-red-600 w-fit p-2 rounded-lg">
                   {affiliate.wagered}
                 </p>
               </td>
