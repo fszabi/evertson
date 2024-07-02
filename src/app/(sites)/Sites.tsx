@@ -64,7 +64,7 @@ const tradeSites = [
   {
     name: "Skinrave",
     image: skinrave,
-    url: "https://skinrave.gg/r/evertson",
+    url: "/skinrave",
   },
   {
     name: "HaloSkins",
