@@ -17,9 +17,9 @@ const Table = async () => {
         Last 7 days
       </p>
 
-      <table className="w-full max-w-5xl bg-zinc-800 rounded-lg">
+      <table className="w-full max-w-5xl bg-zinc-800 rounded-lg ring-1 ring-inset ring-zinc-700">
         <thead>
-          <tr className="w-full border-b border-zinc-600">
+          <tr className="w-full border-b border-zinc-700">
             <th className="py-3 px-6 text-left">Rank</th>
             <th className="py-3 px-6 text-left">Level</th>
             <th className="py-3 px-6 text-left">Username</th>
