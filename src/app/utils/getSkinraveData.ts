@@ -4,7 +4,7 @@ export async function getSkinraveData() {
     const twoDaysAgo = new Date();
     const sevenDaysAgo = new Date();
 
-    twoDaysAgo.setDate(currentDate.getDate() - 2);
+    twoDaysAgo.setDate(currentDate.getDate() - 5);
     sevenDaysAgo.setDate(currentDate.getDate() - 7);
 
     const from = sevenDaysAgo.toISOString();

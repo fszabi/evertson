@@ -1,6 +1,8 @@
 import classNames from "classnames";
 import Image from "next/image";
 import { getSkinraveData } from "../utils/getSkinraveData";
+import skinrave from "/public/assets/images/sites/skinrave.png";
+import Link from "next/link";
 
 const Table = async () => {
   const skinraveData = await getSkinraveData();
@@ -17,60 +19,76 @@ const Table = async () => {
         Last 7 days
       </p>
 
-      <table className="w-full max-w-5xl bg-zinc-800 rounded-lg ring-1 ring-inset ring-zinc-700">
-        <thead>
-          <tr className="w-full border-b border-zinc-700">
-            <th className="py-3 px-6 text-left">Rank</th>
-            <th className="py-3 px-6 text-left">Level</th>
-            <th className="py-3 px-6 text-left">Username</th>
-            <th className="py-3 px-6 text-left">Avatar</th>
-            <th className="py-3 px-6 text-left">Wagered</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          {skinraveData.list.map((affiliate: any, index: number) => (
-            <tr className="w-full" key={index}>
-              <td className="py-3 px-6">
-                <p
-                  className={classNames({
-                    "size-9 flex justify-center items-center rounded-full":
-                      true,
-                    "text-zinc-900": index === 0 || index === 1 || index === 2,
-                    "bg-[#FFD700]": index === 0,
-                    "bg-[#C0C0C0]": index === 1,
-                    "bg-[#CD7F32]": index === 2,
-                    "bg-zinc-700": index > 2,
-                  })}
-                >
-                  {index + 1}
-                </p>
-              </td>
-              <td className="py-3 px-6">
-                <div className="bg-zinc-600 rounded-full size-9 flex justify-center items-center">
-                  {affiliate.user.level}
-                </div>
-              </td>
-              <td className="py-3 px-6">{affiliate.user.username}</td>
-              <td className="py-3 px-6">
-                <Image
-                  src={affiliate.user.avatarUrl}
-                  alt={affiliate.username}
-                  width={50}
-                  height={50}
-                  className="rounded-full"
-                />
-              </td>
-
-              <td className="py-3 px-6 w-32">
-                <p className="bg-zinc-700 text-red-600 w-fit p-2 rounded-lg">
-                  {affiliate.wagered}
-                </p>
-              </td>
+      <div className="flex gap-20">
+        <table className="w-full max-w-5xl bg-zinc-800 rounded-lg ring-1 ring-inset ring-zinc-700">
+          <thead>
+            <tr className="w-full border-b border-zinc-700">
+              <th className="py-3 px-6 text-left">Rank</th>
+              <th className="py-3 px-6 text-left">Level</th>
+              <th className="py-3 px-6 text-left">Username</th>
+              <th className="py-3 px-6 text-left">Avatar</th>
+              <th className="py-3 px-6 text-left">Wagered</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+
+          <tbody>
+            {skinraveData.list.map((affiliate: any, index: number) => (
+              <tr className="w-full" key={index}>
+                <td className="py-3 px-6">
+                  <p
+                    className={classNames({
+                      "size-9 flex justify-center items-center rounded-full":
+                        true,
+                      "text-zinc-900":
+                        index === 0 || index === 1 || index === 2,
+                      "bg-[#FFD700]": index === 0,
+                      "bg-[#C0C0C0]": index === 1,
+                      "bg-[#CD7F32]": index === 2,
+                      "bg-zinc-700": index > 2,
+                    })}
+                  >
+                    {index + 1}
+                  </p>
+                </td>
+                <td className="py-3 px-6">
+                  <div className="bg-zinc-600 rounded-full size-9 flex justify-center items-center">
+                    {affiliate.user.level}
+                  </div>
+                </td>
+                <td className="py-3 px-6">{affiliate.user.username}</td>
+                <td className="py-3 px-6">
+                  <Image
+                    src={affiliate.user.avatarUrl}
+                    alt={affiliate.username}
+                    width={50}
+                    height={50}
+                    className="rounded-full"
+                  />
+                </td>
+
+                <td className="py-3 px-6 w-32">
+                  <p className="bg-zinc-700 text-red-600 w-fit p-2 rounded-lg">
+                    {affiliate.wagered}
+                  </p>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <Link
+          href="https://skinrave.gg/r/evertson"
+          target="_blank"
+          className="h-fit hover:opacity-60 transition-opacity"
+        >
+          <Image
+            className=""
+            src={skinrave}
+            alt="Skinrave"
+            width={300}
+            height={100}
+          />
+        </Link>
+      </div>
     </div>
   );
 };
