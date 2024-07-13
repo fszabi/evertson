@@ -10,10 +10,8 @@ export async function getSkinraveData() {
     const from = sevenDaysAgo.toISOString();
     const to = twoDaysAgo.toISOString();
 
-    console.log(from, to);
-
     const res = await fetch(
-      `https://api.skinrave.gg/affiliates/applicants?skip=0&take=10&sort=earnings&order=DESC&userId=55919&from=${from}&to=${to}`,
+      `https://api.skinrave.gg/affiliates/applicants?skip=0&take=10&sort=earnings&order=DESC&userId=55919&from=2024-06-26T00:00:00Z&to=2024-07-01T00:00:00Z`,
       {
         headers: {
           accept: "application/json, text/plain, */*",
