@@ -1,6 +1,7 @@
 import Contact from "./(contact)/Contact";
 import Header from "./(header)/Header";
 import Hero from "./(hero)/Hero";
+import Partners from "./(partners)/Partners";
 import Shops from "./(shops)/Shops";
 import Sites from "./(sites)/Sites";
 import Stats from "./(stats)/Stats";
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Blog />
       <Sites />
+      <Partners />
       {/* <Shops /> */}
       {/* <Stats /> */}
       <Contact />

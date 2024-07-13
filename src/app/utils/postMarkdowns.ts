@@ -284,7 +284,8 @@ const postMarkdowns = [
 
 <img width="500" height="500" className="max-w-[25rem] w-full rounded-lg border border-zinc-800 shadow" src="/assets/images/blog/giveaway/website_promo.webp" alt="website promo">
 
-- Amennyiben értékesebb skineket szeretnél nyerni jelentkezni tudsz a Prémium nyereményjátékokra is. Csupán annyi a dolgod, hogy a steam vagy discord profildra belinkeled a weboldalt: https://evertsontrade.com/
+- Amennyiben értékesebb skineket szeretnél nyerni jelentkezni tudsz a Prémium nyereményjátékokra is. Csupán annyi a dolgod, hogy a steam vagy discord profildra belinkeled a weboldalt: 
+  https://evertsontrade.com/
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 <img width="500" height="500" className="max-w-[25rem] w-full rounded-lg border border-zinc-800 shadow" src="/assets/images/blog/giveaway/twitch_points.webp" alt="twitch points">
@@ -292,6 +293,30 @@ const postMarkdowns = [
 - Illetve skineket olyan módon is  ki tudsz váltani, hogy ha már tagja vagy a szervernek akkor értesítést kapsz a twitch liveokról amelyeket ha nézel cserébe pontokat kapsz.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Ezekből a pontokból tudsz különféle fegyver kinézeteket kiváltani.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+`,
+  },
+  {
+    title: "AWP Szerver",
+    content: `
+![awp szerver](/assets/images/blog/awpserver/awpserver.webp)
+
+### Miért érdemes játszani az AWP szerveren?
+
+- Izgalmas Játékmenet: A szerveren kifejezetten az AWP szerelmeseinek készült, ahol minden meccs tele van adrenalinlöketekkel és izgalmas pillanatokkal. Tökéletes hely a mesterlövész képességeid fejlesztésére és az ellenfelek kihívására.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Aktív Közösség: Csatlakozz egy barátságos és támogató közösséghez, ahol találkozhatsz másokkal és együtt játszhattok. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Kihívások és Versenyek: Rendszeresen szervezek kihívásokat és versenyeket, ahol megmutathatod, mennyire vagy profi az AWP használatában. Gyűjtsd a pontokat, nyerj díjakat és légy a szerver legjobbja!
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Változatos és egyedi mapok: Játssz változatos és egyedi pályákon, amelyek minden alkalommal friss és izgalmas élményt nyújtanak!
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Bármilyen skin elérhető: Élvezd a lehetőséget, hogy bármilyen skint használhass, és tedd egyedivé játékmenetedet! 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Skinek beállításához írd be a chatre !ws majd menj a weboldalra, lépj be és válassz ki bármilyen skint, ha sikerült ird be a chatbe, hogy !wp 
+  https://www.evertsonservers.com/ws/
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Folyamatos Frissítések: Szerverünk folyamatosan frissül új tartalmakkal és fejlesztésekkel, hogy mindig a legjobb élményt nyújtsa a játékosok számára. Nálunk soha nem unalmas a játék!
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },

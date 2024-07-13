@@ -3,6 +3,7 @@ import postMarkdowns from "./postMarkdowns";
 import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
 import scam from "/public/assets/images/blog/scam/scam.webp";
 import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
+import awpserver from "/public/assets/images/blog/awpserver/awpserver.webp";
 
 interface Post {
   slug: string;
@@ -40,6 +41,15 @@ export const getAllPosts = (): Post[] => {
         postMarkdowns.find((post) => post.title === "Nyereményjátékok")
           ?.content || "",
       summary: "Vegyél részt a nyereményjátékokon!",
+    },
+    {
+      slug: "awp-szerver",
+      title: "AWP Szerver",
+      src: awpserver,
+      content:
+        postMarkdowns.find((post) => post.title === "AWP Szerver")?.content ||
+        "",
+      summary: "Játssz az AWP szerveren!",
     },
   ];
 };
