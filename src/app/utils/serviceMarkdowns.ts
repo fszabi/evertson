@@ -283,6 +283,22 @@ const serviceMarkdowns = [
 - A mentoráció az alábbi linken érhető el:
   https://whop.com/checkout/plan_Uxd1MFHUqL0J8?d2c=true
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### Eddigi eredményeim
+
+- Lassan 2 év alatt több mint 500.000 euró értékben adtam el CS2 skineket.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Rengeteget kereskedem igazából és eléggé jól megismertem a piacot és a benne rejlő lehetőségeket. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">  
+- Több mint 10 oldalon kereskedem de ezek mellett számtalan üzletet kötök banki utalással és cryptovalutával.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+![bevetel 1](/assets/images/services/cs2_tanfolyam/income_1.webp)
+![bevetel 2](/assets/images/services/cs2_tanfolyam/income_2.webp)
+![bevetel 3](/assets/images/services/cs2_tanfolyam/income_3.webp)
+<img width="500" height="500" className="max-h-[600px] w-full object-cover object-top rounded-lg border border-zinc-800 shadow" src="/assets/images/services/cs2_tanfolyam/income_4.jpg" alt="bevetel 4">
+<img width="500" height="500" className="max-h-[600px] w-full object-cover object-top rounded-lg border border-zinc-800 shadow" src="/assets/images/services/cs2_tanfolyam/income_5.jpg" alt="bevetel 5">
+![bevetel 6](/assets/images/services/cs2_tanfolyam/income_6.png)
 `,
   },
 ];

@@ -303,6 +303,14 @@ const postMarkdowns = [
 
 ### Miért érdemes játszani az AWP szerveren?
 
+<iframe
+  className="mx-auto rounded-lg w-full h-[50vh]"
+  src="https://www.youtube.com/embed/VES6dBhg-xA?si=Xy2fouTiEtB-0Jtt"
+  title="AWP Szerver Klip"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 - Izgalmas Játékmenet: A szerveren kifejezetten az AWP szerelmeseinek készült, ahol minden meccs tele van adrenalinlöketekkel és izgalmas pillanatokkal. Tökéletes hely a mesterlövész képességeid fejlesztésére és az ellenfelek kihívására.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Aktív Közösség: Csatlakozz egy barátságos és támogató közösséghez, ahol találkozhatsz másokkal és együtt játszhattok. 
