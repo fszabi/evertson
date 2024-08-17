@@ -241,7 +241,7 @@ const serviceMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - [GGBet](https://ggbetpro.com/l/66601f6f577465cd7f0db2c8) - Fogadó oldal, legjobb oddsok, sokszínű meccs palettával.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- [CSGOFast](https://csgofast.com/?ref=betmemes) - Kaszinó, akár skinekkel is tudsz balancet tölteni.
+- [500 Casino](https://500.casino/r/REF8983OEYBG08SZ) - Kaszinó, akár skinekkel is tudsz balancet tölteni.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },
