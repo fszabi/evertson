@@ -58,7 +58,7 @@ const Table = async () => {
                 <td className="py-3 px-6">{affiliate.user.username}</td>
                 <td className="py-3 px-6">
                   <Image
-                    src={affiliate.user.avatarUrl}
+                    src={affiliate.user.avatarUrl || ""}
                     alt={affiliate.username}
                     width={50}
                     height={50}
@@ -80,13 +80,7 @@ const Table = async () => {
           target="_blank"
           className="h-fit hover:opacity-60 transition-opacity"
         >
-          <Image
-            className=""
-            src={skinrave}
-            alt="Skinrave"
-            width={300}
-            height={100}
-          />
+          <Image src={skinrave} alt="Skinrave" width={300} height={100} />
         </Link>
       </div>
     </div>
