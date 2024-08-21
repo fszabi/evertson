@@ -8,7 +8,6 @@ import gamerpay from "/public/assets/images/sites/gamerpay.png";
 import ggbet from "/public/assets/images/sites/ggbet.webp";
 import pricempire from "/public/assets/images/sites/pricempire.png";
 import skinflow from "/public/assets/images/sites/skinflow.svg";
-import skinrave from "/public/assets/images/sites/skinrave.png";
 import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
 import waxpeer from "/public/assets/images/sites/waxpeer.webp";
 import whitemarket from "/public/assets/images/sites/whitemarket.png";
@@ -30,7 +29,6 @@ const tradeSites = [
     image: cs_float,
     url: "https://csfloat.com/ref/evertson",
   },
-
   {
     name: "BUFF163",
     image: buff163,
@@ -60,11 +58,6 @@ const tradeSites = [
     name: "GGBET",
     image: ggbet,
     url: "https://ggbetpro.com/l/66601f6f577465cd7f0db2c8",
-  },
-  {
-    name: "Skinrave",
-    image: skinrave,
-    url: "/skinrave",
   },
   {
     name: "HaloSkins",
