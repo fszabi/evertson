@@ -12,6 +12,10 @@ import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
 import waxpeer from "/public/assets/images/sites/waxpeer.webp";
 import whitemarket from "/public/assets/images/sites/whitemarket.png";
 import haloskins from "/public/assets/images/sites/haloskins.png";
+import skinswap from "/public/assets/images/sites/skinswap.webp";
+import rapidskins from "/public/assets/images/sites/rapidskins.webp";
+import swapgg from "/public/assets/images/sites/swapgg.png";
+import shadowpay from "/public/assets/images/sites/shadowpay.webp";
 
 const tradeSites = [
   {
@@ -73,6 +77,26 @@ const tradeSites = [
     name: "Whitemarket",
     image: whitemarket,
     url: "https://white.market/invite/d811a7b4b3e50f37",
+  },
+  {
+    name: "SkinSwap",
+    image: skinswap,
+    url: "https://skinswap.com/r/evertson01",
+  },
+  {
+    name: "Rapidskins",
+    image: rapidskins,
+    url: "https://rapidskins.com/a/evertson01",
+  },
+  {
+    name: "Swap.gg",
+    image: swapgg,
+    url: "https://swap.gg/?r=jxjkUxNdxL",
+  },
+  {
+    name: "ShadowPay",
+    image: shadowpay,
+    url: "https://shadowpay.com/?utm_campaign=ybovAaEWac6HoGr",
   },
 ];
 
