@@ -382,6 +382,14 @@ const postMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 ![counter strike](/assets/images/blog/story/counter_strike.webp)
+
+<iframe
+  className="mx-auto rounded-lg w-full h-[50vh]"
+  src="https://www.youtube.com/embed/R2MrjCrgqWo?si=s6FL6kiFVs66Y3Xk"
+  title="Evertson On Top Klip"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 `,
   },
 ];
