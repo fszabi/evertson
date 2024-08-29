@@ -69,16 +69,6 @@ const tradeSites = [
     url: "https://www.haloskins.com/?channelCode=evertson",
   },
   {
-    name: "Priceempire",
-    image: pricempire,
-    url: "https://pricempire.com/?r=76561199021366803",
-  },
-  {
-    name: "Whitemarket",
-    image: whitemarket,
-    url: "https://white.market/invite/d811a7b4b3e50f37",
-  },
-  {
     name: "SkinSwap",
     image: skinswap,
     url: "https://skinswap.com/r/evertson01",
@@ -97,6 +87,16 @@ const tradeSites = [
     name: "ShadowPay",
     image: shadowpay,
     url: "https://shadowpay.com/?utm_campaign=ybovAaEWac6HoGr",
+  },
+  {
+    name: "Priceempire",
+    image: pricempire,
+    url: "https://pricempire.com/?r=76561199021366803",
+  },
+  {
+    name: "Whitemarket",
+    image: whitemarket,
+    url: "https://white.market/invite/d811a7b4b3e50f37",
   },
 ];
 

@@ -15,11 +15,12 @@ const paymentMethods = ["Kriptovaluta", "Revolut", "Banki átutalás"];
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
+    nev: "",
     email: "",
-    "social-profile": "",
-    "steam-profile": "",
-    message: "",
+    "kozossegi-profil": "",
+    "steam-profil": "",
+    honnanismersz: "",
+    uzenet: "",
     "Skin Eladás": false,
     "Trade-Up": false,
     Fogadás: false,
@@ -81,11 +82,12 @@ const ContactForm = () => {
       })
       .then((data) => {
         setFormData({
-          name: "",
+          nev: "",
           email: "",
-          "social-profile": "",
-          "steam-profile": "",
-          message: "",
+          "kozossegi-profil": "",
+          "steam-profil": "",
+          uzenet: "",
+          honnanismersz: "",
           "Skin Eladás": false,
           "Trade-Up": false,
           Fogadás: false,
@@ -134,7 +136,7 @@ const ContactForm = () => {
                 name="name"
                 id="name"
                 autoComplete="given-name"
-                value={formData.name}
+                value={formData.nev}
                 onChange={handleInput}
                 className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
               />
@@ -172,7 +174,7 @@ const ContactForm = () => {
                 type="text"
                 name="social-profile"
                 id="social-profile"
-                value={formData["social-profile"]}
+                value={formData["kozossegi-profil"]}
                 onChange={handleInput}
                 required
                 className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
@@ -191,9 +193,27 @@ const ContactForm = () => {
                 type="text"
                 name="steam-profile"
                 id="steam-profile"
-                value={formData["steam-profile"]}
+                value={formData["steam-profil"]}
                 onChange={handleInput}
                 required
+                className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              />
+            </div>
+          </div>
+          <div className="col-span-2">
+            <label
+              htmlFor="where-did-you-hear-about-me"
+              className="block text-sm font-semibold leading-6"
+            >
+              Honnan hallottál rólam?
+            </label>
+            <div className="mt-2.5">
+              <textarea
+                name="where-did-you-hear-about-me"
+                id="where-did-you-hear-about-me"
+                value={formData.honnanismersz}
+                onChange={handleTextArea}
+                rows={4}
                 className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
               />
             </div>
@@ -209,7 +229,7 @@ const ContactForm = () => {
               <textarea
                 name="message"
                 id="message"
-                value={formData.message}
+                value={formData.uzenet}
                 onChange={handleTextArea}
                 rows={4}
                 className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"

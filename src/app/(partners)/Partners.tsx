@@ -3,6 +3,7 @@ import borsdia from "/public/assets/images/partners/borsdia.webp";
 import benccce from "/public/assets/images/partners/benccce.webp";
 import ibally from "/public/assets/images/partners/ibally.webp";
 import negroacsaszar from "/public/assets/images/partners/negroacsaszar.webp";
+import karthas from "/public/assets/images/partners/karthas.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -27,6 +28,11 @@ const partners = [
     image: negroacsaszar,
     twitch: "https://www.twitch.tv/negroacsaszar",
   },
+  {
+    name: "Karthas",
+    image: karthas,
+    twitch: "https://www.twitch.tv/karthas",
+  },
 ];
 
 const Partners = () => {
@@ -34,7 +40,7 @@ const Partners = () => {
     <section id="partnerek" className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 space-y-14">
         <h2 className="text-center leading-8">Partnerek</h2>
-        <div className="grid grid-cols-1 min-[400px]:grid-cols-[repeat(auto-fit,_minmax(15rem,_1fr))] gap-x-8 gap-y-20 place-items-center">
+        <div className="grid grid-cols-1 min-[400px]:grid-cols-[repeat(auto-fit,_minmax(10rem,_1fr))] gap-x-8 gap-y-20 place-items-center">
           {partners.map((partner) => (
             <Link
               key={partner.name}

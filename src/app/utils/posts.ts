@@ -4,6 +4,8 @@ import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
 import scam from "/public/assets/images/blog/scam/scam.webp";
 import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
 import awpserver from "/public/assets/images/blog/awpserver/awpserver.webp";
+import onevsoneserver from "/public/assets/images/blog/onevsoneserver/onevsoneserver.webp";
+import story from "/public/assets/images/blog/story/story.png";
 
 interface Post {
   slug: string;
@@ -50,6 +52,23 @@ export const getAllPosts = (): Post[] => {
         postMarkdowns.find((post) => post.title === "AWP Szerver")?.content ||
         "",
       summary: "Játssz az AWP szerveren!",
+    },
+    {
+      slug: "1v1-szerver",
+      title: "1v1 Szerver",
+      src: onevsoneserver,
+      content:
+        postMarkdowns.find((post) => post.title === "1v1 Szerver")?.content ||
+        "",
+      summary: "Hamarosan...",
+    },
+    {
+      slug: "rolam",
+      title: "Rólam",
+      src: story,
+      content:
+        postMarkdowns.find((post) => post.title === "Rólam")?.content || "",
+      summary: "Ismerj meg engem!",
     },
   ];
 };
