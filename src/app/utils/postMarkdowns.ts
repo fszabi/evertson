@@ -326,6 +326,12 @@ const postMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Folyamatos Frissítések: Szerverünk folyamatosan frissül új tartalmakkal és fejlesztésekkel, hogy mindig a legjobb élményt nyújtsa a játékosok számára. Nálunk soha nem unalmas a játék!
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+### Hogyan csatlakozz az AWP szerverhez?
+
+- Az AWP szerverhez való csatlakozáshoz kattints az alábbi linkre:
+  https://cs2browser.com/gameserver/151083/hun-evertson-awp/
+
 `,
   },
   {
