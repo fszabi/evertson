@@ -329,7 +329,7 @@ const postMarkdowns = [
 
 ### Hogyan csatlakozz az AWP szerverhez?
 
-- Az AWP szerverhez való csatlakozáshoz kattints az alábbi linkre:
+- A csatlakozáshoz kattints az alábbi linkre:
   https://cs2browser.com/gameserver/151083/hun-evertson-awp/
 
 `,
