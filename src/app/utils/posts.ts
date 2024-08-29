@@ -18,6 +18,14 @@ interface Post {
 export const getAllPosts = (): Post[] => {
   return [
     {
+      slug: "rolam",
+      title: "Rólam",
+      src: story,
+      content:
+        postMarkdowns.find((post) => post.title === "Rólam")?.content || "",
+      summary: "Hogyan kezdtem a kereskedést?",
+    },
+    {
       slug: "trade-alapok",
       title: "Trade Alapok",
       src: tradeguide,
@@ -61,14 +69,6 @@ export const getAllPosts = (): Post[] => {
         postMarkdowns.find((post) => post.title === "1v1 Szerver")?.content ||
         "",
       summary: "Hamarosan...",
-    },
-    {
-      slug: "rolam",
-      title: "Rólam",
-      src: story,
-      content:
-        postMarkdowns.find((post) => post.title === "Rólam")?.content || "",
-      summary: "Ismerj meg engem!",
     },
   ];
 };
