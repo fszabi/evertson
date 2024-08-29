@@ -130,7 +130,7 @@ const postMarkdowns = [
 ![gold gem](/assets/images/blog/tradeguide/gold_gem.webp)
 - A Gold gemeket ezen az oldalon tudod megnézni:
   https://broskins.com/index.php?threads/case-hardened-gold-gem-guide-patterns.276/
- <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/karambit.webp" alt="karambit icon">
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/karambit.webp" alt="karambit icon">
 
 ### Marble fade, fade és dopplerek
 
@@ -331,7 +331,7 @@ const postMarkdowns = [
 
 - A csatlakozáshoz kattints az alábbi linkre:
   https://cs2browser.com/gameserver/151083/hun-evertson-awp/
-
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },
   {
