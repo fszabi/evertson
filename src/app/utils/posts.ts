@@ -71,16 +71,6 @@ export const getAllPosts = (): Post[] => {
         "",
       summary: "Hamarosan...",
     },
-    {
-      slug: "nyeremenyjatek-1",
-      title: "3D AK-47 Gold Arabesque Nyereményjáték",
-      src: giveaway_1,
-      content:
-        postMarkdowns.find(
-          (post) => post.title === "3D AK-47 Gold Arabesque Nyereményjáték"
-        )?.content || "",
-      summary: "Vegyél részt a nyereményjátékon!",
-    },
   ];
 };
 

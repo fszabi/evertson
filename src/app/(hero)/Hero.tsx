@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import hero2 from "/public/assets/images/hero2.webp";
 import discord from "/public/assets/images/discord.webp";
+import giveaway_1 from "/public/assets/images/giveaway_1.webp";
 
 const Hero = () => {
   return (
@@ -32,19 +33,18 @@ const Hero = () => {
             />
             Csatlakozz a Discord szerverre
           </Link>
-          {/* <Link
-            className="e-widget"
-            href="https://gleam.io/3L0tt/awp-dragon-lore"
-            rel="nofollow"
-          >
-            AWP Dragon Lore
-          </Link> */}
         </div>
 
-        <Image
+        {/* <Image
           className="object-cover shadow rounded-lg w-full max-lg:max-h-[60vh] max-lg:w-auto"
           src={hero2}
           alt="hero kép"
+        /> */}
+
+        <Image
+          className="object-cover shadow rounded-lg w-full max-lg:max-h-[60vh] max-lg:w-auto mb-auto"
+          src={giveaway_1}
+          alt="3d ak-47 gold arabesque"
         />
       </div>
       {/* <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center overflow-hidden">

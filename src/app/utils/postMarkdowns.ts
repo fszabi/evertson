@@ -398,17 +398,6 @@ const postMarkdowns = [
 ### Hamarosan...
 `,
   },
-  {
-    title: "3D AK-47 Gold Arabesque Nyereményjáték",
-    content: `
-![ak47 gold arabesque](/assets/images/blog/giveaway_1/giveaway_1.webp)
-
-### Hogyan vehetsz részt a nyereményjátékban?
-
-- A nyereményjátékra az alábbi linken tudsz jelentkezni: [https://gleam.io/3L0tt/awp-dragon-lore](https://gleam.io/3L0tt/awp-dragon-lore)
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-`,
-  },
 ];
 
 export default postMarkdowns;
