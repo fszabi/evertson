@@ -32,6 +32,13 @@ const Hero = () => {
             />
             Csatlakozz a Discord szerverre
           </Link>
+          {/* <Link
+            className="e-widget"
+            href="https://gleam.io/3L0tt/awp-dragon-lore"
+            rel="nofollow"
+          >
+            AWP Dragon Lore
+          </Link> */}
         </div>
 
         <Image

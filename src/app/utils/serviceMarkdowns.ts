@@ -281,7 +281,7 @@ const serviceMarkdowns = [
 - A tanfolyamhoz tartozik egy privát csoport ahol folyamatosan kérdezhetsz tőlem bármennyit illetve én is folyamatosan számon kérlek.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - A mentoráció az alábbi linken érhető el:
-  https://whop.com/checkout/plan_Uxd1MFHUqL0J8?d2c=true
+  https://whop.com/checkout/plan_IgLpdurD6TMxI?d2c=true
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 ### Eddigi eredményeim
