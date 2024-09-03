@@ -1,5 +1,61 @@
 const postMarkdowns = [
   {
+    title: "Rólam",
+    content: `
+![story](/assets/images/blog/story/story.png)
+
+### Hogyan kezdtem a kereskedést?
+
+- Röviden elkezdtem skineket vásárolni és próbáltam kereskedni velük ami az elején nem igazán jött össze mivel buktam rajta. Lényegében nagyon gyorsan felismertem, hogy ez egy egyszerű piac ahol a kitartás a kulcsa mindennek. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Régebben szerettem sokat játszani főleg MTA-val, többek között a SeeMTA-val amit talán 2014-ben kezdtem és ott kezdődött elsősorban a kereskedés.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Manapság nagyon felkapott a SeeMTA így szerintem mindenki ismeri a játék lényegét. Adott egy karakter aminek te döntöd el sorsát, tehát valamit RP-zned kell, civil, maffia, rendőr, banda tag, stb., nos én kereskedőt RP-ztem.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Mondhatni SeeMTA-n tanultam meg kereskedni és azt fejlesztettem tovább. Autókkal, házakkal, fegyverekkel kereskedtem a játékon belül, ami kifejezetten jól ment.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Jason R Evertson-ként ismertek meg a játékosok és ebből maradt meg az evertson név, ami jelenleg is a nevem steamen. Tehát innen van ez a név is, lényegében nem hangzik rosszul tehát valószínűleg ez is fog maradni.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+![seemta](/assets/images/blog/story/seemta.webp)
+
+- Ezután egy online böngészős városépítős játékkal is játszottam amiben szintén kereskedtem. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- A játék az a Forge of Empires volt viszont itt tilos a kereskedelem ezért kitiltottak mert túl messzire mentem és nagyon magas szinten szerettem volna kereskedni. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Felhalmoztam 8.000-10.000 eurós “raktárat, accountokat” majd megvettem a magyar facebook csoportot és elkezdtem hirdetni ezeket a tárgyakat. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Több 100 reportot kaptam mivel itt az átlag játékos nincs hozzászokva ahhoz, hogy egy játékra pénzt költsön és egyszerűen csak jelentettek. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+![forge of empires 1](/assets/images/blog/story/forge_of_empires_1.webp)
+![forge of empires 2](/assets/images/blog/story/forge_of_empires_2.webp)
+
+- Viszont nem vesztettem el mindent mivel 2.000 euróm maradt és keresnem kellett egy olyan játékot ahol a kereskedelem elfogadott és akár globális szinten is lehetséges.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- A Counter Strike az egyetlen játék amiben hamarabb kezdtem el kereskedni, mint játszani a játékkal. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Rövid időn belül építettem fel ezt az egészet amit most láttok, valószínűleg azért mert már rendelkeztem egy megfelelő tapasztalattal, tudással. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Mivel mindig is az volt a célom az adott játékban amivel játszottam, hogy én legyek az egyik leggazdagabb ezért rájöttem arra, hogy ha egy játékban sikerül meggazdagodni akkor az sikerül a valóságban is és igazam lett.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Természetesen rengeteg üzleti könyvet olvastam az évek során, pontosabban 70 darabot ami szerintem sokat segített. 
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+- Manapság pedig én vagyok az egyik legismertebb magyar kereskedő ha nem a legismertebb.
+  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
+
+![counter strike](/assets/images/blog/story/counter_strike.webp)
+
+<iframe
+  className="mx-auto rounded-lg w-full h-[50vh]"
+  src="https://www.youtube.com/embed/R2MrjCrgqWo?si=s6FL6kiFVs66Y3Xk"
+  title="Evertson On Top Klip"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+`,
+  },
+  {
     title: "Trade Alapok",
     content: `
 ![trading](/assets/images/blog/tradeguide/tradeguide.webp)
@@ -343,59 +399,14 @@ const postMarkdowns = [
 `,
   },
   {
-    title: "Rólam",
+    title: "3D AK-47 Gold Arabesque Nyereményjáték",
     content: `
-![story](/assets/images/blog/story/story.png)
+![ak47 gold arabesque](/assets/images/blog/giveaway_1/giveaway_1.webp)
 
-### Hogyan kezdtem a kereskedést?
+### Hogyan vehetsz részt a nyereményjátékban?
 
-- Röviden elkezdtem skineket vásárolni és próbáltam kereskedni velük ami az elején nem igazán jött össze mivel buktam rajta. Lényegében nagyon gyorsan felismertem, hogy ez egy egyszerű piac ahol a kitartás a kulcsa mindennek. 
+- A nyereményjátékra az alábbi linken tudsz jelentkezni: [https://gleam.io/3L0tt/awp-dragon-lore](https://gleam.io/3L0tt/awp-dragon-lore)
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Régebben szerettem sokat játszani főleg MTA-val, többek között a SeeMTA-val amit talán 2014-ben kezdtem és ott kezdődött elsősorban a kereskedés.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Manapság nagyon felkapott a SeeMTA így szerintem mindenki ismeri a játék lényegét. Adott egy karakter aminek te döntöd el sorsát, tehát valamit RP-zned kell, civil, maffia, rendőr, banda tag, stb., nos én kereskedőt RP-ztem.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Mondhatni SeeMTA-n tanultam meg kereskedni és azt fejlesztettem tovább. Autókkal, házakkal, fegyverekkel kereskedtem a játékon belül, ami kifejezetten jól ment.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Jason R Evertson-ként ismertek meg a játékosok és ebből maradt meg az evertson név, ami jelenleg is a nevem steamen. Tehát innen van ez a név is, lényegében nem hangzik rosszul tehát valószínűleg ez is fog maradni.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-
-![seemta](/assets/images/blog/story/seemta.webp)
-
-- Ezután egy online böngészős városépítős játékkal is játszottam amiben szintén kereskedtem. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- A játék az a Forge of Empires volt viszont itt tilos a kereskedelem ezért kitiltottak mert túl messzire mentem és nagyon magas szinten szerettem volna kereskedni. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Felhalmoztam 8.000-10.000 eurós “raktárat, accountokat” majd megvettem a magyar facebook csoportot és elkezdtem hirdetni ezeket a tárgyakat. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Több 100 reportot kaptam mivel itt az átlag játékos nincs hozzászokva ahhoz, hogy egy játékra pénzt költsön és egyszerűen csak jelentettek. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-
-![forge of empires 1](/assets/images/blog/story/forge_of_empires_1.webp)
-![forge of empires 2](/assets/images/blog/story/forge_of_empires_2.webp)
-
-- Viszont nem vesztettem el mindent mivel 2.000 euróm maradt és keresnem kellett egy olyan játékot ahol a kereskedelem elfogadott és akár globális szinten is lehetséges.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- A Counter Strike az egyetlen játék amiben hamarabb kezdtem el kereskedni, mint játszani a játékkal. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Rövid időn belül építettem fel ezt az egészet amit most láttok, valószínűleg azért mert már rendelkeztem egy megfelelő tapasztalattal, tudással. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Mivel mindig is az volt a célom az adott játékban amivel játszottam, hogy én legyek az egyik leggazdagabb ezért rájöttem arra, hogy ha egy játékban sikerül meggazdagodni akkor az sikerül a valóságban is és igazam lett.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Természetesen rengeteg üzleti könyvet olvastam az évek során, pontosabban 70 darabot ami szerintem sokat segített. 
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Manapság pedig én vagyok az egyik legismertebb magyar kereskedő ha nem a legismertebb.
-  <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-
-![counter strike](/assets/images/blog/story/counter_strike.webp)
-
-<iframe
-  className="mx-auto rounded-lg w-full h-[50vh]"
-  src="https://www.youtube.com/embed/R2MrjCrgqWo?si=s6FL6kiFVs66Y3Xk"
-  title="Evertson On Top Klip"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
 `,
   },
 ];

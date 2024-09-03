@@ -6,6 +6,7 @@ import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
 import awpserver from "/public/assets/images/blog/awpserver/awpserver.webp";
 import onevsoneserver from "/public/assets/images/blog/onevsoneserver/onevsoneserver.webp";
 import story from "/public/assets/images/blog/story/story.png";
+import giveaway_1 from "/public/assets/images/blog/giveaway_1/giveaway_1.webp";
 
 interface Post {
   slug: string;
@@ -69,6 +70,16 @@ export const getAllPosts = (): Post[] => {
         postMarkdowns.find((post) => post.title === "1v1 Szerver")?.content ||
         "",
       summary: "Hamarosan...",
+    },
+    {
+      slug: "nyeremenyjatek-1",
+      title: "3D AK-47 Gold Arabesque Nyereményjáték",
+      src: giveaway_1,
+      content:
+        postMarkdowns.find(
+          (post) => post.title === "3D AK-47 Gold Arabesque Nyereményjáték"
+        )?.content || "",
+      summary: "Vegyél részt a nyereményjátékon!",
     },
   ];
 };
