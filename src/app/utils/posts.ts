@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
 import postMarkdowns from "./postMarkdowns";
-import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
-import scam from "/public/assets/images/blog/scam/scam.webp";
-import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
 import awpserver from "/public/assets/images/blog/awpserver/awpserver.webp";
+import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
 import onevsoneserver from "/public/assets/images/blog/onevsoneserver/onevsoneserver.webp";
+import publicserver from "/public/assets/images/blog/publicserver/publicserver.webp";
+import scam from "/public/assets/images/blog/scam/scam.webp";
 import story from "/public/assets/images/blog/story/story.png";
-import giveaway_1 from "/public/assets/images/blog/giveaway_1/giveaway_1.webp";
+import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
 
 interface Post {
   slug: string;
@@ -69,6 +69,15 @@ export const getAllPosts = (): Post[] => {
       content:
         postMarkdowns.find((post) => post.title === "1v1 Szerver")?.content ||
         "",
+      summary: "Hamarosan...",
+    },
+    {
+      slug: "public-szerver",
+      title: "Public Szerver",
+      src: publicserver,
+      content:
+        postMarkdowns.find((post) => post.title === "Public Szerver")
+          ?.content || "",
       summary: "Hamarosan...",
     },
   ];
