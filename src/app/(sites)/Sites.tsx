@@ -90,7 +90,7 @@ const tradeSites = [
     url: "https://shadowpay.com/?utm_campaign=ybovAaEWac6HoGr",
   },
   {
-    name: "BitSkinst",
+    name: "BitSkins",
     image: bitskins,
     url: "https://bitskins.com/?ref_alias=evertson01",
   },
