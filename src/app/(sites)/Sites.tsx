@@ -1,21 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
+import bitskins from "/public/assets/images/sites/bitskins.svg";
 import buff163 from "/public/assets/images/sites/buff163.png";
 import casino_500 from "/public/assets/images/sites/casino_500.webp";
 import cs_float from "/public/assets/images/sites/cs_float.webp";
 import cs_money from "/public/assets/images/sites/cs_money.svg";
 import gamerpay from "/public/assets/images/sites/gamerpay.png";
 import ggbet from "/public/assets/images/sites/ggbet.webp";
+import haloskins from "/public/assets/images/sites/haloskins.png";
 import pricempire from "/public/assets/images/sites/pricempire.png";
+import rapidskins from "/public/assets/images/sites/rapidskins.webp";
+import shadowpay from "/public/assets/images/sites/shadowpay.webp";
 import skinflow from "/public/assets/images/sites/skinflow.svg";
+import skinswap from "/public/assets/images/sites/skinswap.webp";
+import swapgg from "/public/assets/images/sites/swapgg.png";
 import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
 import waxpeer from "/public/assets/images/sites/waxpeer.webp";
 import whitemarket from "/public/assets/images/sites/whitemarket.png";
-import haloskins from "/public/assets/images/sites/haloskins.png";
-import skinswap from "/public/assets/images/sites/skinswap.webp";
-import rapidskins from "/public/assets/images/sites/rapidskins.webp";
-import swapgg from "/public/assets/images/sites/swapgg.png";
-import shadowpay from "/public/assets/images/sites/shadowpay.webp";
 
 const tradeSites = [
   {
@@ -87,6 +88,11 @@ const tradeSites = [
     name: "ShadowPay",
     image: shadowpay,
     url: "https://shadowpay.com/?utm_campaign=ybovAaEWac6HoGr",
+  },
+  {
+    name: "BitSkins",
+    image: bitskins,
+    url: "https://bitskins.com/?ref_alias=evertson01",
   },
   {
     name: "Priceempire",
