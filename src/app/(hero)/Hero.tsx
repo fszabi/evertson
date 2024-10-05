@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import hero2 from "/public/assets/images/hero2.webp";
 import discord from "/public/assets/images/discord.webp";
-import giveaway_1 from "/public/assets/images/giveaway_1.webp";
+import hero from "/public/assets/images/hero.webp";
 
 const Hero = () => {
   return (
@@ -35,47 +34,12 @@ const Hero = () => {
           </Link>
         </div>
 
-        {/* <Image
-          className="object-cover shadow rounded-lg w-full max-lg:max-h-[60vh] max-lg:w-auto"
-          src={hero2}
-          alt="hero kép"
-        /> */}
-
         <Image
-          className="object-cover shadow rounded-lg w-full max-lg:max-h-[60vh] max-lg:w-auto mb-auto"
-          src={giveaway_1}
-          alt="3d ak-47 gold arabesque"
+          className="object-cover shadow rounded-lg w-full max-lg:max-h-[60vh]"
+          src={hero}
+          alt="hero kép"
         />
       </div>
-      {/* <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center overflow-hidden">
-        
-        <header className="space-y-5">
-          <h1>Evertson Trade</h1>
-          <p className="max-w-xl mx-auto text-xl font-medium text-zinc-300">
-            Fedezd fel a legnagyobb magyar Counter Strike 2 trading platformot.
-            Akár vásárolni, eladni vagy cserélni szeretnél, szolgáltatásaink
-            zökkenőmentesek és biztonságosak.
-          </p>
-          <Link
-            href="#kapcsolat"
-            className="block w-fit mx-auto bg-red-600 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
-          >
-            Kapcsolatfelvétel
-          </Link>
-        </header>
-        <div className="flex justify-between">
-          <Image
-            className="animate-hover"
-            src={ak47_nightwish}
-            alt="ak47 nightwish"
-          />
-          <Image
-            className="animate-hover-2"
-            src={m9_marble}
-            alt="m9 bayonet marble fade"
-          />
-        </div>
-      </div> */}
     </section>
   );
 };
