@@ -7,6 +7,11 @@
     @apply box-border;
   }
 
+  *,
+  *:hover {
+    scrollbar-color: auto;
+  }
+
   *::-webkit-scrollbar {
     @apply bg-zinc-800 w-2 h-2;
   }

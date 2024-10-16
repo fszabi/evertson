@@ -355,7 +355,7 @@ const postMarkdowns = [
   {
     title: "AWP Szerver",
     content: `
-![awp szerver](/assets/images/blog/awpserver/awpserver.webp)
+![awp szerver](/assets/images/blog/awpserver/awpserver.png)
 
 ### Miért érdemes játszani az AWP szerveren?
 
@@ -393,7 +393,7 @@ const postMarkdowns = [
   {
     title: "1v1 Szerver",
     content: `
-![onevsoneserver](/assets/images/blog/onevsoneserver/onevsoneserver.webp)
+![onevsoneserver](/assets/images/blog/onevsoneserver/onevsoneserver.png)
 
 ### Hamarosan...
 `,
@@ -401,7 +401,7 @@ const postMarkdowns = [
   {
     title: "Public Szerver",
     content: `
-![publicserver](/assets/images/blog/publicserver/publicserver.webp)
+![publicserver](/assets/images/blog/publicserver/publicserver.png)
     
 ### Hamarosan...
 `,

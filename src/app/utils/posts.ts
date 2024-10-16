@@ -1,9 +1,9 @@
 import { StaticImageData } from "next/image";
 import postMarkdowns from "./postMarkdowns";
-import awpserver from "/public/assets/images/blog/awpserver/awpserver.webp";
+import awpserver from "/public/assets/images/blog/awpserver/awpserver.png";
 import giveaway from "/public/assets/images/blog/giveaway/giveaway.webp";
-import onevsoneserver from "/public/assets/images/blog/onevsoneserver/onevsoneserver.webp";
-import publicserver from "/public/assets/images/blog/publicserver/publicserver.webp";
+import onevsoneserver from "/public/assets/images/blog/onevsoneserver/onevsoneserver.png";
+import publicserver from "/public/assets/images/blog/publicserver/publicserver.png";
 import scam from "/public/assets/images/blog/scam/scam.webp";
 import story from "/public/assets/images/blog/story/story.png";
 import tradeguide from "/public/assets/images/blog/tradeguide/tradeguide.webp";
