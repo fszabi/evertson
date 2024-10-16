@@ -353,7 +353,7 @@ const postMarkdowns = [
 `,
   },
   {
-    title: "AWP Szerverr",
+    title: "AWP Szerver",
     content: `
 ![awp szerver](/assets/images/blog/awpserver/awpserver.png)
 
