@@ -270,8 +270,7 @@ const serviceMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Ha szeretnél játszva pénzt keresni csak abban az esetben keress mivel az élet egy játék és én a legmagasabb szinten játszok!
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- A tanfolyam az alábbi linken érhető el:
-  https://whop.com/checkout/d00QLTqFUrW7xpGsF-v2wR-TSy7-GYCN-EJZrfsBnual6
+- A tanfolyam ára 300 euró.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 ### Mentoráció
@@ -280,8 +279,7 @@ const serviceMarkdowns = [
 
 - A tanfolyamhoz tartozik egy privát csoport ahol folyamatosan kérdezhetsz tőlem bármennyit illetve én is folyamatosan számon kérlek.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- A mentoráció az alábbi linken érhető el:
-  https://whop.com/checkout/plan_IgLpdurD6TMxI?d2c=true
+- A mentoráció ára havonta 50 euró.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 
 ### Eddigi eredményeim
