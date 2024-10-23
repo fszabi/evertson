@@ -23,13 +23,18 @@ const links = [
     href: "#szerverek",
   },
   {
-    name: "Büntetések",
-    href: "https://evertsonservers.com/bans",
+    name: "Rangok",
+    href: "https://evertson.tebex.io/category/rang-vasarlas",
     blank: true,
   },
   {
-    name: "Rangok",
-    href: "https://evertson.tebex.io/category/rang-vasarlas",
+    name: "Skinek",
+    href: "https://www.evertsonservers.com/ws/",
+    blank: true,
+  },
+  {
+    name: "Büntetések",
+    href: "https://evertsonservers.com/bans",
     blank: true,
   },
 ];
