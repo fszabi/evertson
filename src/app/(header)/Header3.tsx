@@ -20,7 +20,7 @@ const links = [
   },
   {
     name: "Szerverek",
-    href: "#szervereks",
+    href: "#szerverek",
   },
   {
     name: "Büntetések",
