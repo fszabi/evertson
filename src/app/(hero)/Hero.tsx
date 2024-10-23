@@ -5,7 +5,7 @@ import hero from "/public/assets/images/hero.webp";
 
 const Hero = () => {
   return (
-    <section id="hero" className="py-28">
+    <section className="py-28">
       <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 items-center max-w-7xl px-6 lg:px-8 mx-auto max-lg:space-y-20">
         <div className="space-y-8">
           <h1>Evertson Trade</h1>
@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
           <Link
             href="#kapcsolat"
-            className="block w-fit bg-red-600 px-4 py-2 rounded-md hover:bg-red-500 transition-colors"
+            className="block w-fit font-medium bg-red-600 px-4 py-2 rounded-md hover:bg-red-400 transition-colors"
           >
             Kapcsolatfelvétel
           </Link>

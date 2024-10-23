@@ -7,7 +7,7 @@ const CustomImage = ({ ...props }) => {
 
   return (
     <Image
-      className="rounded-lg border border-zinc-800 shadow"
+      className="rounded-lg ring-1 ring-zinc-800 shadow"
       src={props.src}
       alt={props.alt || "Image"}
       width={800}

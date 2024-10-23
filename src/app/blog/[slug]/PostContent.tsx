@@ -21,7 +21,7 @@ const PostContent = ({ slug }: Props) => {
   }
 
   return (
-    <div className="min-h-screen">
+    <>
       <Header2 />
       <div className="max-w-3xl mx-auto px-6 lg:px-8 py-28 rounded-lg">
         <article className="prose lg:prose-xl space-y-10">
@@ -49,7 +49,7 @@ const PostContent = ({ slug }: Props) => {
           </section>
         </article>
       </div>
-    </div>
+    </>
   );
 };
 

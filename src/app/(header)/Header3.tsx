@@ -6,59 +6,36 @@ import {
   Transition,
   TransitionChild,
 } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { ArrowLeftIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import logo from "/public/assets/logo/logo.webp";
 
 const links = [
   {
-    name: "Szolgáltatások",
-    href: "#szolgaltatasok",
-  },
-  {
-    name: "Blog",
-    href: "#blog",
-  },
-  {
-    name: "Oldalak",
-    href: "#oldalak",
-  },
-  // {
-  //   name: "Shopok",
-  //   href: "#shopok",
-  // },
-  // {
-  //   name: "Statisztika",
-  //   href: "#statisztika",
-  // },
-  {
-    name: "Kapcsolat",
-    href: "#kapcsolat",
+    name: "Szabályok",
+    href: "#szabalyok",
   },
   {
     name: "Szerverek",
-    href: "/szerverek",
+    href: "#szerverek",
+  },
+  {
+    name: "Büntetések",
+    href: "https://evertsonservers.com/bans",
+    blank: true,
+  },
+  {
+    name: "Rangok",
+    href: "https://evertson.tebex.io/category/rang-vasarlas",
+    blank: true,
   },
 ];
 
-// const awpLinks = [
-//   {
-//     name: "Skinek",
-//     description: "Állíts be skineket a szerveren",
-//     href: "https://evertsonservers.com/ws",
-//     icon: WrenchIcon,
-//   },
-//   {
-//     name: "Banok",
-//     description: "Tekintsd meg a szerveren kiosztott banokat",
-//     href: "https://evertsonservers.com/bans",
-//     icon: UsersIcon,
-//   },
-// ];
-
-const Header = () => {
+const Header3 = () => {
+  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -67,14 +44,9 @@ const Header = () => {
         className="mx-auto flex max-w-7xl items-center justify-between h-[88px] px-6 lg:px-8"
         aria-label="Global"
       >
-        <div>
-          <span className="sr-only">Evertson Logo</span>
-          <Image
-            className="h-12 w-12 rounded-lg"
-            src={logo}
-            alt="evertson logo"
-          />
-        </div>
+        <button onClick={() => router.back()}>
+          <ArrowLeftIcon className="h-7 w-7" aria-hidden="true" />
+        </button>
         <button
           type="button"
           className="lg:hidden"
@@ -88,6 +60,7 @@ const Header = () => {
             <Link
               key={link.name}
               href={link.href}
+              target={link.blank ? "_blank" : "_self"}
               className="font-semibold hover:opacity-80 transition-opacity"
             >
               {link.name}
@@ -156,4 +129,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header3;

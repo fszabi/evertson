@@ -12,6 +12,7 @@ import pricempire from "/public/assets/images/sites/pricempire.png";
 import rapidskins from "/public/assets/images/sites/rapidskins.webp";
 import shadowpay from "/public/assets/images/sites/shadowpay.webp";
 import skinflow from "/public/assets/images/sites/skinflow.svg";
+import skinport from "/public/assets/images/sites/skinport.png";
 import skinswap from "/public/assets/images/sites/skinswap.webp";
 import swapgg from "/public/assets/images/sites/swapgg.png";
 import tradeitgg from "/public/assets/images/sites/tradeitgg.svg";
@@ -95,6 +96,11 @@ const tradeSites = [
     url: "https://bitskins.com/?ref_alias=evertson01",
   },
   {
+    name: "Skinport",
+    image: skinport,
+    url: "https://skinport.com/r/evertson01",
+  },
+  {
     name: "Priceempire",
     image: pricempire,
     url: "https://pricempire.com/?r=76561199021366803",
@@ -143,8 +149,8 @@ const Sites = () => {
                     className="max-h-12 w-full object-contain"
                     src={tradeSite.image}
                     alt={tradeSite.name}
-                    width={158}
-                    height={48}
+                    width={200}
+                    height={100}
                   />
                 </Link>
               )}
