@@ -1,12 +1,4 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
-  NoSymbolIcon,
-} from "@heroicons/react/20/solid";
+import { NoSymbolIcon } from "@heroicons/react/20/solid";
 
 const features = [
   {
@@ -59,20 +51,24 @@ const Rules = () => {
             A szabályok nem tudása nem jogosít fel a be nem tartása alól!
           </p>
         </div>
-        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
-          {features.map((feature) => (
-            <div key={feature.name} className="relative pl-9">
-              <dt className="inline font-semibold">
-                <feature.icon
-                  aria-hidden="true"
-                  className="absolute left-1 top-1 h-5 w-5 text-red-600"
-                />
-                {feature.name}
-              </dt>{" "}
-              <dd className="inline text-zinc-300">{feature.description}</dd>
-            </div>
-          ))}
-        </dl>
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+          <dl className="grid max-w-xl grid-cols-1 gap-16 lg:max-w-none lg:grid-cols-2">
+            {features.map((feature) => (
+              <div key={feature.name} className="flex flex-col">
+                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7">
+                  <feature.icon
+                    aria-hidden="true"
+                    className="h-5 w-5 flex-none text-red-600"
+                  />
+                  {feature.name}
+                </dt>
+                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
+                  <p className="flex-auto">{feature.description}</p>
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
       </div>
     </section>
   );
