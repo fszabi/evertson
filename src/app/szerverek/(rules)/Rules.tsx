@@ -10,39 +10,39 @@ import {
 
 const features = [
   {
-    name: "Lorem ipsum.",
+    name: "Korhatár",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
+      "A szerveren való játékhoz minimum 14 éves kor szükséges. Amennyiben fiatalabb vagy, kérjük, hogy tartsd tiszteletben ezt a szabályt, és ne használd a mikrofon-t.",
     icon: NoSymbolIcon,
   },
   {
-    name: "Lorem ipsum.",
+    name: "Csalás",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "Semmilyen csalás nem megengedett a szerveren. Ez magában foglalja, de nem korlátozódik a szoftveres és hardveres eszközökre, hackekre vagy bármilyen más módosításra, amely előnyt biztosítana más játékosokkal szemben. A csalókat azonnali kitiltással büntetjük.",
     icon: NoSymbolIcon,
   },
   {
-    name: "Lorem ipsum.",
+    name: "Segédeszközök használata",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.",
+      "Tilos bármilyen segédeszköz használata, amely a játékmenetet befolyásolja. Ide tartozik minden olyan program, script, vagy hardver, amely előnyt jelentene a játékban.",
     icon: NoSymbolIcon,
   },
   {
-    name: "Lorem ipsum.",
+    name: "Viselkedés",
     description:
-      "Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.",
+      "Kérjük, hogy a szerveren mindig kulturált és normális emberi módon viselkedj. A szóbeli  bántalmazás, rasszizmus, sértegetés, hergelés, vagy bármilyen más, a közösségi normákat sértő viselkedés nem elfogadható. Tartsd tiszteletben a többi játékost és a szerver adminisztrátorait.",
     icon: NoSymbolIcon,
   },
   {
-    name: "Lorem ipsum.",
+    name: "Általános szabályok",
     description:
-      "Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.",
+      "Tiszteld a szerver szabályait és a többi játékost. Bármilyen szabálysértés a játékból való kizárást eredményezheti. Ha problémád vagy kérdésed van, fordulj bizalommal az adminisztrátorokhoz.",
     icon: NoSymbolIcon,
   },
   {
-    name: "Lorem ipsum.",
+    name: "Szerveren való BUGG kihasználás",
     description:
-      "Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.",
+      "Ha a játékos hibát talál a szerveren és azt kihasználja ahelyett, hogy jelentéssel jelezné az adminoknak, ugyanúgy büntetést von maga után, mint a többi szabályszegés. Ez alól nincs kivétel. Például: Ha egy játékos Silence mute-ot kapott, és ezt megkerülve '!' jelet használva kommunikál, az azonnali ban szankciót von maga után.",
     icon: NoSymbolIcon,
   },
 ];
@@ -56,8 +56,7 @@ const Rules = () => {
             Szabályok
           </p>
           <p className="mt-6 text-lg leading-8 text-zinc-300">
-            A szabályok betartása kötelező, kérjük olvasd el őket figyelmesen.
-            Megszegésük következményeket von maga után.
+            A szabályok nem tudása nem jogosít fel a be nem tartása alól!
           </p>
         </div>
         <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
