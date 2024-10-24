@@ -10,9 +10,8 @@ const ServersPage = () => {
     <>
       <Header3 />
       <Hero2 />
-      <Rules />
       <Servers />
-
+      <Rules />
       <ScrollArrow />
     </>
   );

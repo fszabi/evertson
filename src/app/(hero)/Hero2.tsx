@@ -52,7 +52,7 @@ const Hero2 = () => {
   return (
     <section className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center">
+        <div className="mx-auto sm:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
             Szeretnél egy jó közösséghez tartozni?
           </p>
@@ -61,7 +61,7 @@ const Hero2 = () => {
           </p>
         </div>
       </div>
-      <div className="relative overflow-hidden pt-16">
+      {/* <div className="relative overflow-hidden pt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Image
             alt="awp szerver"
@@ -74,7 +74,7 @@ const Hero2 = () => {
             <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-zinc-900 pt-[7%]" />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
