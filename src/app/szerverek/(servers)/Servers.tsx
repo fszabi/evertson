@@ -40,10 +40,10 @@ const Servers = () => {
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
-              Szerverek
+              Szeretnél egy jó közösséghez tartozni?
             </h2>
             <p className="mt-4 text-lg leading-8 text-zinc-300">
-              Csatlakozz fel szervereinkre!
+              Akkor gyere és játssz szervereinken!
             </p>
           </div>
           <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center lg:grid-cols-3">
