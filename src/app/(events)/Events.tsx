@@ -89,7 +89,7 @@ const Events = () => {
               scope="col"
               className="hidden py-2 pl-0 pr-8 font-semibold sm:table-cell"
             >
-              Nyereményt
+              Nyeremény
             </th>
             <th
               scope="col"
