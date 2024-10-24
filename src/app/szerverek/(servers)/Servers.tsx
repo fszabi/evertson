@@ -1,5 +1,6 @@
 "use client";
 
+import Events from "@/app/(events)/Events";
 import Link from "next/link";
 import toast from "react-hot-toast";
 
@@ -74,6 +75,7 @@ const Servers = () => {
               </div>
             ))}
           </dl>
+          <Events />
         </div>
       </div>
     </section>

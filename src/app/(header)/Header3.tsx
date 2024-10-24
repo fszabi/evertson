@@ -33,7 +33,7 @@ const links = [
     blank: true,
   },
   {
-    name: "Büntetések",
+    name: "Szankciók",
     href: "https://evertsonservers.com/bans",
     blank: true,
   },
