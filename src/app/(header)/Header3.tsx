@@ -14,14 +14,14 @@ import { useState } from "react";
 import logo from "/public/assets/logo/logo.webp";
 
 const links = [
-  // {
-  //   name: "Szabályok",
-  //   href: "#szabalyok",
-  // },
-  // {
-  //   name: "Szerverek",
-  //   href: "#szerverek",
-  // },
+  {
+    name: "Szabályok",
+    href: "#szabalyok",
+  },
+  {
+    name: "Szerverek",
+    href: "#szerverek",
+  },
   {
     name: "Rangok",
     href: "https://evertson.tebex.io/category/rang-vasarlas",
