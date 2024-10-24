@@ -15,10 +15,6 @@ import logo from "/public/assets/logo/logo.webp";
 
 const links = [
   {
-    name: "Szabályok",
-    href: "#szabalyok",
-  },
-  {
     name: "Szerverek",
     href: "#szerverek",
   },
@@ -36,6 +32,10 @@ const links = [
     name: "Szankciók",
     href: "https://evertsonservers.com/bans",
     blank: true,
+  },
+  {
+    name: "Szabályok",
+    href: "#szabalyok",
   },
 ];
 

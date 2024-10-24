@@ -52,9 +52,12 @@ const Rules = () => {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-16 lg:max-w-none lg:grid-cols-2">
+          <dl className="grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
             {features.map((feature) => (
-              <div key={feature.name} className="flex flex-col">
+              <div
+                key={feature.name}
+                className="bg-zinc-800 rounded-2xl flex flex-col p-6"
+              >
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7">
                   <feature.icon
                     aria-hidden="true"
