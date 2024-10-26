@@ -32,7 +32,7 @@ const features = [
     icon: NoSymbolIcon,
   },
   {
-    name: "Szerveren való BUG kihasználás",
+    name: "Szerveren való BUGG kihasználás",
     description:
       "Ha a játékos hibát talál a szerveren és azt kihasználja ahelyett, hogy jelentéssel jelezné az adminoknak, ugyanúgy büntetést von maga után, mint a többi szabályszegés. Ez alól nincs kivétel. Például: Ha egy játékos Silence mute-ot kapott, és ezt megkerülve '!' jelet használva kommunikál, az azonnali ban szankciót von maga után.",
     icon: NoSymbolIcon,
