@@ -60,22 +60,18 @@ const ServerEvent = ({ event }: { event: EventType }) => {
         </div>
       </td>
       <td className="py-4 pl-0 pr-4 text-right text-sm leading-6 text-gray-400 sm:pr-6 lg:pr-8">
-        <time
-          dateTime={event.date.toLocaleString("hu-HU", {
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit",
-          })}
-        >
-          {event.date.toLocaleString("hu-HU", {
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit",
-          })}
+        <time dateTime={event.date.toISOString()}>
+          {new Date(event.date.getTime() - 60 * 60 * 1000).toLocaleString(
+            "hu-HU",
+            {
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+              hour: "2-digit",
+              minute: "2-digit",
+              timeZone: "Europe/Budapest", // Hungarian time zone
+            }
+          )}
         </time>
       </td>
     </tr>

@@ -1,6 +1,5 @@
 "use client";
 
-import ServerEvents from "@/app/(server-events)/ServerEvents";
 import Image from "next/image";
 import Link from "next/link";
 import toast from "react-hot-toast";
