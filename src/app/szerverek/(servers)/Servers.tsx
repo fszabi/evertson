@@ -1,8 +1,10 @@
 "use client";
 
 import Events from "@/app/(events)/Events";
+import Image from "next/image";
 import Link from "next/link";
 import toast from "react-hot-toast";
+import servers from "/public/assets/images/servers.webp";
 
 const stats = [
   {
@@ -37,7 +39,7 @@ const Servers = () => {
   return (
     <section id="szerverek" className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:max-w-none">
+        <div className="mx-auto max-w-2xl lg:max-w-none space-y-14">
           <div className="text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
               Szeretnél egy jó közösséghez tartozni?
@@ -46,7 +48,7 @@ const Servers = () => {
               Akkor gyere és játssz szervereinken!
             </p>
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center lg:grid-cols-3">
+          <dl className="grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center lg:grid-cols-3">
             {stats.map((stat) => (
               <div
                 key={stat.id}
@@ -75,6 +77,20 @@ const Servers = () => {
               </div>
             ))}
           </dl>
+          <div className="relative overflow-hidden">
+            <div>
+              <Image
+                alt="awp szerver"
+                src={servers}
+                width={2432}
+                height={1442}
+                className="mb-[-12%] rounded-xl ring-1 ring-zinc-800 shadow"
+              />
+              <div aria-hidden="true" className="relative">
+                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-zinc-900 pt-[7%]" />
+              </div>
+            </div>
+          </div>
           <Events />
         </div>
       </div>

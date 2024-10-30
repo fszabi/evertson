@@ -42,7 +42,7 @@ const features = [
 const Rules = () => {
   return (
     <section id="szabalyok" className="py-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 space-y-14">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight sm:text-5xl">
             Szabályok
@@ -51,7 +51,7 @@ const Rules = () => {
             A szabályok nem tudása nem jogosít fel a be nem tartása alól!
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        <div className="mx-auto max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
             {features.map((feature) => (
               <div

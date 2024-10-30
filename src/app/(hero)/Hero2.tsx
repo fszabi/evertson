@@ -6,47 +6,8 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
-import awpserver from "/public/assets/images/blog/awpserver/awpserver.png";
+import servers from "/public/assets/images/servers.webp";
 import Image from "next/image";
-
-const features = [
-  {
-    name: "Lorem ipsum.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "Lorem ipsum.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Lorem ipsum.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "Lorem ipsum.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Lorem ipsum.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: Cog6ToothIcon,
-  },
-  {
-    name: "Lorem ipsum.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ",
-    icon: ServerIcon,
-  },
-];
 
 const Hero2 = () => {
   return (
@@ -61,11 +22,11 @@ const Hero2 = () => {
           </p>
         </div>
       </div>
-      {/* <div className="relative overflow-hidden pt-16">
+      <div className="relative overflow-hidden pt-14">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Image
             alt="awp szerver"
-            src={awpserver}
+            src={servers}
             width={2432}
             height={1442}
             className="mb-[-12%] rounded-xl ring-1 ring-zinc-800 shadow"
@@ -74,7 +35,7 @@ const Hero2 = () => {
             <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-zinc-900 pt-[7%]" />
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };

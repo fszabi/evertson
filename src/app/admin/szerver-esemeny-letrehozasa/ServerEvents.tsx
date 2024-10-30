@@ -1,8 +1,8 @@
-import ServerEvent from "../admin/szerver-esemeny-letrehozasa/ServerEvent";
-import { EventType } from "../types";
-import { getServerEvents } from "../utils/getServerEvents";
+import { EventType } from "@/app/types";
+import { getServerEvents } from "@/app/utils/getServerEvents";
+import ServerEvent from "./ServerEvent";
 
-const Events = async () => {
+const ServerEvents = async () => {
   const serverEvents = await getServerEvents();
 
   return (
@@ -56,4 +56,4 @@ const Events = async () => {
   );
 };
 
-export default Events;
+export default ServerEvents;
