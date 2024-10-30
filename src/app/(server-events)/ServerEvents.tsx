@@ -1,12 +1,12 @@
-import ServerEvent from "../admin/szerver-esemeny-letrehozasa/ServerEvent";
-import { EventType } from "../types";
-import { getServerEvents } from "../utils/getServerEvents";
+import { EventType } from "@/app/types";
+import { getServerEvents } from "@/app/utils/getServerEvents";
+import ServerEvent from "./ServerEvent";
 
-const Events = async () => {
+const ServerEvents = async () => {
   const serverEvents = await getServerEvents();
 
   return (
-    <div className="mt-16">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-14">
       <h2 className="px-4 text-base font-semibold leading-7 text-white sm:px-6 lg:px-8">
         Események
       </h2>
@@ -56,4 +56,4 @@ const Events = async () => {
   );
 };
 
-export default Events;
+export default ServerEvents;

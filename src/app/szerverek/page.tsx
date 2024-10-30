@@ -3,7 +3,7 @@ import Hero2 from "../(hero)/Hero2";
 import Rules from "./(rules)/Rules";
 import ScrollArrow from "../ScrollArrow";
 import Servers from "./(servers)/Servers";
-import Events from "../(events)/Events";
+import ServerEvents from "../(server-events)/ServerEvents";
 
 const ServersPage = () => {
   return (
@@ -11,6 +11,7 @@ const ServersPage = () => {
       <Header3 />
       {/* <Hero2 /> */}
       <Servers />
+      <ServerEvents />
       <Rules />
       <ScrollArrow />
     </>

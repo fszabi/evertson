@@ -1,5 +1,5 @@
 import CreateEvent from "./CreateEvent";
-import ServerEvents from "./ServerEvents";
+import ServerEvents from "../../(server-events)/ServerEvents";
 
 const CreateEventPage = async () => {
   return (

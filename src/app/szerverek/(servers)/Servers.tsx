@@ -1,6 +1,6 @@
 "use client";
 
-import Events from "@/app/(events)/Events";
+import ServerEvents from "@/app/(server-events)/ServerEvents";
 import Image from "next/image";
 import Link from "next/link";
 import toast from "react-hot-toast";
@@ -37,7 +37,7 @@ const Servers = () => {
   };
 
   return (
-    <section id="szerverek" className="py-28">
+    <section id="szerverek" className="pt-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none space-y-14">
           <div className="text-center">
@@ -91,7 +91,6 @@ const Servers = () => {
               </div>
             </div>
           </div>
-          <Events />
         </div>
       </div>
     </section>
