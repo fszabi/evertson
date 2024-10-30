@@ -386,8 +386,7 @@ const postMarkdowns = [
 ### Hogyan csatlakozz az AWP szerverhez?
 
 - A csatlakozáshoz kattints az alábbi linkre:
-  https://cs2browser.com/gameserver/151083/hun-evertson-awp/
-  
+  https://cs2browser.com/gameserver/209920/hun-evertson-awp-store-vip-ws-knife/
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 `,
   },
