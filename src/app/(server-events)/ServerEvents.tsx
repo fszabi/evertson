@@ -5,8 +5,6 @@ import ServerEvent from "./ServerEvent";
 const ServerEvents = async () => {
   const serverEvents = await getServerEvents();
 
-  console.log(serverEvents);
-
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-14">
       <h2 className="px-4 text-base font-semibold leading-7 text-white sm:px-6 lg:px-8">
