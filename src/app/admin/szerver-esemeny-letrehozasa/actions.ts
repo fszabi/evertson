@@ -1,9 +1,7 @@
 "use server";
 
-import { PrismaClient } from "@prisma/client";
 import { revalidatePath } from "next/cache";
-
-const prisma = new PrismaClient();
+import prisma from "../../../../prisma/client";
 
 export async function createServerEvent(formData: FormData) {
   const rawFormData = {
@@ -25,4 +23,6 @@ export async function createServerEvent(formData: FormData) {
   });
 
   revalidatePath("/admin/szerver-esemeny-letrehozasa");
+
+  return { success: "Szerver esemény létrehozva" };
 }

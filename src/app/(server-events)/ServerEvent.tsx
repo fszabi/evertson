@@ -1,4 +1,5 @@
 import { EventType, StatusType } from "@/app/types";
+import { updateServerEvent } from "./actions";
 
 const statuses: { [key in StatusType]: string } = {
   COMING_SOON: "text-blue-400 bg-blue-400/10",
@@ -11,22 +12,22 @@ function classNames(...classes: string[]): string {
 }
 
 const ServerEvent = ({ event }: { event: EventType }) => {
-  const now = new Date();
+  // const now = new Date();
 
-  const eventDate = new Date(event.date);
+  // const eventDate = new Date(event.date);
 
-  if (eventDate > now) {
-    event.status = "COMING_SOON";
-  } else if (
-    eventDate.toDateString() === now.toDateString() &&
-    eventDate.getTime() <= now.getTime() &&
-    now.getTime() <= eventDate.getTime() + 3600000
-  ) {
-    // Check if the event is happening today and within the current time
-    event.status = "ONGOING";
-  } else {
-    event.status = "ENDED";
-  }
+  // if (eventDate > now) {
+  //   updateServerEvent({ status: "COMING_SOON", id: event.id });
+  // } else if (
+  //   eventDate.toDateString() === now.toDateString() &&
+  //   eventDate.getTime() <= now.getTime() &&
+  //   now.getTime() <= eventDate.getTime() + 3600000
+  // ) {
+  //   // Check if the event is happening today and within the current time
+  //   updateServerEvent({ status: "ONGOING", id: event.id });
+  // } else {
+  //   updateServerEvent({ status: "ENDED", id: event.id });
+  // }
 
   return (
     <tr>
