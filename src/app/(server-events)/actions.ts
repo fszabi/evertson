@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import prisma from "../../../prisma/client";
 import { StatusType } from "../types";
 
-export async function updateServerEvent({
+export default async function updateServerEvent({
   status,
   id,
 }: {

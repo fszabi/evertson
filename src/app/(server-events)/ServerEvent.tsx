@@ -1,5 +1,5 @@
 import { EventType, StatusType } from "@/app/types";
-import { updateServerEvent } from "./actions";
+import updateServerEvent from "./actions";
 
 const statuses: { [key in StatusType]: string } = {
   COMING_SOON: "text-blue-400 bg-blue-400/10",

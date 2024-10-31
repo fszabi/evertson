@@ -1,8 +1,8 @@
 "use client";
 
-import { createServerEvent } from "@/app/admin/szerver-esemeny-letrehozasa/actions";
 import { useRef } from "react";
 import { useFormStatus } from "react-dom";
+import createServerEvent from "./actions";
 
 const SubmitButton = () => {
   const { pending } = useFormStatus();

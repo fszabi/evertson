@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import prisma from "../../../../prisma/client";
 
-export async function createServerEvent(formData: FormData) {
+export default async function createServerEvent(formData: FormData) {
   const rawFormData = {
     server: formData.get("server"),
     prize_first: formData.get("prize-first"),
