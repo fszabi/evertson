@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import prisma from "../../../prisma/client";
 import { StatusType } from "../types";
 
@@ -16,4 +17,9 @@ export async function updateServerEvent({
       status: status,
     },
   });
+
+  revalidatePath("/admin/szerver-esemeny-letrehozasa");
+  revalidatePath("/szerverek");
+
+  return { success: "Szerver esemény módosítva" };
 }

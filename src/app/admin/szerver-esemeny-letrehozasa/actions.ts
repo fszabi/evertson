@@ -23,6 +23,7 @@ export async function createServerEvent(formData: FormData) {
   });
 
   revalidatePath("/admin/szerver-esemeny-letrehozasa");
+  revalidatePath("/szerverek");
 
   return { success: "Szerver esemény létrehozva" };
 }

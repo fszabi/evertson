@@ -12,22 +12,22 @@ function classNames(...classes: string[]): string {
 }
 
 const ServerEvent = ({ event }: { event: EventType }) => {
-  // const now = new Date();
+  const now = new Date();
 
-  // const eventDate = new Date(event.date);
+  const eventDate = new Date(event.date);
 
-  // if (eventDate > now) {
-  //   updateServerEvent({ status: "COMING_SOON", id: event.id });
-  // } else if (
-  //   eventDate.toDateString() === now.toDateString() &&
-  //   eventDate.getTime() <= now.getTime() &&
-  //   now.getTime() <= eventDate.getTime() + 3600000
-  // ) {
-  //   // Check if the event is happening today and within the current time
-  //   updateServerEvent({ status: "ONGOING", id: event.id });
-  // } else {
-  //   updateServerEvent({ status: "ENDED", id: event.id });
-  // }
+  if (eventDate > now) {
+    updateServerEvent({ status: "COMING_SOON", id: event.id });
+  } else if (
+    eventDate.toDateString() === now.toDateString() &&
+    eventDate.getTime() <= now.getTime() &&
+    now.getTime() <= eventDate.getTime() + 3600000
+  ) {
+    // Check if the event is happening today and within the current time
+    updateServerEvent({ status: "ONGOING", id: event.id });
+  } else {
+    updateServerEvent({ status: "ENDED", id: event.id });
+  }
 
   return (
     <tr>

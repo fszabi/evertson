@@ -1,6 +1,6 @@
 import { EventType } from "@/app/types";
-import { getServerEvents } from "@/app/utils/getServerEvents";
 import ServerEvent from "./ServerEvent";
+import getServerEvents from "../utils/getServerEvents";
 
 const ServerEvents = async () => {
   const serverEvents = await getServerEvents();
