@@ -81,13 +81,8 @@ const Servers = () => {
               <Image
                 alt="awp szerver"
                 src={servers}
-                width={2432}
-                height={1442}
-                className="mb-[-12%] rounded-xl ring-1 ring-zinc-800 shadow"
+                className="w-full rounded-xl ring-1 ring-zinc-800 shadow"
               />
-              <div aria-hidden="true" className="relative">
-                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-zinc-900 pt-[7%]" />
-              </div>
             </div>
           </div>
         </div>
