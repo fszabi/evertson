@@ -18,8 +18,5 @@ export async function updateServerEvent({
     },
   });
 
-  revalidatePath("/admin/szerver-esemeny-letrehozasa");
-  revalidatePath("/szerverek");
-
   return { success: "Szerver esemény módosítva" };
 }
