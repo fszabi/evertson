@@ -66,7 +66,6 @@ const CreateServerEvent = () => {
         placeholder="2. hely"
         id="prize-second"
         name="prize-second"
-        required
       />
       <input
         className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
@@ -74,7 +73,6 @@ const CreateServerEvent = () => {
         placeholder="3. hely"
         id="prize-third"
         name="prize-third"
-        required
       />
 
       <SubmitButton />
