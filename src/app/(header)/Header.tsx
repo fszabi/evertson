@@ -26,12 +26,12 @@ const links = [
     href: "#oldalak",
   },
   {
-    name: "Gyakori kérdések",
-    href: "#gyakori-kerdesek",
-  },
-  {
     name: "Kapcsolat",
     href: "#kapcsolat",
+  },
+  {
+    name: "Gyakori kérdések",
+    href: "#gyakori-kerdesek",
   },
   {
     name: "Szerverek",
