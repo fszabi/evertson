@@ -1,7 +1,7 @@
-import CreateServerEvent from "./CreateServerEvent";
 import ServerEvents from "../../(server-events)/ServerEvents";
+import CreateServerEvent from "./CreateServerEvent";
 
-const CreateEventPage = async () => {
+const CreateServerEventPage = async () => {
   return (
     <section className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -12,4 +12,4 @@ const CreateEventPage = async () => {
   );
 };
 
-export default CreateEventPage;
+export default CreateServerEventPage;

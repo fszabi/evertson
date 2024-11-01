@@ -1,11 +1,11 @@
-import { ServerEventType } from "@/app/types";
-import getServerEvents from "../utils/getServerEvents";
-import ServerEvent from "./ServerEvent";
+import { EventType } from "@/app/types";
+import getEvents from "../utils/getEvents";
+import Event from "./Event";
 
-const ServerEvents = async () => {
-  const serverEvents = await getServerEvents();
+const Events = async () => {
+  const events = await getEvents();
 
-  if (serverEvents.length === 0) return null;
+  if (events.length === 0) return null;
 
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-14">
@@ -26,7 +26,7 @@ const ServerEvents = async () => {
               scope="col"
               className="py-2 pl-4 pr-8 font-semibold sm:pl-6 lg:pl-8 lg:pr-20"
             >
-              Szerver
+              Cím
             </th>
             <th
               scope="col"
@@ -44,13 +44,13 @@ const ServerEvents = async () => {
               scope="col"
               className="py-2 pl-0 pr-4 text-right font-semibold sm:pr-6 lg:pr-8"
             >
-              Időpont
+              Határidő
             </th>
           </tr>
         </thead>
         <tbody className="divide-y divide-white/5">
-          {serverEvents.map((event: ServerEventType) => (
-            <ServerEvent key={event.id} event={event} />
+          {events.map((event: EventType) => (
+            <Event key={event.id} event={event} />
           ))}
         </tbody>
       </table>
@@ -58,4 +58,4 @@ const ServerEvents = async () => {
   );
 };
 
-export default ServerEvents;
+export default Events;

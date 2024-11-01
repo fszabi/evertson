@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { useFormStatus } from "react-dom";
-import createServerEvent from "./actions";
+import createEvent from "./actions";
 
 const SubmitButton = () => {
   const { pending } = useFormStatus();
@@ -22,14 +22,14 @@ const SubmitButton = () => {
   );
 };
 
-const CreateServerEvent = () => {
+const CreateEvent = () => {
   const ref = useRef<HTMLFormElement>(null);
 
   return (
     <form
       ref={ref}
       action={async (formData) => {
-        await createServerEvent(formData);
+        await createEvent(formData);
         ref.current?.reset();
       }}
       className="space-y-5"
@@ -38,17 +38,17 @@ const CreateServerEvent = () => {
         <input
           className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
           type="text"
-          placeholder="Szerver"
-          id="server"
-          name="server"
+          placeholder="Cím"
+          id="title"
+          name="title"
           required
         />
         <input
           className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
           type="datetime-local"
           lang="hu-HU"
-          id="date"
-          name="date"
+          id="deadline"
+          name="deadline"
           required
         />
       </div>
@@ -82,4 +82,4 @@ const CreateServerEvent = () => {
   );
 };
 
-export default CreateServerEvent;
+export default CreateEvent;
