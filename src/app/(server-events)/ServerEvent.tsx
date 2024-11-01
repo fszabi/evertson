@@ -37,8 +37,8 @@ const ServerEvent = ({ event }: { event: ServerEventType }) => {
       <td className="hidden py-4 pl-0 pr-4 lg:table-cell sm:pr-8">
         <div className="font-mono text-sm leading-6 text-gray-400">
           <p>1. hely - {event.first_prize}</p>
-          <p>2. hely - {event.second_prize}</p>
-          <p>3. hely - {event.third_prize}</p>
+          {event.second_prize && <p>2. hely - {event.second_prize}</p>}
+          {event.third_prize && <p>3. hely - {event.third_prize}</p>}
         </div>
       </td>
       <td className="hidden py-4 pl-0 pr-4 text-sm leading-6 sm:pr-8 lg:pr-20 md:table-cell">

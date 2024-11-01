@@ -1,4 +1,4 @@
-import { ServerEventType } from "@/app/types";
+import { ServerEventType } from "../types";
 import getServerEvents from "../utils/getServerEvents";
 import ServerEvent from "./ServerEvent";
 
