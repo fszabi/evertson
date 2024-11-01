@@ -14,8 +14,8 @@ model ServerEvent {
   updatedAt    DateTime          @updatedAt
   server       String
   first_prize  String
-  second_prize String
-  third_prize  String
+  second_prize String?
+  third_prize  String?
   status       ServerEventStatus @default(COMING_SOON)
   date         DateTime
 }
@@ -26,8 +26,8 @@ model Event {
   updatedAt    DateTime    @updatedAt
   title        String
   first_prize  String
-  second_prize String
-  third_prize  String
+  second_prize String?
+  third_prize  String?
   status       EventStatus @default(COMING_SOON)
   deadline     DateTime
 }
