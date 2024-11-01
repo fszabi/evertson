@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import discord from "/public/assets/images/discord.webp";
 import hero from "/public/assets/images/hero.webp";
+import Events from "../(events)/Events";
 
 const Hero = () => {
   return (
-    <section className="py-28">
+    <section className="py-28 space-y-14">
       <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 items-center max-w-7xl px-6 lg:px-8 mx-auto max-lg:space-y-20">
         <div className="space-y-8">
           <h1>Evertson Trade</h1>
@@ -40,6 +41,7 @@ const Hero = () => {
           alt="hero kép"
         />
       </div>
+      <Events />
     </section>
   );
 };
