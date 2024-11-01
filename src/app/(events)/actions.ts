@@ -1,14 +1,13 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
 import prisma from "../../../prisma/client";
-import { StatusType } from "../types";
+import { EventStatusType } from "../types";
 
 export default async function updateEvent({
   status,
   id,
 }: {
-  status: StatusType;
+  status: EventStatusType;
   id: number;
 }) {
   await prisma.event.update({
