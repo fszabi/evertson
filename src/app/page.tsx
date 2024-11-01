@@ -16,8 +16,8 @@ export default function Home() {
       <Services />
       <Blog />
       <Sites />
-      <Faqs />
       <Contact />
+      <Faqs />
       <ScrollArrow />
     </>
   );
