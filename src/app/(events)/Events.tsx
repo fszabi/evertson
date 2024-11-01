@@ -8,7 +8,7 @@ const Events = async () => {
   if (events.length === 0) return null;
 
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-14">
+    <div id="esemenyek" className="mx-auto max-w-7xl px-6 lg:px-8">
       <h2 className="px-4 text-base font-semibold leading-7 text-white sm:px-6 lg:px-8">
         Események
       </h2>

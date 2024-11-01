@@ -25,14 +25,10 @@ const links = [
     name: "Oldalak",
     href: "#oldalak",
   },
-  // {
-  //   name: "Shopok",
-  //   href: "#shopok",
-  // },
-  // {
-  //   name: "Statisztika",
-  //   href: "#statisztika",
-  // },
+  {
+    name: "Gyakori kérdések",
+    href: "#gyakori-kerdesek",
+  },
   {
     name: "Kapcsolat",
     href: "#kapcsolat",

@@ -60,7 +60,7 @@ const faqs: FaqType[] = [
 
 export function Faqs() {
   return (
-    <section className="py-28">
+    <section id="gyakori-kerdesek" className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="divide-y divide-white/10 space-y-14">
           <h2 className="leading-8">Gyakori kérdések</h2>
