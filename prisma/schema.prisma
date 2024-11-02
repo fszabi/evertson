@@ -29,7 +29,7 @@ model Event {
   second_prize String?
   third_prize  String?
   status       EventStatus @default(COMING_SOON)
-  deadline     DateTime
+  deadline     DateTime    @db.Date
 }
 
 enum ServerEventStatus {
