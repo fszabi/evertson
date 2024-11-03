@@ -9,7 +9,6 @@ const ServersPage = () => {
   return (
     <>
       <Header3 />
-      {/* <Hero2 /> */}
       <Servers />
       <ServerEvents />
       <Rules />

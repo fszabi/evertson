@@ -1,9 +1,10 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import prisma from "../../../prisma/client";
 import { EventStatusType } from "../types";
 
-export default async function updateEvent({
+export async function updateEvent({
   status,
   id,
 }: {
@@ -17,5 +18,19 @@ export default async function updateEvent({
     },
   });
 
+  revalidatePath("/admin/esemeny-letrehozasa");
+  revalidatePath("/");
+
   return { success: "Esemény módosítva" };
+}
+
+export async function deleteEvent(id: number) {
+  await prisma.event.delete({
+    where: { id: id },
+  });
+
+  revalidatePath("/admin/esemeny-letrehozasa");
+  revalidatePath("/");
+
+  return { success: "Esemény törölve" };
 }

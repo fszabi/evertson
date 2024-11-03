@@ -4,6 +4,8 @@ import { revalidatePath } from "next/cache";
 import prisma from "../../../../prisma/client";
 
 export default async function createServerEvent(formData: FormData) {
+  console.log(formData);
+
   const rawFormData = {
     server: formData.get("server"),
     prize_first: formData.get("prize-first"),
@@ -12,13 +14,16 @@ export default async function createServerEvent(formData: FormData) {
     date: formData.get("date"),
   };
 
+  console.log(rawFormData.date);
+  console.log(new Date(rawFormData.date + "Z"));
+
   await prisma.serverEvent.create({
     data: {
       server: rawFormData.server! as string,
       first_prize: rawFormData.prize_first as string,
       second_prize: rawFormData.prize_second as string,
       third_prize: rawFormData.prize_third as string,
-      date: new Date(rawFormData.date as string),
+      date: new Date(rawFormData.date + "Z"),
     },
   });
 

@@ -1,26 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import { useFormStatus } from "react-dom";
+import CreateButton from "../CreateButton";
 import createEvent from "./actions";
-
-const SubmitButton = () => {
-  const { pending } = useFormStatus();
-
-  return (
-    <button
-      disabled={pending}
-      type="submit"
-      className="w-full font-medium flex items-center justify-center bg-red-600 px-4 py-2 rounded-md hover:bg-red-400 transition-colors"
-    >
-      {pending ? (
-        <span className="loading loading-spinner loading-sm"></span>
-      ) : (
-        "Létrehozás"
-      )}
-    </button>
-  );
-};
 
 const CreateEvent = () => {
   const ref = useRef<HTMLFormElement>(null);
@@ -74,8 +56,7 @@ const CreateEvent = () => {
         id="prize-third"
         name="prize-third"
       />
-
-      <SubmitButton />
+      <CreateButton />
     </form>
   );
 };

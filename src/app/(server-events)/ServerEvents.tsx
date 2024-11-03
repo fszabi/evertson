@@ -2,7 +2,7 @@ import { ServerEventType } from "../types";
 import getServerEvents from "../utils/getServerEvents";
 import ServerEvent from "./ServerEvent";
 
-const ServerEvents = async () => {
+const ServerEvents = async ({ isAdmin }: { isAdmin?: boolean }) => {
   const serverEvents = await getServerEvents();
 
   if (serverEvents.length === 0) return null;
@@ -50,7 +50,7 @@ const ServerEvents = async () => {
         </thead>
         <tbody className="divide-y divide-white/5">
           {serverEvents.map((event: ServerEventType) => (
-            <ServerEvent key={event.id} event={event} />
+            <ServerEvent key={event.id} event={event} isAdmin={isAdmin} />
           ))}
         </tbody>
       </table>

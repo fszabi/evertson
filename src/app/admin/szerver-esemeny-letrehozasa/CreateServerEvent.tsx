@@ -1,26 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import { useFormStatus } from "react-dom";
+import CreateButton from "../CreateButton";
 import createServerEvent from "./actions";
-
-const SubmitButton = () => {
-  const { pending } = useFormStatus();
-
-  return (
-    <button
-      disabled={pending}
-      type="submit"
-      className="w-full font-medium flex items-center justify-center bg-red-600 px-4 py-2 rounded-md hover:bg-red-400 transition-colors"
-    >
-      {pending ? (
-        <span className="loading loading-spinner loading-sm"></span>
-      ) : (
-        "Létrehozás"
-      )}
-    </button>
-  );
-};
 
 const CreateServerEvent = () => {
   const ref = useRef<HTMLFormElement>(null);
@@ -46,6 +28,7 @@ const CreateServerEvent = () => {
         <input
           className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
           type="datetime-local"
+          step="1"
           lang="hu-HU"
           id="date"
           name="date"
@@ -74,8 +57,7 @@ const CreateServerEvent = () => {
         id="prize-third"
         name="prize-third"
       />
-
-      <SubmitButton />
+      <CreateButton />
     </form>
   );
 };

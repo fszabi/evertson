@@ -1,5 +1,9 @@
+"use client";
+
 import { ServerEventStatusType, ServerEventType } from "@/app/types";
-import updateServerEvent from "./actions";
+import DeleteButton from "../admin/DeleteButton";
+import { updateServerEvent } from "./actions";
+import { useEffect } from "react";
 
 const statuses: { [key in ServerEventStatusType]: string } = {
   COMING_SOON: "text-blue-400 bg-blue-400/10",
@@ -11,23 +15,41 @@ function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(" ");
 }
 
-const ServerEvent = ({ event }: { event: ServerEventType }) => {
-  const now = new Date();
+const ServerEvent = ({
+  event,
+  isAdmin,
+}: {
+  event: ServerEventType;
+  isAdmin?: boolean;
+}) => {
+  useEffect(() => {
+    const checkStatus = () => {
+      const now = new Date();
+      now.setHours(now.getHours() + 1);
+      const eventDate = new Date(event.date);
+      const eventEnd = new Date(event.date);
+      eventEnd.setHours(eventEnd.getHours() + 1);
 
-  const eventDate = new Date(event.date);
+      if (
+        event.status === "COMING_SOON" &&
+        now >= eventDate &&
+        now < eventEnd
+      ) {
+        updateServerEvent({ status: "ONGOING", id: event.id });
+      } else if (event.status === "ONGOING" && now >= eventEnd) {
+        updateServerEvent({ status: "ENDED", id: event.id });
+      }
+    };
 
-  if (eventDate > now) {
-    updateServerEvent({ status: "COMING_SOON", id: event.id });
-  } else if (
-    eventDate.toDateString() === now.toDateString() &&
-    eventDate.getTime() <= now.getTime() &&
-    now.getTime() <= eventDate.getTime() + 3600000
-  ) {
-    // Check if the event is happening today and within the current time
-    updateServerEvent({ status: "ONGOING", id: event.id });
-  } else {
-    updateServerEvent({ status: "ENDED", id: event.id });
-  }
+    // Check immediately
+    checkStatus();
+
+    // Set up interval to check every minute
+    const intervalId = setInterval(checkStatus, 60000);
+
+    // Cleanup function
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <tr>
@@ -75,6 +97,11 @@ const ServerEvent = ({ event }: { event: ServerEventType }) => {
           )}
         </time>
       </td>
+      {isAdmin && (
+        <td>
+          <DeleteButton id={event.id} serverEvent />
+        </td>
+      )}
     </tr>
   );
 };

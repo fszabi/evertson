@@ -1,9 +1,10 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import prisma from "../../../prisma/client";
 import { ServerEventStatusType } from "../types";
 
-export default async function updateServerEvent({
+export async function updateServerEvent({
   status,
   id,
 }: {
@@ -17,5 +18,19 @@ export default async function updateServerEvent({
     },
   });
 
+  revalidatePath("/admin/szerver-esemeny-letrehozasa");
+  revalidatePath("/szerverek");
+
   return { success: "Szerver esemény módosítva" };
+}
+
+export async function deleteServerEvent(id: number) {
+  await prisma.serverEvent.delete({
+    where: { id: id },
+  });
+
+  revalidatePath("/admin/szerver-esemeny-letrehozasa");
+  revalidatePath("/szerverek");
+
+  return { success: "Szerver esemény törölve" };
 }

@@ -6,7 +6,7 @@ const CreateServerEventPage = async () => {
     <section className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <CreateServerEvent />
-        <ServerEvents />
+        <ServerEvents isAdmin={true} />
       </div>
     </section>
   );

@@ -1,5 +1,9 @@
+"use client";
+
 import { EventStatusType, EventType } from "@/app/types";
-import updateEvent from "./actions";
+import DeleteButton from "../admin/DeleteButton";
+import { updateEvent } from "./actions";
+import { useEffect } from "react";
 
 const statuses: { [key in EventStatusType]: string } = {
   COMING_SOON: "text-blue-400 bg-blue-400/10",
@@ -10,16 +14,27 @@ function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(" ");
 }
 
-const Event = ({ event }: { event: EventType }) => {
-  const now = new Date();
+const Event = ({ event, isAdmin }: { event: EventType; isAdmin?: boolean }) => {
+  useEffect(() => {
+    const checkStatus = () => {
+      const now = new Date();
+      now.setHours(now.getHours() + 1);
+      const eventDate = new Date(event.deadline);
 
-  const eventDeadline = new Date(event.deadline);
+      if (event.status === "COMING_SOON" && now >= eventDate) {
+        updateEvent({ status: "ENDED", id: event.id });
+      }
+    };
 
-  if (eventDeadline > now) {
-    updateEvent({ status: "COMING_SOON", id: event.id });
-  } else {
-    updateEvent({ status: "ENDED", id: event.id });
-  }
+    // Check immediately
+    checkStatus();
+
+    // Set up interval to check every minute
+    const intervalId = setInterval(checkStatus, 60000);
+
+    // Cleanup function
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <tr>
@@ -61,6 +76,11 @@ const Event = ({ event }: { event: EventType }) => {
           )}
         </time>
       </td>
+      {isAdmin && (
+        <td>
+          <DeleteButton id={event.id} event />
+        </td>
+      )}
     </tr>
   );
 };

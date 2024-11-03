@@ -2,7 +2,7 @@ import { EventType } from "@/app/types";
 import getEvents from "../utils/getEvents";
 import Event from "./Event";
 
-const Events = async () => {
+const Events = async ({ isAdmin }: { isAdmin?: boolean }) => {
   const events = await getEvents();
 
   if (events.length === 0) return null;
@@ -50,7 +50,7 @@ const Events = async () => {
         </thead>
         <tbody className="divide-y divide-white/5">
           {events.map((event: EventType) => (
-            <Event key={event.id} event={event} />
+            <Event key={event.id} event={event} isAdmin={isAdmin} />
           ))}
         </tbody>
       </table>
