@@ -18,7 +18,9 @@ export default async function createServerEvent(formData: FormData) {
       first_prize: rawFormData.prize_first as string,
       second_prize: rawFormData.prize_second as string,
       third_prize: rawFormData.prize_third as string,
-      date: new Date(rawFormData.date + "Z"),
+      date: new Date(
+        new Date(rawFormData.date as string).getTime() + 60 * 60 * 1000
+      ),
     },
   });
 
