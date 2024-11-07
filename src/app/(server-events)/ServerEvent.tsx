@@ -61,6 +61,8 @@ const ServerEvent = ({
           <p>1. hely - {event.first_prize}</p>
           {event.second_prize && <p>2. hely - {event.second_prize}</p>}
           {event.third_prize && <p>3. hely - {event.third_prize}</p>}
+          {event.fourth_prize && <p>4. hely - {event.fourth_prize}</p>}
+          {event.fifth_prize && <p>5. hely - {event.fifth_prize}</p>}
         </div>
       </td>
       <td className="hidden py-4 pl-0 pr-4 text-sm leading-6 sm:pr-8 lg:pr-20 md:table-cell">

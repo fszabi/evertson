@@ -16,6 +16,8 @@ model ServerEvent {
   first_prize  String
   second_prize String?
   third_prize  String?
+  fourth_prize String?
+  fifth_prize  String?
   status       ServerEventStatus @default(COMING_SOON)
   date         DateTime
 }
@@ -28,6 +30,8 @@ model Event {
   first_prize  String
   second_prize String?
   third_prize  String?
+  fourth_prize String?
+  fifth_prize  String?
   status       EventStatus @default(COMING_SOON)
   deadline     DateTime    @db.Date
 }

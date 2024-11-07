@@ -8,6 +8,8 @@ export type ServerEventType = {
   first_prize: string;
   second_prize: string | null;
   third_prize: string | null;
+  fourth_prize: string | null;
+  fifth_prize: string | null;
   status: ServerEventStatusType;
   date: Date;
 };
@@ -18,6 +20,8 @@ export type EventType = {
   first_prize: string;
   second_prize: string | null;
   third_prize: string | null;
+  fourth_prize: string | null;
+  fifth_prize: string | null;
   status: EventStatusType;
   deadline: Date;
 };
