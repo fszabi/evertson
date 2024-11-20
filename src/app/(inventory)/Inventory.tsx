@@ -11,7 +11,7 @@ const Inventory = async () => {
         width={1500}
         height={1500}
         src={inventoryImage?.imageUrl || ""}
-        alt="Raktár kép"
+        alt="Raktár képp"
       />
     </div>
   );
