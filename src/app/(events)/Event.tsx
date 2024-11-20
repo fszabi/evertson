@@ -38,10 +38,10 @@ const Event = ({ event, isAdmin }: { event: EventType; isAdmin?: boolean }) => {
 
   return (
     <tr>
-      <td className="py-4 pr-0 pl-4 text-sm leading-6 text-gray-400 sm:pr-6 sm:pl-6 lg:pl-8">
+      <td className="py-4 pr-0 pl-4 text-sm leading-6 text-gray-400 sm:pr-6 sm:pl-6 lg:pl-8 whitespace-normal break-words">
         {event.title}
       </td>
-      <td className="hidden py-4 pl-0 pr-4 lg:table-cell sm:pr-8">
+      <td className="hidden py-4 pl-0 pr-4 lg:table-cell sm:pr-8 whitespace-normal break-words">
         <div className="font-mono text-sm leading-6 text-gray-400">
           <p>1. hely - {event.first_prize}</p>
           {event.second_prize && <p>2. hely - {event.second_prize}</p>}
