@@ -14,6 +14,10 @@ import logo from "/public/assets/logo/logo.webp";
 
 const links = [
   {
+    name: "Árlista",
+    href: "#arlista",
+  },
+  {
     name: "Szolgáltatások",
     href: "#szolgaltatasok",
   },
