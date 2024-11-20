@@ -33,11 +33,11 @@
   }
 
   h3 {
-    @apply font-semibold max-sm:text-xl text-2xl min-[2000px]:text-3xl;
+    @apply font-semibold max-sm:text-xl text-2xl;
   }
 
   h4 {
-    @apply font-semibold max-sm:text-lg text-xl min-[2000px]:text-2xl;
+    @apply font-semibold max-sm:text-lg text-xl;
   }
 
   picture {

@@ -1,5 +1,4 @@
 import Contact from "./(contact)/Contact";
-import Events from "./(events)/Events";
 import { Faqs } from "./(faqs)/Faqs";
 import Header from "./(header)/Header";
 import Hero from "./(hero)/Hero";

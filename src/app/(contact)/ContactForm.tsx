@@ -111,7 +111,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-2 gap-x-8 gap-y-6 md:gap-x-10 md:gap-y-8">
         <div className="max-[400px]:col-span-2">
           <label
-            htmlFor="name"
+            htmlFor="nev"
             className="block text-sm font-semibold leading-6"
           >
             Név
@@ -119,8 +119,8 @@ const ContactForm = () => {
           <div className="mt-2.5">
             <input
               type="text"
-              name="name"
-              id="name"
+              name="nev"
+              id="nev"
               autoComplete="given-name"
               value={formData.nev}
               onChange={handleInput}
@@ -150,7 +150,7 @@ const ContactForm = () => {
         </div>
         <div className="col-span-2">
           <label
-            htmlFor="social-profile"
+            htmlFor="kozossegi-profil"
             className="block text-sm font-semibold leading-6"
           >
             Discord név / Facebook profil link
@@ -158,8 +158,8 @@ const ContactForm = () => {
           <div className="mt-2.5">
             <input
               type="text"
-              name="social-profile"
-              id="social-profile"
+              name="kozossegi-profil"
+              id="kozossegi-profil"
               value={formData["kozossegi-profil"]}
               onChange={handleInput}
               required
@@ -169,7 +169,7 @@ const ContactForm = () => {
         </div>
         <div className="col-span-2">
           <label
-            htmlFor="steam-profile"
+            htmlFor="steam-profil"
             className="block text-sm font-semibold leading-6"
           >
             Steam profil link
@@ -177,8 +177,8 @@ const ContactForm = () => {
           <div className="mt-2.5">
             <input
               type="text"
-              name="steam-profile"
-              id="steam-profile"
+              name="steam-profil"
+              id="steam-profil"
               value={formData["steam-profil"]}
               onChange={handleInput}
               required
@@ -188,15 +188,15 @@ const ContactForm = () => {
         </div>
         <div className="col-span-2">
           <label
-            htmlFor="where-did-you-hear-about-me"
+            htmlFor="honnanismersz"
             className="block text-sm font-semibold leading-6"
           >
             Honnan hallottál rólam?
           </label>
           <div className="mt-2.5">
             <textarea
-              name="where-did-you-hear-about-me"
-              id="where-did-you-hear-about-me"
+              name="honnanismersz"
+              id="honnanismersz"
               value={formData.honnanismersz}
               onChange={handleTextArea}
               rows={4}
@@ -206,15 +206,15 @@ const ContactForm = () => {
         </div>
         <div className="col-span-2">
           <label
-            htmlFor="message"
+            htmlFor="uzenet"
             className="block text-sm font-semibold leading-6"
           >
             Üzenet
           </label>
           <div className="mt-2.5">
             <textarea
-              name="message"
-              id="message"
+              name="uzenet"
+              id="uzenet"
               value={formData.uzenet}
               onChange={handleTextArea}
               rows={4}
