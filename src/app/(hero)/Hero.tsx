@@ -3,6 +3,7 @@ import Link from "next/link";
 import discord from "/public/assets/images/discord.webp";
 import hero from "/public/assets/images/hero.webp";
 import Events from "../(events)/Events";
+import Inventory from "../(inventory)/Inventory";
 
 const Hero = () => {
   return (
@@ -42,6 +43,7 @@ const Hero = () => {
         />
       </div>
       <Events />
+      <Inventory />
     </section>
   );
 };

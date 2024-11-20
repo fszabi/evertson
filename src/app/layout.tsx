@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { Toaster } from "react-hot-toast";
+import { EdgeStoreProvider } from "@/lib/edgestore";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,20 +57,22 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-zinc-900 text-zinc-50 min-h-screen`}
       >
-        <Toaster
-          position="top-center"
-          reverseOrder={true}
-          gutter={16}
-          toastOptions={{
-            duration: 5000,
-            style: {
-              fontWeight: "500",
-              background: "#27272a",
-              color: "#fafafa",
-            },
-          }}
-        />
-        {children}
+        <EdgeStoreProvider>
+          <Toaster
+            position="top-center"
+            reverseOrder={true}
+            gutter={16}
+            toastOptions={{
+              duration: 5000,
+              style: {
+                fontWeight: "500",
+                background: "#27272a",
+                color: "#fafafa",
+              },
+            }}
+          />
+          {children}
+        </EdgeStoreProvider>
       </body>
     </html>
   );
