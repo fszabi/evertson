@@ -16,8 +16,8 @@ export default async function createServerEvent(formData: FormData) {
 
   await prisma.serverEvent.create({
     data: {
-      server: rawFormData.server! as string,
-      first_prize: rawFormData.fifth_prize as string,
+      server: rawFormData.server as string,
+      first_prize: rawFormData.first_prize as string,
       second_prize: rawFormData.second_prize as string,
       third_prize: rawFormData.third_prize as string,
       fourth_prize: rawFormData.fourth_prize as string,

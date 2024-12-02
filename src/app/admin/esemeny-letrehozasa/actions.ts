@@ -16,7 +16,7 @@ export default async function createEvent(formData: FormData) {
 
   await prisma.event.create({
     data: {
-      title: rawFormData.title! as string,
+      title: rawFormData.title as string,
       first_prize: rawFormData.first_prize as string,
       second_prize: rawFormData.second_prize as string,
       third_prize: rawFormData.third_prize as string,
