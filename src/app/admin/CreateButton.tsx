@@ -12,7 +12,7 @@ const CreateButton = () => {
       {pending ? (
         <span className="loading loading-spinner loading-md"></span>
       ) : (
-        "Létrehozás"
+        "Létrehozása"
       )}
     </button>
   );
