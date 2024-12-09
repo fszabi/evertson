@@ -73,7 +73,7 @@ const postMarkdowns = [
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Ez egy folyamatosan hullámzó piac, nagy valószinűséggel bukni fogsz egyszerű játékosként minden skinen ezért csak akkor vásárolj skineket ha nem zavar hogy 5-10%ot vagy akár nagyobb %os bukóban tudod eladni. Ezzel számolnod kell mivel alapjáraton a steam piac is 12%ot számit fel ami buff ár szerint 5-8% lehet.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
-- Illetve vannak olyan itemek amiket nem szabad vásárolni kivéve ha te direkt olyat szeretnél. Pl: Statrakos kések vagy minimal wear dopplerek,tiger/slaugherek esetleg souvenir skinek vagy ww bs itemek.
+- Illetve vannak olyan itemek amiket nem szabad vásárolni kivéve ha te direkt olyat szeretnél. Pl: Statrakos kések vagy minimal wear dopplerek,tiger/slaughterek esetleg souvenir skinek vagy ww bs itemek.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
 - Remélem segitettem ezzel kicsit jobban átlátni a skinek árait, ha bárkinek bármilyen kérdése van vagy segitségre van szüksége fordúljon hozzám nyugodtan.
   <img width="64" height="64" className="max-w-[2rem] absolute top-0 left-0" src="/assets/images/blog/tradeguide/crown.webp" alt="crown icon">
