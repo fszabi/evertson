@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { login } from "./actions";
 import logo from "/public/assets/logo/logo.webp";
+import logo2 from "/public/assets/logo/logo2.png";
 
 export default function LoginPage() {
   return (
@@ -9,8 +10,9 @@ export default function LoginPage() {
         <div className="mx-auto w-fit">
           <span className="sr-only">Evertson Logo</span>
           <Image
-            className="h-12 w-12 rounded-lg"
-            src={logo}
+            // className="h-12 w-12 rounded-lg"
+            className="w-48 h-auto"
+            src={logo2}
             alt="evertson logo"
           />
         </div>

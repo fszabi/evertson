@@ -12,6 +12,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import logo from "/public/assets/logo/logo.webp";
+import logo2 from "/public/assets/logo/logo2.png";
 
 const links = [
   {
@@ -102,8 +103,9 @@ const Header3 = () => {
                 <div>
                   <span className="sr-only">Evertson Logo</span>
                   <Image
-                    className="h-10 w-10 rounded-lg"
-                    src={logo}
+                    // className="h-10 w-10 rounded-lg"
+                    className="w-44 h-auto"
+                    src={logo2}
                     alt="evertson logo"
                   />
                 </div>
