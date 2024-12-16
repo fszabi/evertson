@@ -11,7 +11,7 @@ export default function LoginPage() {
           <span className="sr-only">Evertson Logo</span>
           <Image
             // className="h-12 w-12 rounded-lg"
-            className="w-44 h-auto"
+            className="w-48 h-auto"
             src={logo2}
             alt="evertson logo"
           />
