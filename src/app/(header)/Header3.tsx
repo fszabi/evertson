@@ -104,7 +104,7 @@ const Header3 = () => {
                   <span className="sr-only">Evertson Logo</span>
                   <Image
                     // className="h-10 w-10 rounded-lg"
-                    className="w-44 h-auto"
+                    className="w-48 h-auto"
                     src={logo2}
                     alt="evertson logo"
                   />
