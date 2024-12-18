@@ -5,6 +5,7 @@ import ContactForm from "./ContactForm";
 import steam from "/public/assets/images/steam.png";
 import discord_2 from "/public/assets/images/svgs/discord_2.svg";
 import facebook from "/public/assets/images/svgs/facebook.svg";
+import tiktok from "/public/assets/images/svgs/tiktok.svg";
 import twitch from "/public/assets/images/svgs/twitch.svg";
 import webrebirth_logo from "/public/assets/logo/webrebirth_logo.png";
 
@@ -32,6 +33,12 @@ const contacts = [
     alt: "facebook logo",
     href: "https://www.facebook.com/groups/csgohungary",
     icon: facebook,
+  },
+  {
+    name: "TikTok",
+    alt: "tiktok logo",
+    href: "https://www.tiktok.com/@evertsonservers",
+    icon: tiktok,
   },
 ];
 
