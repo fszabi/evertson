@@ -5,8 +5,8 @@ import ContactForm from "./ContactForm";
 import steam from "/public/assets/images/steam.png";
 import discord_2 from "/public/assets/images/svgs/discord_2.svg";
 import facebook from "/public/assets/images/svgs/facebook.svg";
-import tiktok from "/public/assets/images/svgs/tiktok.svg";
 import twitch from "/public/assets/images/svgs/twitch.svg";
+import tiktok from "/public/assets/images/tiktok.png";
 import webrebirth_logo from "/public/assets/logo/webrebirth_logo.png";
 
 const contacts = [
