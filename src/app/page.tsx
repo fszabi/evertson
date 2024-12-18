@@ -12,12 +12,166 @@ async function getData() {
   // Force dynamic rendering
   headers();
 
-  // Fetch from a real endpoint that has delay
-  const res = await fetch("https://dummyjson.com/products/1", {
-    cache: "no-store", // Disable caching
+  // Fetch 1000 posts - this will be slow
+  await fetch("https://jsonplaceholder.typicode.com/comments", {
+    cache: "no-store",
   });
 
-  return res.json();
+  // Fetch 1000 photos - even slower
+  await fetch("https://jsonplaceholder.typicode.com/photos", {
+    cache: "no-store",
+  });
+
+  // Fetch 10000 todos - very slow
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  await fetch("https://dummyjson.com/todos?limit=150&skip=0", {
+    cache: "no-store",
+  });
+
+  return null;
 }
 
 export default async function Home() {
