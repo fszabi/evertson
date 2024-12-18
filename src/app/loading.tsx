@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 
 export default function Loading() {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-zinc-900 backdrop-blur-sm z-50">
+    <div className="fixed inset-0 flex  justify-center bg-zinc-900 backdrop-blur-sm z-50">
       <motion.div
         animate={{
           scale: [1, 0.9, 1],
