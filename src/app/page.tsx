@@ -7,7 +7,15 @@ import Blog from "./Blog";
 import ScrollArrow from "./ScrollArrow";
 import Services from "./Services";
 
-export default function Home() {
+async function getData() {
+  // Artificial delay
+  await new Promise((resolve) => setTimeout(resolve, 5000));
+  return null;
+}
+
+export default async function Home() {
+  await getData();
+
   return (
     <>
       <Header />
