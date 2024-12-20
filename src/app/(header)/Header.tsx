@@ -225,7 +225,7 @@ const Header = () => {
         aria-label="Global"
       >
         <div>
-          <span className="sr-only">Evertson Logoo</span>
+          <span className="sr-only">Evertson Logo</span>
           <Image className="w-48 h-auto" src={logo2} alt="evertson logo" />
         </div>
         <button
