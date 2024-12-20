@@ -5,7 +5,9 @@ interface Props {
   params: { slug: string };
 }
 
-const ServicePage = ({ params }: Props) => {
+const ServicePage = async ({ params }: Props) => {
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
   return (
     <>
       <ServiceContent slug={params.slug} />

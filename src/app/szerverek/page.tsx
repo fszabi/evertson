@@ -5,7 +5,9 @@ import ScrollArrow from "../ScrollArrow";
 import Servers from "./(servers)/Servers";
 import ServerEvents from "../(server-events)/ServerEvents";
 
-const ServersPage = () => {
+const ServersPage = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
   return (
     <>
       <Header3 />

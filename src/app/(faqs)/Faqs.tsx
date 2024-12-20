@@ -3,7 +3,7 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
-import { MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 import { FaqType } from "../types";
 
 const faqs: FaqType[] = [
@@ -62,24 +62,24 @@ export function Faqs() {
   return (
     <section id="gyakori-kerdesek" className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="divide-y divide-white/10 space-y-14">
+        <div className="space-y-14">
           <h2 className="leading-8">Gyakori kérdések</h2>
-          <dl className="space-y-6 divide-y divide-white/10">
+          <dl className="space-y-4">
             {faqs.map((faq, index) => (
-              <Disclosure key={faq.question} as="div" className="pt-6">
+              <Disclosure
+                key={faq.question}
+                as="div"
+                className="rounded-lg px-6 py-4 bg-zinc-800"
+              >
                 <dt>
-                  <DisclosureButton className="group flex w-full items-start justify-between text-left text-white">
+                  <DisclosureButton className="group flex w-full items-center justify-between text-left text-white">
                     <span className="text-base font-semibold leading-7">
                       {faq.question}
                     </span>
-                    <span className="ml-6 flex h-7 items-center">
-                      <PlusIcon
+                    <span className="ml-6 flex items-center">
+                      <ChevronDownIcon
                         aria-hidden="true"
-                        className="h-6 w-6 group-data-[open]:hidden"
-                      />
-                      <MinusIcon
-                        aria-hidden="true"
-                        className="h-6 w-6 [.group:not([data-open])_&]:hidden"
+                        className="size-5 transition-transform group-data-[open]:rotate-180"
                       />
                     </span>
                   </DisclosureButton>

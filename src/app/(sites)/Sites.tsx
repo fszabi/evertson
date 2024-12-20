@@ -101,7 +101,7 @@ const tradeSites = [
     url: "https://skinport.com/r/evertson01",
   },
   {
-    name: "Priceempire",
+    name: "Pricempire",
     image: pricempire,
     url: "https://pricempire.com/?r=76561199021366803",
   },

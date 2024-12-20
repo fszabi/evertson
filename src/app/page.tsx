@@ -8,6 +8,8 @@ import ScrollArrow from "./ScrollArrow";
 import Services from "./Services";
 
 export default async function Home() {
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
   return (
     <>
       <Header />

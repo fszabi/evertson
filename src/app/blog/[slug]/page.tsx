@@ -5,7 +5,9 @@ interface Props {
   params: { slug: string };
 }
 
-const BlogPost = ({ params }: Props) => {
+const BlogPost = async ({ params }: Props) => {
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
   return (
     <>
       <PostContent slug={params.slug} />
