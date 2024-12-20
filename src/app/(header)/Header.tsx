@@ -241,7 +241,7 @@ const Header = () => {
             link.name === "Szolgáltatások" ||
             link.name === "Blog" ||
             link.name === "Oldalak" ? (
-              <Menu as="div" className="relative z-50 max-h-96">
+              <Menu key={link.name} as="div" className="relative z-50 max-h-96">
                 {({ open }) => (
                   <>
                     <MenuButton className="inline-flex items-center gap-2 rounded-md font-semibold">
