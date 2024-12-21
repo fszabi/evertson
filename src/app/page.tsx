@@ -1,5 +1,3 @@
-import { Suspense } from "react";
-import { promisify } from "util";
 import Contact from "./(contact)/Contact";
 import { Faqs } from "./(faqs)/Faqs";
 import Header from "./(header)/Header";
@@ -8,6 +6,8 @@ import Sites from "./(sites)/Sites";
 import Blog from "./Blog";
 import ScrollArrow from "./ScrollArrow";
 import Services from "./Services";
+
+export const dynamic = "force-dynamic";
 
 async function getData() {
   await new Promise((resolve) => setTimeout(resolve, 2000));
