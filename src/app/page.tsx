@@ -9,13 +9,7 @@ import Services from "./Services";
 
 export const dynamic = "force-dynamic";
 
-async function getData() {
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-}
-
 export default async function Home() {
-  await getData();
-
   return (
     <>
       <Header />
