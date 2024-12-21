@@ -45,11 +45,12 @@ export const getAllServices = (): Service[] => {
     },
     {
       slug: "cs2-fogadas",
-      title: "CS2 Fogadás",
+      title: "CS2 Fogadás - Jelenleg szünetel",
       src: cs2_fogadas,
       content:
-        serviceMarkdowns.find((service) => service.title === "CS2 Fogadás")
-          ?.content || "",
+        serviceMarkdowns.find(
+          (service) => service.title === "CS2 Fogadás - Jelenleg szünetel"
+        )?.content || "",
       summary: "Fogadj meccsekre és nyerj!",
     },
     {

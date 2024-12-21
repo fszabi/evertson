@@ -203,7 +203,7 @@ const serviceMarkdowns = [
 `,
   },
   {
-    title: "CS2 Fogadás",
+    title: "CS2 Fogadás - Jelenleg szünetel",
     content: `
 ![cs2 fogadas](/assets/images/services/cs2_fogadas/cs2_fogadas.png)  
 

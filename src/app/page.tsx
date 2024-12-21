@@ -6,9 +6,11 @@ import Sites from "./(sites)/Sites";
 import Blog from "./Blog";
 import ScrollArrow from "./ScrollArrow";
 import Services from "./Services";
+import { promisify } from "util";
 
 export default async function Home() {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  const sleep = promisify(setTimeout);
+  await sleep(2000);
 
   return (
     <>

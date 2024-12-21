@@ -20,6 +20,25 @@ import Link from "next/link";
 import { useState } from "react";
 import logo from "/public/assets/logo/logo.webp";
 import logo2 from "/public/assets/logo/logo2.png";
+import { AnimatePresence, motion } from "motion/react";
+import casino_500 from "/public/assets/images/icons/500.png";
+import bitskins from "/public/assets/images/icons/bitskins.png";
+import buff163 from "/public/assets/images/icons/buff163.png";
+import cs_float from "/public/assets/images/icons/cs_float.png";
+import cs_money from "/public/assets/images/icons/cs_money.ico";
+import gamerpay from "/public/assets/images/icons/gamerpay.png";
+import ggbet from "/public/assets/images/icons/ggbet.png";
+import haloskins from "/public/assets/images/icons/haloskins.png";
+import pricempire from "/public/assets/images/icons/pricempire.png";
+import rapidskins from "/public/assets/images/icons/rapidskins.png";
+import shadowpay from "/public/assets/images/icons/shadowpay.png";
+import skinflow from "/public/assets/images/icons/skinflow.png";
+import skinport from "/public/assets/images/icons/skinport.png";
+import skinswap from "/public/assets/images/icons/skinswap.webp";
+import swapgg from "/public/assets/images/icons/swapgg.png";
+import tradeitgg from "/public/assets/images/icons/tradeitgg.png";
+import waxpeer from "/public/assets/images/icons/waxpeer.ico";
+import whitemarket from "/public/assets/images/icons/whitemarket.png";
 
 type Link = {
   name: string;
@@ -215,13 +234,39 @@ const mobileLinks = [
   },
 ];
 
+const getIconForSite = (siteName: string) => {
+  const iconMap: { [key: string]: any } = {
+    "500 Casino": casino_500,
+    BitSkins: bitskins,
+    BUFF163: buff163,
+    "CS Float": cs_float,
+    "CS Money": cs_money,
+    GamerPay: gamerpay,
+    GGBET: ggbet,
+    HaloSkins: haloskins,
+    Pricempire: pricempire,
+    Rapidskins: rapidskins,
+    ShadowPay: shadowpay,
+    Skinflow: skinflow,
+    Skinport: skinport,
+    SkinSwap: skinswap,
+    "Swap.gg": swapgg,
+    "Tradeit.gg": tradeitgg,
+    Waxpeer: waxpeer,
+    Whitemarket: whitemarket,
+  };
+
+  return iconMap[siteName];
+};
+
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
   return (
-    <header className="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-50">
+    <header className="bg-zinc-800 border-b shadow-md border-zinc-800 sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between h-[88px] px-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center max-lg:justify-between flex-wrap gap-x-12 gap-y-3 py-3 px-6 lg:px-8"
         aria-label="Global"
       >
         <div>
@@ -236,50 +281,58 @@ const Header = () => {
           <span className="sr-only">Navigációs menü megnyitása</span>
           <Bars3Icon className="h-6 w-6" aria-hidden="true" />
         </button>
-        <div className="hidden lg:flex lg:gap-x-12 justify-center flex-1">
+        <div className="hidden lg:flex lg:gap-x-12">
           {links.map((link) =>
             link.name === "Szolgáltatások" ||
             link.name === "Blog" ||
             link.name === "Oldalak" ? (
-              <Menu key={link.name} as="div" className="relative z-50 max-h-96">
-                {({ open }) => (
-                  <>
-                    <MenuButton className="inline-flex items-center gap-2 rounded-md font-semibold">
-                      {link.name}
-                      <ChevronDownIcon
-                        className={`size-4 fill-zinc-50 transition-transform ${
-                          open ? "rotate-180" : ""
-                        }`}
-                      />
-                    </MenuButton>
-
-                    <MenuItems
-                      transition
-                      anchor="bottom start"
-                      className="z-50 w-52 origin-top-right rounded-lg bg-zinc-800 p-1 text-sm/6 font-semibold text-white transition duration-100 ease-out [--anchor-max-height:24rem] [--anchor-gap:0.25rem] data-[closed]:scale-95 data-[closed]:opacity-0"
+              <div
+                key={link.name}
+                className="relative group"
+                onMouseEnter={() => setHoveredItem(link.name)}
+                onMouseLeave={() => setHoveredItem(null)}
+              >
+                <button className="inline-flex items-center gap-2 rounded-md text-sm/6 font-semibold hover:opacity-80 transition-opacity">
+                  {link.name}
+                  <ChevronDownIcon className="size-4 transition-transform group-hover:rotate-180" />
+                </button>
+                <div className="absolute -bottom-6 left-0 right-0 h-6" />
+                <AnimatePresence>
+                  {hoveredItem === link.name && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="absolute top-full left-0 w-52 origin-top-right rounded-lg bg-zinc-700 p-1 mt-2 max-h-96 overflow-y-auto"
                     >
                       {link.items?.map((item) => (
-                        <MenuItem key={item.href}>
-                          <Link
-                            href={item.href}
-                            target={
-                              link.name === "Oldalak" ? "_blank" : "_self"
-                            }
-                            className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 transition-colors data-[focus]:bg-zinc-700"
-                          >
-                            {item.name}
-                          </Link>
-                        </MenuItem>
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          target="_blank"
+                          className="flex w-full items-center gap-3 rounded-lg px-3 py-1.5 text-sm/6 font-semibold hover:bg-zinc-500 transition-colors"
+                        >
+                          {getIconForSite(item.name) && (
+                            <Image
+                              src={getIconForSite(item.name)}
+                              alt={item.name}
+                              width={32}
+                              height={32}
+                              className="w-6 h-6 object-contain"
+                            />
+                          )}
+                          {item.name}
+                        </Link>
                       ))}
-                    </MenuItems>
-                  </>
-                )}
-              </Menu>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
             ) : (
               <Link
                 key={link.name}
                 href={link.href ?? ""}
-                className="font-semibold hover:opacity-80 transition-opacity"
+                className="font-semibold text-sm/6 hover:opacity-80 transition-opacity"
               >
                 {link.name}
               </Link>
@@ -287,7 +340,6 @@ const Header = () => {
           )}
         </div>
       </nav>
-
       <div
         className={`lg:hidden fixed inset-0 z-50 ${
           mobileMenuOpen ? "block" : "hidden"
