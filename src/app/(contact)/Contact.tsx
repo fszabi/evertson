@@ -45,7 +45,7 @@ const contacts = [
 const Contact = () => {
   return (
     <section id="kapcsolat" className="py-28">
-      <div className="mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-20 px-6 lg:px-8">
+      <div className="mx-auto max-w-8xl grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-20 px-6 lg:px-8">
         <div className="space-y-10">
           <header className="space-y-6">
             <h2>Lépjünk kapcsolatba</h2>

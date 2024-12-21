@@ -8,7 +8,7 @@ import Inventory from "../(inventory)/Inventory";
 const Hero = () => {
   return (
     <section className="py-28 space-y-14">
-      <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 items-center max-w-7xl px-6 lg:px-8 mx-auto max-lg:space-y-20">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 items-center max-w-8xl px-6 lg:px-8 mx-auto max-lg:space-y-20">
         <div className="space-y-8">
           <h1>Evertson Trade</h1>
           <p className="max-w-xl sm:text-lg text-zinc-300">

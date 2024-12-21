@@ -344,9 +344,9 @@ const Header = () => {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
   return (
-    <header className="bg-zinc-800 border-b shadow-md border-zinc-800 sticky top-0 z-50">
+    <header className="bg-zinc-800 shadow-md sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-7xl items-center max-lg:justify-between flex-wrap gap-x-12 gap-y-3 py-3 px-6 lg:px-8"
+        className="mx-auto flex max-w-8xl items-center justify-between flex-wrap gap-x-12 gap-y-3 py-3 px-6 lg:px-8"
         aria-label="Global"
       >
         <div>
@@ -372,7 +372,8 @@ const Header = () => {
                 onMouseEnter={() => setHoveredItem(link.name)}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <button className="inline-flex items-center gap-2 rounded-md text-sm/6 font-semibold hover:opacity-80 transition-opacity">
+                <button className="flex items-center gap-2 rounded-md text-sm/6 font-semibold hover:opacity-80 transition-opacity">
+                  {link.groupIcon}
                   {link.name}
                   <ChevronDownIcon className="size-4 transition-transform group-hover:rotate-180" />
                 </button>
@@ -390,7 +391,7 @@ const Header = () => {
                           key={item.name}
                           href={item.href}
                           target="_blank"
-                          className="flex w-full items-center gap-3 rounded-lg px-3 py-1.5 text-sm/6 font-semibold hover:bg-zinc-500 transition-colors"
+                          className="flex w-full items-center gap-2 rounded-lg px-3 py-1.5 text-sm/6 font-semibold hover:bg-zinc-500 transition-colors"
                         >
                           {item.itemIcon ||
                             (item.siteIcon && (
@@ -415,7 +416,7 @@ const Header = () => {
                 href={link.href!}
                 className="flex items-center gap-2 font-semibold text-sm/6 hover:opacity-80 transition-opacity"
               >
-                {link.groupIcon || link.linkIcon}
+                {link.linkIcon}
                 {link.name}
               </Link>
             )

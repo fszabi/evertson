@@ -15,7 +15,7 @@ const Inventory = async () => {
   return (
     <div
       id="arlista"
-      className="mx-auto max-w-7xl space-y-14 px-6 lg:px-8 pt-14"
+      className="mx-auto max-w-8xl space-y-14 px-6 lg:px-8 pt-14"
     >
       <h2 className="leading-8">Árlista</h2>
       <div className="bg-zinc-800 rounded-2xl p-6">

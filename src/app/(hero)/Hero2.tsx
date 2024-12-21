@@ -12,7 +12,7 @@ import Image from "next/image";
 const Hero2 = () => {
   return (
     <section className="py-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-8xl px-6 lg:px-8">
         <div className="mx-auto sm:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
             Szeretnél egy jó közösséghez tartozni?
@@ -23,7 +23,7 @@ const Hero2 = () => {
         </div>
       </div>
       <div className="relative overflow-hidden pt-14">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <Image
             alt="awp szerver"
             src={servers}

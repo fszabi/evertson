@@ -36,6 +36,10 @@ const config: Config = {
         "roboto-mono": "var(--font-roboto-mono)",
         lato: "var(--font-lato)",
       },
+      maxWidth: {
+        "8xl": "90rem",
+        "9xl": "100rem",
+      },
     },
   },
   plugins: [require("daisyui"), require("@tailwindcss/forms")],
