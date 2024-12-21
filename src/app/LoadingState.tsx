@@ -4,7 +4,7 @@ import Image from "next/image";
 import logo2 from "/public/assets/logo/logo2.png";
 import { motion } from "motion/react";
 
-const Loading = () => {
+const LoadingState = () => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-zinc-900 backdrop-blur-sm z-50">
       <motion.div
@@ -29,4 +29,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default LoadingState;

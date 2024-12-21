@@ -5,7 +5,7 @@ import Header from "./(header)/Header";
 import Hero from "./(hero)/Hero";
 import Sites from "./(sites)/Sites";
 import Blog from "./Blog";
-import Loading from "./Loading";
+import LoadingState from "./LoadingState";
 import ScrollArrow from "./ScrollArrow";
 import Services from "./Services";
 
@@ -19,7 +19,7 @@ export default async function Home() {
   await getData();
 
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<LoadingState />}>
       <Header />
       <Hero />
       <Services />
