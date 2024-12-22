@@ -312,30 +312,37 @@ const mobileLinks = [
   {
     name: "Árlista",
     href: "#arlista",
+    linkIcon: <BanknotesIcon className="w-5 h-5" />,
   },
   {
     name: "Szolgáltatások",
     href: "#szolgaltatasok",
+    linkIcon: <WrenchScrewdriverIcon className="w-5 h-5" />,
   },
   {
     name: "Blog",
     href: "#blog",
+    linkIcon: <DevicePhoneMobileIcon className="w-5 h-5" />,
   },
   {
     name: "Oldalak",
     href: "#oldalak",
+    linkIcon: <GlobeAltIcon className="w-5 h-5" />,
   },
   {
     name: "Kapcsolat",
     href: "#kapcsolat",
+    linkIcon: <PencilSquareIcon className="w-5 h-5" />,
   },
   {
     name: "Gyakori kérdések",
     href: "#gyakori-kerdesek",
+    linkIcon: <ChatBubbleLeftEllipsisIcon className="w-5 h-5" />,
   },
   {
     name: "Szerverek",
     href: "/szerverek",
+    linkIcon: <ListBulletIcon className="w-5 h-5" />,
   },
 ];
 
@@ -361,7 +368,7 @@ const Header = () => {
           <span className="sr-only">Navigációs menü megnyitása</span>
           <Bars3Icon className="h-6 w-6" aria-hidden="true" />
         </button>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:flex-wrap lg:gap-x-12 lg:gap-y-3">
           {links.map((link) =>
             link.name === "Szolgáltatások" ||
             link.name === "Blog" ||
@@ -455,8 +462,9 @@ const Header = () => {
                   key={link.name}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-zinc-800 transition-colors"
+                  className="flex items-center gap-2 rounded-lg -mx-3 px-3 py-2 font-semibold leading-7 hover:bg-zinc-800 transition-colors"
                 >
+                  {link.linkIcon}
                   {link.name}
                 </Link>
               ))}
