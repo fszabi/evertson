@@ -37,7 +37,7 @@ const Servers = () => {
 
   return (
     <section id="szerverek" className="pt-28">
-      <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none space-y-14">
           <div className="text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">

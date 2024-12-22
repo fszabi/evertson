@@ -42,7 +42,7 @@ const features = [
 const Rules = () => {
   return (
     <section id="szabalyok" className="py-28">
-      <div className="mx-auto max-w-8xl px-6 lg:px-8 space-y-14">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 space-y-14">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight sm:text-5xl">
             Szabályok

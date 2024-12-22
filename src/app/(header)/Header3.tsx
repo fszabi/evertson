@@ -47,7 +47,7 @@ const Header3 = () => {
   return (
     <header className="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-8xl items-center justify-between h-[88px] px-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between h-[88px] px-6 lg:px-8"
         aria-label="Global"
       >
         <button onClick={() => router.back()}>

@@ -353,7 +353,7 @@ const Header = () => {
   return (
     <header className="bg-zinc-800 shadow-md sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-8xl items-center justify-between flex-wrap gap-x-12 gap-y-3 py-3 px-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between flex-wrap gap-x-6 gap-y-3 py-3 px-6 lg:px-8"
         aria-label="Global"
       >
         <div>
@@ -368,7 +368,7 @@ const Header = () => {
           <span className="sr-only">Navigációs menü megnyitása</span>
           <Bars3Icon className="h-6 w-6" aria-hidden="true" />
         </button>
-        <div className="hidden lg:flex lg:flex-wrap lg:gap-x-12 lg:gap-y-3">
+        <div className="hidden lg:flex lg:flex-wrap lg:gap-x-6 lg:gap-y-3">
           {links.map((link) =>
             link.name === "Szolgáltatások" ||
             link.name === "Blog" ||

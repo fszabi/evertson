@@ -10,7 +10,7 @@ const stats = [
 const Stats = () => {
   return (
     <section id="statisztika" className="py-28">
-      <div className="mx-auto max-w-8xl max-xl:max-w-5xl px-6 lg:px-8 space-y-14">
+      <div className="mx-auto max-w-7xl max-xl:max-w-5xl px-6 lg:px-8 space-y-14">
         <h2 className="text-center leading-8">Statisztika</h2>
         <dl className="grid max-[875px]:grid-cols-1 min-[875px]:grid-cols-2 gap-x-10 gap-y-16 text-center xl:grid-cols-4">
           {stats.map((stat) => (

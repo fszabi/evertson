@@ -8,7 +8,7 @@ const ServerEvents = async ({ isAdmin }: { isAdmin?: boolean }) => {
   if (serverEvents.length === 0) return null;
 
   return (
-    <div className="mx-auto max-w-8xl px-6 lg:px-8 pt-14">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-14">
       <h2 className="px-4 text-base font-semibold leading-7 text-white sm:px-6 lg:px-8">
         Események
       </h2>
