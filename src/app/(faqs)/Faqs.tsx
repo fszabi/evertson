@@ -90,7 +90,8 @@ export function Faqs() {
                   transition
                   className="mt-2 origin-top pr-12 transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
                 >
-                  {index === 0 && Array.isArray(faq.answer) ? (
+                  {faq.question === "Hol találom a trade linkem?" &&
+                  Array.isArray(faq.answer) ? (
                     <ul className="space-y-2">
                       {faq.answer.map((step, index) => (
                         <li
