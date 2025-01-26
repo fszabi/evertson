@@ -53,7 +53,7 @@ const ServerEvent = ({
 
   return (
     <tr>
-      <td className="py-4 pr-0 pl-4 text-sm leading-6 text-gray-400 sm:pr-6 sm:pl-6 lg:pl-8 whitespace-normal break-words">
+      <td className="py-3 pr-0 pl-4 text-sm leading-6 text-gray-400 sm:pr-6 sm:pl-6 lg:pl-8 whitespace-normal break-words">
         {event.server}
       </td>
       <td className="hidden py-4 pl-0 pr-4 lg:table-cell sm:pr-8 whitespace-normal break-words">
