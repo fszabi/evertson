@@ -13,26 +13,28 @@ const Inventory = async () => {
   const inventoryImage = await getInventoryImage();
 
   return (
-    <div
+    <section
       id="arlista"
-      className="mx-auto max-w-7xl space-y-14 px-6 lg:px-8 pt-14"
+      className="py-28 bg-cover bg-center bg-no-repeat bg-[url('/assets/images/inventory.png')]"
     >
-      <h2 className="leading-8">Árlista</h2>
-      <div className="bg-zinc-800 rounded-2xl p-6">
-        <ul className="space-y-4">
-          {texts.map((text, index) => (
-            <li key={index}>{text}</li>
-          ))}
-        </ul>
+      <div className="mx-auto max-w-7xl space-y-14 px-6 lg:px-8">
+        <h2 className="leading-8">Árlista</h2>
+        <div className="bg-zinc-800 rounded-2xl p-6">
+          <ul className="space-y-4">
+            {texts.map((text, index) => (
+              <li key={index}>{text}</li>
+            ))}
+          </ul>
+        </div>
+        <Image
+          className="object-cover shadow rounded-lg w-full h-full"
+          width={1500}
+          height={1500}
+          src={inventoryImage?.imageUrl || ""}
+          alt="Raktár kép"
+        />
       </div>
-      <Image
-        className="object-cover shadow rounded-lg w-full h-full"
-        width={1500}
-        height={1500}
-        src={inventoryImage?.imageUrl || ""}
-        alt="Raktár kép"
-      />
-    </div>
+    </section>
   );
 };
 

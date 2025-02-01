@@ -264,7 +264,7 @@ const ContactForm = () => {
       <div className="mt-10">
         <button
           type="submit"
-          className="block w-full font-medium bg-red-600 px-4 py-2 rounded-md hover:bg-red-400 transition-colors"
+          className="block w-full font-medium bg-[#d80001] px-4 py-2 rounded-md hover:bg-red-400 transition-colors"
         >
           Küldés
         </button>
