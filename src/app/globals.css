@@ -21,7 +21,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    @apply rounded-[100vw] bg-red-600;
+    @apply rounded-[100vw] bg-[#d80001];
   }
 
   h1 {

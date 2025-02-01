@@ -124,7 +124,7 @@ const ContactForm = () => {
               autoComplete="given-name"
               value={formData.nev}
               onChange={handleInput}
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#d80001] md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -144,7 +144,7 @@ const ContactForm = () => {
               value={formData.email}
               onChange={handleInput}
               required
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#d80001] md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -163,7 +163,7 @@ const ContactForm = () => {
               value={formData["kozossegi-profil"]}
               onChange={handleInput}
               required
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#d80001] md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -182,7 +182,7 @@ const ContactForm = () => {
               value={formData["steam-profil"]}
               onChange={handleInput}
               required
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#d80001] md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -200,7 +200,7 @@ const ContactForm = () => {
               value={formData.honnanismersz}
               onChange={handleTextArea}
               rows={4}
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#d80001] md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -218,7 +218,7 @@ const ContactForm = () => {
               value={formData.uzenet}
               onChange={handleTextArea}
               rows={4}
-              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-red-600 md:text-sm md:leading-6 transition-shadow"
+              className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset bg-zinc-800 ring-zinc-700 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#d80001] md:text-sm md:leading-6 transition-shadow"
             />
           </div>
         </div>
@@ -233,7 +233,7 @@ const ContactForm = () => {
                 type="checkbox"
                 onChange={handleInput}
                 checked={(formData as any)[service]}
-                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:theme(colors.red.600)] [--chkfg:white] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 hover:border-zinc-700"
+                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:#d80001] [--chkfg:white] checked:border-[#d80001] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d80001] hover:border-zinc-700"
               />
               <label htmlFor={service} className="font-medium">
                 {service}
@@ -252,7 +252,7 @@ const ContactForm = () => {
                 type="checkbox"
                 onChange={handleInput}
                 checked={(formData as any)[paymentMethod]}
-                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:theme(colors.red.600)] [--chkfg:white] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 hover:border-zinc-700"
+                className="checkbox checkbox-error bg-zinc-800 border-zinc-700 [--chkbg:#d80001] [--chkfg:white] checked:border-[#d80001] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d80001] hover:border-zinc-700"
               />
               <label htmlFor={paymentMethod} className="font-medium">
                 {paymentMethod}
@@ -264,7 +264,7 @@ const ContactForm = () => {
       <div className="mt-10">
         <button
           type="submit"
-          className="block w-full font-medium bg-[#d80001] px-4 py-2 rounded-md hover:bg-red-400 transition-colors"
+          className="block w-full font-medium bg-[#d80001] px-4 py-2 rounded-md hover:opacity-70 transition-opacity"
         >
           Küldés
         </button>
