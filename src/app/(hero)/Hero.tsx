@@ -60,7 +60,7 @@ const stats = [
   {
     title: "150.000+ elérés",
     description:
-      "Rendgetszer találkozhattál már a nevemmel ha aktívan használod a Facebook, Discord csoportokat vagy gyakran követed a hazai Twitch és TikTok csatornákat.",
+      "Rendgetegszer találkozhattál már a nevemmel ha aktívan használod a Facebook, Discord csoportokat vagy gyakran követed a hazai Twitch és TikTok csatornákat.",
   },
 ];
 
