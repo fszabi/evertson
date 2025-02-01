@@ -42,28 +42,6 @@ const buttons = [
   },
 ];
 
-const stats = [
-  {
-    title: "Összes kereskedés",
-    description: "Több mint 26.000 cserét hajtottam eddig végre.",
-  },
-  {
-    title: "Teljes vásárlás",
-    description: "Több mint 110.000.000 Ft értékben vásároltam skineket.",
-    span: "110.000.000 Ft",
-  },
-  {
-    title: "2+ év tapasztalat",
-    description:
-      "Az elmúlt két évben rengeteg mindent elértem. Folyamatos közösség építés, nyereményjátékok és három közösségi szervert is létrehoztam.",
-  },
-  {
-    title: "150.000+ elérés",
-    description:
-      "Rengetegszer találkozhattál már a nevemmel ha aktívan használod a Facebook, Discord csoportokat vagy gyakran követed a hazai Twitch és TikTok csatornákat.",
-  },
-];
-
 const Hero = () => {
   return (
     <section className="py-28 bg-cover bg-center min-h-[95vh] bg-no-repeat flex items-center bg-[url('/assets/images/hero/hero.png')]">
@@ -178,8 +156,8 @@ const Hero = () => {
             <div className="space-y-2">
               <h3 className="uppercase font-ethnocentric">150.000+ elérés</h3>
               <p className="uppercase text-lg leading-snug text-shadow">
-                Rendgetszer találkozhattál már a nevemmel ha aktívan használod a
-                Facebook, Discord csoportokat vagy gyakran követed a hazai
+                Rengetegszer találkozhattál már a nevemmel ha aktívan használod
+                a Facebook, Discord csoportokat vagy gyakran követed a hazai
                 Twitch és TikTok csatornákat.
               </p>
             </div>
