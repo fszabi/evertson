@@ -13,10 +13,7 @@ const Inventory = async () => {
   const inventoryImage = await getInventoryImage();
 
   return (
-    <section
-      id="arlista"
-      className="py-28 bg-cover bg-center bg-no-repeat bg-[url('/assets/images/inventory.png')]"
-    >
+    <section id="arlista" className="py-28">
       <div className="mx-auto max-w-7xl space-y-14 px-6 lg:px-8">
         <h2 className="leading-8">Árlista</h2>
         <div className="bg-zinc-800 rounded-2xl p-6">

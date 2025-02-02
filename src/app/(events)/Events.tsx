@@ -8,7 +8,7 @@ const Events = async ({ isAdmin }: { isAdmin?: boolean }) => {
   if (events.length === 0) return null;
 
   return (
-    <section className="py-28 bg-cover bg-center bg-no-repeat bg-[url('/assets/images/events.png')]">
+    <section className="py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="px-4 text-base font-semibold leading-7 text-white sm:px-6 lg:px-8">
           Események
