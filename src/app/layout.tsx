@@ -1,32 +1,11 @@
-import { EdgeStoreProvider } from "@/lib/edgestore";
 import type { Metadata } from "next";
-import { Barlow_Condensed, Bebas_Neue } from "next/font/google";
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
+import "./globals.css";
 import Script from "next/script";
 import { Toaster } from "react-hot-toast";
-import "./globals.css";
+import { EdgeStoreProvider } from "@/lib/edgestore";
 
-const barlowCondensed = Barlow_Condensed({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal"],
-  display: "swap",
-});
-
-const bebasNeue = Bebas_Neue({
-  subsets: ["latin"],
-  weight: ["400"],
-  style: ["normal"],
-  display: "swap",
-  variable: "--font-bebasneue",
-});
-
-const ethnocentric = localFont({
-  src: "./fonts/ethnocentric/ethnocentric-rg.otf",
-  style: "normal",
-  display: "swap",
-  variable: "--font-ethnocentric",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://evertsontrade.com/"),
@@ -76,7 +55,7 @@ export default function RootLayout({
         async
       />
       <body
-        className={`${barlowCondensed.className} ${ethnocentric.variable} ${bebasNeue.variable} bg-zinc-900 text-zinc-50 min-h-screen`}
+        className={`${inter.className} bg-zinc-900 text-zinc-50 min-h-screen`}
       >
         <EdgeStoreProvider>
           <Toaster
