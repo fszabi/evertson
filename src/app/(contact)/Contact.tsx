@@ -7,7 +7,6 @@ import discord_2 from "/public/assets/images/svgs/discord_2.svg";
 import facebook from "/public/assets/images/svgs/facebook.svg";
 import twitch from "/public/assets/images/svgs/twitch.svg";
 import tiktok from "/public/assets/images/tiktok.png";
-import webrebirth_logo from "/public/assets/logo/webrebirth_logo.png";
 
 const contacts = [
   {
@@ -83,16 +82,6 @@ const Contact = () => {
                 {contact.name}
               </Link>
             ))}
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-3 w-fit">
-            <p className="text-center">A weboldalt készítette</p>
-            <Link
-              className="block mx-auto w-fit hover:opacity-50 transition-opacity"
-              href="https://webrebirth.hu/"
-              target="_blank"
-            >
-              <Image height={35} src={webrebirth_logo} alt="webrebirth logo" />
-            </Link>
           </div>
         </div>
         <ContactForm />
