@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import discord from "/public/assets/images/discord.webp";
-import hero from "/public/assets/images/hero/heroold.webp";
+import hero from "/public/assets/images/hero.webp";
 import Events from "../(events)/Events";
 import Inventory from "../(inventory)/Inventory";
 

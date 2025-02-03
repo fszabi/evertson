@@ -8,8 +8,6 @@ import Blog from "./Blog";
 import LoadingState from "./LoadingState";
 import ScrollArrow from "./ScrollArrow";
 import Services from "./Services";
-import Events from "./(events)/Events";
-import Inventory from "./(inventory)/Inventory";
 
 export const dynamic = "force-dynamic";
 
