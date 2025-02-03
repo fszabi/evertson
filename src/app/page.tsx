@@ -24,8 +24,6 @@ export default async function Home() {
     <Suspense fallback={<LoadingState />}>
       <Header />
       <Hero />
-      <Events />
-      <Inventory />
       <Services />
       <Blog />
       <Sites />
