@@ -49,11 +49,6 @@ export default function RootLayout({
         src="https://app.tinyanalytics.io/pixel/TvmNcuQ8pnw3GQE3"
         strategy="afterInteractive"
       />
-      <Script
-        src="https://widget.gleamjs.io/e.js"
-        type="text/javascript"
-        async
-      />
       <body
         className={`${inter.className} bg-zinc-900 text-zinc-50 min-h-screen`}
       >
